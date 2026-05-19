@@ -13,32 +13,67 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Fetch, filter, and write blocklists
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: |
-          mkdir -p docs/blocklists
-          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/light.txt" > docs/blocklists/light.txt
-          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/multi.txt" > docs/blocklists/multi.txt
-          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/pro.txt" > docs/blocklists/pro.txt
-          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/pro.plus.txt" > docs/blocklists/pro.plus.txt
-          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/ultimate.txt" > docs/blocklists/ultimate.txt
-          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/doh.txt" > docs/blocklists/doh.txt
-          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/tif.txt" > docs/blocklists/tif.txt
-          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/blocklist-referral.txt" > docs/blocklists/blocklist-referral.txt
+          mkdir -p docs/ips docs/rpz
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/ips/doh.txt" > docs/ips/doh-ips.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/ips/nameserver.txt" > docs/ips/nameserver-ips.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/anti.piracy.txt" > docs/rpz/anti.piracy.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/doh-vpn-proxy-bypass.txt" > docs/rpz/doh-vpn-proxy-bypass.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/doh.txt" > docs/rpz/doh.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/dyndns.txt" > docs/rpz/dyndns.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/fake.txt" > docs/rpz/fake.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/gambling.medium.txt" > docs/rpz/gambling.medium.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/gambling.mini.txt" > docs/rpz/gambling.mini.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/gambling.txt" > docs/rpz/gambling.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/hoster.txt" > docs/rpz/hoster.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/light.txt" > docs/rpz/light.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/multi.txt" > docs/rpz/multi.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.amazon.txt" > docs/rpz/native.amazon.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.apple.txt" > docs/rpz/native.apple.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.huawei.txt" > docs/rpz/native.huawei.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.lgwebos.txt" > docs/rpz/native.lgwebos.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.oppo-realme.txt" > docs/rpz/native.oppo-realme.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.roku.txt" > docs/rpz/native.roku.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.samsung.txt" > docs/rpz/native.samsung.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.tiktok.extended.txt" > docs/rpz/native.tiktok.extended.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.tiktok.txt" > docs/rpz/native.tiktok.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.vivo.txt" > docs/rpz/native.vivo.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.winoffice.txt" > docs/rpz/native.winoffice.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/native.xiaomi.txt" > docs/rpz/native.xiaomi.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/nosafesearch.txt" > docs/rpz/nosafesearch.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/nsfw.txt" > docs/rpz/nsfw.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/popupads.txt" > docs/rpz/popupads.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/pro.mini.txt" > docs/rpz/pro.mini.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/pro.plus.mini.txt" > docs/rpz/pro.plus.mini.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/pro.plus.txt" > docs/rpz/pro.plus.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/pro.txt" > docs/rpz/pro.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/social.txt" > docs/rpz/social.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/spam-tlds-rpz-aggressive.txt" > docs/rpz/spam-tlds-rpz-aggressive.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/spam-tlds-rpz.txt" > docs/rpz/spam-tlds-rpz.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif-ips.txt" > docs/rpz/tif-ips.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif.medium.txt" > docs/rpz/tif.medium.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif.mini.txt" > docs/rpz/tif.mini.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif.txt" > docs/rpz/tif.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/ultimate.mini.txt" > docs/rpz/ultimate.mini.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/ultimate.txt" > docs/rpz/ultimate.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/urlshortener.txt" > docs/rpz/urlshortener.txt
           curl -fsSL -H "Authorization: Bearer $CF_API_TOKEN" "https://api.cloudflare.com/client/v4/radar/datasets/ranking_top_1000000" > top.txt
-          comm -12 \
-            <(grep -v '^[#$]' docs/blocklists/light.txt | tr '[:upper:]' '[:lower:]' | sort) \
-            <(tail -n +2 top.txt | cut -d',' -f2 | tr '[:upper:]' '[:lower:]' | sort) \
-            > docs/blocklists/basic.txt
+          # Build basic.txt: light.txt filtered to Cloudflare top-1M domains (single-pass awk)
+          awk 'NR==FNR {if (NR>1) top[tolower($1)]=1; next}
+               /^[;$@]/ || /^[ \t]*NS[ \t]/ || /^$/ {print; next}
+               / CNAME \.$/ {d=$1; sub(/^\*\./, "", d); if (tolower(d) in top) print}
+              ' top.txt docs/rpz/light.txt > docs/rpz/basic.txt
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/blocklists
+          git add docs/ips docs/rpz
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
