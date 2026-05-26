@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1779790080 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1779819720 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 May 2026 10:08 UTC
-; Version: 2026.0526.1008.40
+; Last modified: 26 May 2026 18:22 UTC
+; Version: 2026.0526.1822.20
 ; Syntax: RPZ
-; Number of entries: 122826
+; Number of entries: 123092
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1700,8 +1700,6 @@ ssm.codes CNAME .
 *.1sapp.com CNAME .
 1x001.com CNAME .
 *.1x001.com CNAME .
-1x1x5.com CNAME .
-*.1x1x5.com CNAME .
 1xbetonline.com CNAME .
 *.1xbetonline.com CNAME .
 1xsinga.com CNAME .
@@ -13920,6 +13918,8 @@ vi-serve.com CNAME .
 *.vi-serve.com CNAME .
 viads.com CNAME .
 *.viads.com CNAME .
+viagrarus.com CNAME .
+*.viagrarus.com CNAME .
 vialotadom.com CNAME .
 *.vialotadom.com CNAME .
 viantinc.com CNAME .
@@ -15846,8 +15846,6 @@ mobiads.co.in CNAME .
 *.mobiads.co.in CNAME .
 coinad.in CNAME .
 *.coinad.in CNAME .
-quotex.com.in CNAME .
-*.quotex.com.in CNAME .
 couriercare.in CNAME .
 *.couriercare.in CNAME .
 culbhiaxntuh.in CNAME .
@@ -20016,6 +20014,8 @@ hits.sh CNAME .
 *.hits.sh CNAME .
 wpu.sh CNAME .
 *.wpu.sh CNAME .
+28y89d2domain2105.shop CNAME .
+*.28y89d2domain2105.shop CNAME .
 agl008.shop CNAME .
 *.agl008.shop CNAME .
 antiruneluder.shop CNAME .
@@ -21082,8 +21082,6 @@ vcmedia.vn CNAME .
 *.vcmedia.vn CNAME .
 vietnamnetad.vn CNAME .
 *.vietnamnetad.vn CNAME .
-vtvdigital.vn CNAME .
-*.vtvdigital.vn CNAME .
 yomedia.vn CNAME .
 *.yomedia.vn CNAME .
 zigzag.vn CNAME .
