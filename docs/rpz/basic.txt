@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1780479900 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1780491540 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Jun 2026 09:45 UTC
-; Version: 2026.0603.0945.02
+; Last modified: 03 Jun 2026 12:59 UTC
+; Version: 2026.0603.1259.47
 ; Syntax: RPZ
-; Number of entries: 140552
+; Number of entries: 140562
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -4452,6 +4452,8 @@ chivalrouscord.com CNAME .
 *.chivalrouscord.com CNAME .
 chivwempover.com CNAME .
 *.chivwempover.com CNAME .
+chmsrv.com CNAME .
+*.chmsrv.com CNAME .
 chnsrv.com CNAME .
 *.chnsrv.com CNAME .
 chocolateplatform.com CNAME .
@@ -12076,6 +12078,8 @@ smithburka.com CNAME .
 *.smithburka.com CNAME .
 smljmp.com CNAME .
 *.smljmp.com CNAME .
+smoads.com CNAME .
+*.smoads.com CNAME .
 smrtads.com CNAME .
 *.smrtads.com CNAME .
 smrtb.com CNAME .
@@ -20422,6 +20426,8 @@ entrapsoorki.top CNAME .
 *.entrapsoorki.top CNAME .
 fazanaharahe10.top CNAME .
 *.fazanaharahe10.top CNAME .
+flixfiend.top CNAME .
+*.flixfiend.top CNAME .
 freedomly.top CNAME .
 *.freedomly.top CNAME .
 fzev75-rtbix.top CNAME .
