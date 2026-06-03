@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1780491540 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1780524660 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Jun 2026 12:59 UTC
-; Version: 2026.0603.1259.47
+; Last modified: 03 Jun 2026 22:11 UTC
+; Version: 2026.0603.2211.36
 ; Syntax: RPZ
-; Number of entries: 140562
+; Number of entries: 134900
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -36,6 +36,8 @@ trk.agency CNAME .
 *.trk.agency CNAME .
 adserv.ai CNAME .
 *.adserv.ai CNAME .
+adsgram.ai CNAME .
+*.adsgram.ai CNAME .
 adsquirrel.ai CNAME .
 *.adsquirrel.ai CNAME .
 adtrace.ai CNAME .
@@ -166,8 +168,6 @@ lifecircle.app CNAME .
 *.lifecircle.app CNAME .
 permutive.app CNAME .
 *.permutive.app CNAME .
-pitchwc.app CNAME .
-*.pitchwc.app CNAME .
 pitiplus.app CNAME .
 *.pitiplus.app CNAME .
 postmedia.app CNAME .
@@ -2744,6 +2744,8 @@ adzonestatic.com CNAME .
 *.adzonestatic.com CNAME .
 aeklftrevtgivg.com CNAME .
 *.aeklftrevtgivg.com CNAME .
+aerionvel.com CNAME .
+*.aerionvel.com CNAME .
 aerithvel.com CNAME .
 *.aerithvel.com CNAME .
 aesmdokoo.com CNAME .
@@ -5222,6 +5224,8 @@ dedicateimaginesoil.com CNAME .
 *.dedicateimaginesoil.com CNAME .
 deductgreedyheadroom.com CNAME .
 *.deductgreedyheadroom.com CNAME .
+deductpursue.com CNAME .
+*.deductpursue.com CNAME .
 deemanetwork.com CNAME .
 *.deemanetwork.com CNAME .
 deepcloudfield.com CNAME .
@@ -5670,6 +5674,8 @@ easyhits4u.com CNAME .
 *.easyhits4u.com CNAME .
 easytomessage.com CNAME .
 *.easytomessage.com CNAME .
+eatcells.com CNAME .
+*.eatcells.com CNAME .
 ebayadservices.com CNAME .
 *.ebayadservices.com CNAME .
 ebayrtm.com CNAME .
@@ -6782,8 +6788,6 @@ go2affise.com CNAME .
 *.go2affise.com CNAME .
 go2offer-1.com CNAME .
 *.go2offer-1.com CNAME .
-go725242.com CNAME .
-*.go725242.com CNAME .
 goads2023.com CNAME .
 *.goads2023.com CNAME .
 goadservices.com CNAME .
@@ -7366,8 +7370,6 @@ icg-in.com CNAME .
 *.icg-in.com CNAME .
 ichfzso7f.com CNAME .
 *.ichfzso7f.com CNAME .
-icioud.com CNAME .
-*.icioud.com CNAME .
 iclickcdn.com CNAME .
 *.iclickcdn.com CNAME .
 iconmediapixel.com CNAME .
@@ -8130,8 +8132,6 @@ kooappslogs.com CNAME .
 *.kooappslogs.com CNAME .
 kookycommittee.com CNAME .
 *.kookycommittee.com CNAME .
-koraaa-live.com CNAME .
-*.koraaa-live.com CNAME .
 korgiejoinyou.com CNAME .
 *.korgiejoinyou.com CNAME .
 kostprice.com CNAME .
@@ -11076,8 +11076,6 @@ relateddigital.com CNAME .
 *.relateddigital.com CNAME .
 relatedgrouptest.com CNAME .
 *.relatedgrouptest.com CNAME .
-relationshipbrainy.com CNAME .
-*.relationshipbrainy.com CNAME .
 relaxafford.com CNAME .
 *.relaxafford.com CNAME .
 relayto.com CNAME .
@@ -11398,6 +11396,8 @@ rtbuniverse.com CNAME .
 *.rtbuniverse.com CNAME .
 rtbwave.com CNAME .
 *.rtbwave.com CNAME .
+rtbwise.com CNAME .
+*.rtbwise.com CNAME .
 rtgowwweb.com CNAME .
 *.rtgowwweb.com CNAME .
 rtgvwr.com CNAME .
@@ -12434,6 +12434,8 @@ storageimagedisplay.com CNAME .
 *.storageimagedisplay.com CNAME .
 store4porn.com CNAME .
 *.store4porn.com CNAME .
+stortla.com CNAME .
+*.stortla.com CNAME .
 straightenedphiladelphiarequire.com CNAME .
 *.straightenedphiladelphiarequire.com CNAME .
 straitpaltrybelief.com CNAME .
@@ -16458,6 +16460,8 @@ uqd.io CNAME .
 *.uqd.io CNAME .
 vhit.io CNAME .
 *.vhit.io CNAME .
+videotronic.io CNAME .
+*.videotronic.io CNAME .
 vidverto.io CNAME .
 *.vidverto.io CNAME .
 visitor-analytics.io CNAME .
@@ -16802,8 +16806,6 @@ carambo.la CNAME .
 *.carambo.la CNAME .
 quanta.la CNAME .
 *.quanta.la CNAME .
-netcineli.lat CNAME .
-*.netcineli.lat CNAME .
 godsave.lgbt CNAME .
 *.godsave.lgbt CNAME .
 byehd3.life CNAME .
@@ -16882,8 +16884,6 @@ speedau.live CNAME .
 *.speedau.live CNAME .
 superchat.live CNAME .
 *.superchat.live CNAME .
-alonesecurities.living CNAME .
-*.alonesecurities.living CNAME .
 boysstrongly.living CNAME .
 *.boysstrongly.living CNAME .
 illmario.living CNAME .
@@ -18150,6 +18150,8 @@ rtbuzz.net CNAME .
 *.rtbuzz.net CNAME .
 rtmark.net CNAME .
 *.rtmark.net CNAME .
+ruguoaiqingshenai.net CNAME .
+*.ruguoaiqingshenai.net CNAME .
 s0-greate.net CNAME .
 *.s0-greate.net CNAME .
 s3s-main.net CNAME .
@@ -19044,6 +19046,8 @@ borrowschama.qpon CNAME .
 *.borrowschama.qpon CNAME .
 bremberkeidolga.qpon CNAME .
 *.bremberkeidolga.qpon CNAME .
+briquettwasome.qpon CNAME .
+*.briquettwasome.qpon CNAME .
 bunkerylure.qpon CNAME .
 *.bunkerylure.qpon CNAME .
 burkpalpal.qpon CNAME .
@@ -19982,8 +19986,6 @@ spasmicplanet.shop CNAME .
 *.spasmicplanet.shop CNAME .
 spuddyamlikar.shop CNAME .
 *.spuddyamlikar.shop CNAME .
-stddmpxylomas.shop CNAME .
-*.stddmpxylomas.shop CNAME .
 sugarmacro.shop CNAME .
 *.sugarmacro.shop CNAME .
 tepefyergotic.shop CNAME .
@@ -20368,8 +20370,6 @@ cpx.to CNAME .
 *.cpx.to CNAME .
 hemenindir.to CNAME .
 *.hemenindir.to CNAME .
-yomi.to CNAME .
-*.yomi.to CNAME .
 zlibrary.to CNAME .
 *.zlibrary.to CNAME .
 hotbhafota.today CNAME .
@@ -20546,8 +20546,6 @@ getshop.tv CNAME .
 *.getshop.tv CNAME .
 hananokai.tv CNAME .
 *.hananokai.tv CNAME .
-hianime.tv CNAME .
-*.hianime.tv CNAME .
 iris.tv CNAME .
 *.iris.tv CNAME .
 ispot.tv CNAME .
@@ -20672,8 +20670,6 @@ wowanalytics.co.uk CNAME .
 *.wowanalytics.co.uk CNAME .
 ubsco.uk CNAME .
 *.ubsco.uk CNAME .
-dizimom.uno CNAME .
-*.dizimom.uno CNAME .
 peaktrck.uno CNAME .
 *.peaktrck.uno CNAME .
 whatismyip.uno CNAME .
@@ -20750,8 +20746,6 @@ qel4l1sz120i8zo.vip CNAME .
 *.qel4l1sz120i8zo.vip CNAME .
 sxkj999.vip CNAME .
 *.sxkj999.vip CNAME .
-trypbak.vip CNAME .
-*.trypbak.vip CNAME .
 wwopenclick.vip CNAME .
 *.wwopenclick.vip CNAME .
 xanalytics.vip CNAME .
@@ -20960,8 +20954,6 @@ xn--80affa3aj0al.xn--80asehdb CNAME .
 *.78587924.xyz CNAME .
 84302764.xyz CNAME .
 *.84302764.xyz CNAME .
-a060d903de6ae7776913d969d552a437ddc445e4a4860553c2195f669e62d9.xyz CNAME .
-*.a060d903de6ae7776913d969d552a437ddc445e4a4860553c2195f669e62d9.xyz CNAME .
 aaastyloff.xyz CNAME .
 *.aaastyloff.xyz CNAME .
 ads2.xyz CNAME .
