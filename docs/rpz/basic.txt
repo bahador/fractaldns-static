@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1780524660 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1780534620 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Jun 2026 22:11 UTC
-; Version: 2026.0603.2211.36
+; Last modified: 04 Jun 2026 00:57 UTC
+; Version: 2026.0604.0057.05
 ; Syntax: RPZ
-; Number of entries: 134900
+; Number of entries: 134790
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -10088,8 +10088,6 @@ pbterra.com CNAME .
 *.pbterra.com CNAME .
 pbxai.com CNAME .
 *.pbxai.com CNAME .
-pchelpsoft.com CNAME .
-*.pchelpsoft.com CNAME .
 pcpop.com CNAME .
 *.pcpop.com CNAME .
 pcprotect.com CNAME .
@@ -11638,8 +11636,6 @@ searchmagnified.com CNAME .
 *.searchmagnified.com CNAME .
 searchmarketing.com CNAME .
 *.searchmarketing.com CNAME .
-searchmarquis.com CNAME .
-*.searchmarquis.com CNAME .
 searchpoweronline.com CNAME .
 *.searchpoweronline.com CNAME .
 searchresultsworld.com CNAME .
@@ -12998,8 +12994,6 @@ tophosting101.com CNAME .
 *.tophosting101.com CNAME .
 topicpenholder.com CNAME .
 *.topicpenholder.com CNAME .
-topmongo.com CNAME .
-*.topmongo.com CNAME .
 topnews-24.com CNAME .
 *.topnews-24.com CNAME .
 topnewsource.com CNAME .
