@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1780652640 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1780684740 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Jun 2026 09:44 UTC
-; Version: 2026.0605.0944.47
+; Last modified: 05 Jun 2026 18:39 UTC
+; Version: 2026.0605.1839.16
 ; Syntax: RPZ
-; Number of entries: 148688
+; Number of entries: 148732
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -10920,6 +10920,8 @@ rageagainstthesoap.com CNAME .
 *.rageagainstthesoap.com CNAME .
 railwayreason.com CNAME .
 *.railwayreason.com CNAME .
+rak8s.com CNAME .
+*.rak8s.com CNAME .
 rakanto.com CNAME .
 *.rakanto.com CNAME .
 rakutenadvertising.com CNAME .
@@ -11706,6 +11708,8 @@ segmenthub.com CNAME .
 *.segmenthub.com CNAME .
 segreencolumn.com CNAME .
 *.segreencolumn.com CNAME .
+seijlfsx.com CNAME .
+*.seijlfsx.com CNAME .
 sekindo.com CNAME .
 *.sekindo.com CNAME .
 selectivesummer.com CNAME .
