@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1780601100 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1780654020 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 04 Jun 2026 19:25 UTC
-; Version: 2026.0604.1925.07
+; Last modified: 05 Jun 2026 10:07 UTC
+; Version: 2026.0605.1007.01
 ; Syntax: RPZ
-; Number of entries: 6842
+; Number of entries: 6828
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -569,8 +569,6 @@ enclosr.co CNAME .
 *.enclosr.co CNAME .
 dohsg.goitoi.co CNAME .
 *.dohsg.goitoi.co CNAME .
-mailkyb.co CNAME .
-*.mailkyb.co CNAME .
 adguard.mapor.co CNAME .
 *.adguard.mapor.co CNAME .
 blokuj.ujwie.co CNAME .
@@ -1323,8 +1321,6 @@ deweerd.loseyourip.com CNAME .
 *.deweerd.loseyourip.com CNAME .
 ddd.loukky.com CNAME .
 *.ddd.loukky.com CNAME .
-ddd3.loukky.com CNAME .
-*.ddd3.loukky.com CNAME .
 n5.lsasss.com CNAME .
 *.n5.lsasss.com CNAME .
 dns.luismm2311.com CNAME .
@@ -2129,8 +2125,6 @@ dns.muellerstech.de CNAME .
 *.dns.muellerstech.de CNAME .
 dns.murgi.de CNAME .
 *.dns.murgi.de CNAME .
-myrusvpn.de CNAME .
-*.myrusvpn.de CNAME .
 dns1.nhgnet.de CNAME .
 *.dns1.nhgnet.de CNAME .
 dns2.nhgnet.de CNAME .
@@ -2615,10 +2609,6 @@ pdns1.n00b.fr CNAME .
 *.pdns1.n00b.fr CNAME .
 doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr CNAME .
 *.doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr CNAME .
-doh-own-recursion.nicolas-dorriere.fr CNAME .
-*.doh-own-recursion.nicolas-dorriere.fr CNAME .
-doh-random-upstream.nicolas-dorriere.fr CNAME .
-*.doh-random-upstream.nicolas-dorriere.fr CNAME .
 dns.octoworld.fr CNAME .
 *.dns.octoworld.fr CNAME .
 nas.patrick-antoine.fr CNAME .
@@ -4019,8 +4009,6 @@ adguard1.leadmon.net CNAME .
 *.adguard1.leadmon.net CNAME .
 adguard2.leadmon.net CNAME .
 *.adguard2.leadmon.net CNAME .
-yarp.lefolgoc.net CNAME .
-*.yarp.lefolgoc.net CNAME .
 dns.liberador.net CNAME .
 *.dns.liberador.net CNAME .
 adgaurd.lingmont.net CNAME .
@@ -5747,8 +5735,6 @@ mistasinresolver.ru CNAME .
 *.mistasinresolver.ru CNAME .
 dns.msxnet.ru CNAME .
 *.dns.msxnet.ru CNAME .
-mtsdns.ru CNAME .
-*.mtsdns.ru CNAME .
 muxyuji.ru CNAME .
 *.muxyuji.ru CNAME .
 vds2380673.my-ihor.ru CNAME .
