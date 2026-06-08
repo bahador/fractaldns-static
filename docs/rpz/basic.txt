@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1780904340 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1780945440 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Jun 2026 07:39 UTC
-; Version: 2026.0608.0739.19
+; Last modified: 08 Jun 2026 19:04 UTC
+; Version: 2026.0608.1904.34
 ; Syntax: RPZ
-; Number of entries: 116514
+; Number of entries: 116824
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1712,6 +1712,8 @@ ssm.codes CNAME .
 *.2514june2024.com CNAME .
 254a.com CNAME .
 *.254a.com CNAME .
+2762571e618e7c91eb99650beeb61ef0d6400860e2ee83a520eff58f.com CNAME .
+*.2762571e618e7c91eb99650beeb61ef0d6400860e2ee83a520eff58f.com CNAME .
 2f39cda975ed215b82b0fdddff2aa12841809c26f77aeec57dc7a93e.com CNAME .
 *.2f39cda975ed215b82b0fdddff2aa12841809c26f77aeec57dc7a93e.com CNAME .
 2gnc.com CNAME .
@@ -12710,6 +12712,8 @@ tagdeliver.com CNAME .
 *.tagdeliver.com CNAME .
 taghike.com CNAME .
 *.taghike.com CNAME .
+tagivi.com CNAME .
+*.tagivi.com CNAME .
 tagsrvcs.com CNAME .
 *.tagsrvcs.com CNAME .
 takeads.com CNAME .
@@ -16894,8 +16898,6 @@ loureiru.lol CNAME .
 *.loureiru.lol CNAME .
 marqueq.lol CNAME .
 *.marqueq.lol CNAME .
-mightpays.lol CNAME .
-*.mightpays.lol CNAME .
 soycdn.lol CNAME .
 *.soycdn.lol CNAME .
 candyai.love CNAME .
@@ -18628,6 +18630,8 @@ odogvzuwsqgxb.online CNAME .
 *.odogvzuwsqgxb.online CNAME .
 oirdwcadrzrqj.online CNAME .
 *.oirdwcadrzrqj.online CNAME .
+prism-cdn.online CNAME .
+*.prism-cdn.online CNAME .
 purplepatch.online CNAME .
 *.purplepatch.online CNAME .
 qcvbnqbisfama.online CNAME .
@@ -19942,6 +19946,8 @@ berglust.shop CNAME .
 *.berglust.shop CNAME .
 bryozoabespeed.shop CNAME .
 *.bryozoabespeed.shop CNAME .
+bushetamidins.shop CNAME .
+*.bushetamidins.shop CNAME .
 caffeicpiping.shop CNAME .
 *.caffeicpiping.shop CNAME .
 casinofoliose.shop CNAME .
