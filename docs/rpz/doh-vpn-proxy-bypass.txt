@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781337720 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781348640 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Jun 2026 08:02 UTC
-; Version: 2026.0613.0802.19
+; Last modified: 13 Jun 2026 11:04 UTC
+; Version: 2026.0613.1104.33
 ; Syntax: RPZ
-; Number of entries: 34328
+; Number of entries: 34336
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -1293,6 +1293,8 @@ doh.nukys.ca CNAME .
 *.doh.nukys.ca CNAME .
 iamgpingtocrashoutifidontgetimagepermstodayigottayap.okcomputersolutions.ca CNAME .
 *.iamgpingtocrashoutifidontgetimagepermstodayigottayap.okcomputersolutions.ca CNAME .
+onion.ca CNAME .
+*.onion.ca CNAME .
 vps-11cf82ff.vps.ovh.ca CNAME .
 *.vps-11cf82ff.vps.ovh.ca CNAME .
 vps-3183c6bd.vps.ovh.ca CNAME .
@@ -19535,6 +19537,8 @@ quasar.ezlearning.qzz.io CNAME .
 *.quasar.ezlearning.qzz.io CNAME .
 kams.kii.qzz.io CNAME .
 *.kams.kii.qzz.io CNAME .
+onthe.ksf.qzz.io CNAME .
+*.onthe.ksf.qzz.io CNAME .
 zouter.zhang3118.qzz.io CNAME .
 *.zouter.zhang3118.qzz.io CNAME .
 realvpn.io CNAME .
@@ -19803,6 +19807,8 @@ www-yt.nikooo.ir CNAME .
 *.www-yt.nikooo.ir CNAME .
 adguard.nostaloogia.ir CNAME .
 *.adguard.nostaloogia.ir CNAME .
+parsazr.ir CNAME .
+*.parsazr.ir CNAME .
 persianreserve.ir CNAME .
 *.persianreserve.ir CNAME .
 rcsm.ir CNAME .
@@ -29815,6 +29821,8 @@ oklubnika.ru CNAME .
 *.oklubnika.ru CNAME .
 okryjovnik.ru CNAME .
 *.okryjovnik.ru CNAME .
+olegofriend.ru CNAME .
+*.olegofriend.ru CNAME .
 olipa.ru CNAME .
 *.olipa.ru CNAME .
 olivaro.ru CNAME .
