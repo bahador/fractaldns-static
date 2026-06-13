@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781290860 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781334180 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Jun 2026 19:01 UTC
-; Version: 2026.0612.1901.37
+; Last modified: 13 Jun 2026 07:03 UTC
+; Version: 2026.0613.0703.16
 ; Syntax: RPZ
-; Number of entries: 19932
+; Number of entries: 19968
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1079,6 +1079,8 @@ linksite.bio CNAME .
 *.linksite.bio CNAME .
 lnk.bio CNAME .
 *.lnk.bio CNAME .
+ltl.bio CNAME .
+*.ltl.bio CNAME .
 lynkme.bio CNAME .
 *.lynkme.bio CNAME .
 mable.bio CNAME .
@@ -2701,6 +2703,8 @@ mgyb.co CNAME .
 *.mgyb.co CNAME .
 minifyme.co CNAME .
 *.minifyme.co CNAME .
+minifyurl.co CNAME .
+*.minifyurl.co CNAME .
 mney.co CNAME .
 *.mney.co CNAME .
 u1.mnge.co CNAME .
@@ -5359,6 +5363,8 @@ lyksoomu.com CNAME .
 *.lyksoomu.com CNAME .
 lz.com CNAME .
 *.lz.com CNAME .
+m3mi.com CNAME .
+*.m3mi.com CNAME .
 magicwlinks.com CNAME .
 *.magicwlinks.com CNAME .
 magnet-mind.com CNAME .
@@ -5489,6 +5495,8 @@ mimsee2020.com CNAME .
 *.mimsee2020.com CNAME .
 minecraftparodileri.com CNAME .
 *.minecraftparodileri.com CNAME .
+minfier.com CNAME .
+*.minfier.com CNAME .
 minify-url.com CNAME .
 *.minify-url.com CNAME .
 minifyn.com CNAME .
@@ -5553,6 +5561,8 @@ kt.mrmd.com CNAME .
 *.kt.mrmd.com CNAME .
 mrturl.com CNAME .
 *.mrturl.com CNAME .
+msgtechzone.com CNAME .
+*.msgtechzone.com CNAME .
 mshorten.com CNAME .
 *.mshorten.com CNAME .
 m.msi5.com CNAME .
@@ -8877,6 +8887,8 @@ you.lpo.fr CNAME .
 *.you.lpo.fr CNAME .
 lstu.fr CNAME .
 *.lstu.fr CNAME .
+lurl.fr CNAME .
+*.lurl.fr CNAME .
 m1p.fr CNAME .
 *.m1p.fr CNAME .
 matwo.fr CNAME .
@@ -11437,10 +11449,14 @@ linkp.ir CNAME .
 *.linkp.ir CNAME .
 ln24.ir CNAME .
 *.ln24.ir CNAME .
+lt5.ir CNAME .
+*.lt5.ir CNAME .
 m7p.ir CNAME .
 *.m7p.ir CNAME .
 mc1.ir CNAME .
 *.mc1.ir CNAME .
+miniurl.ir CNAME .
+*.miniurl.ir CNAME .
 modk.ir CNAME .
 *.modk.ir CNAME .
 mskb.ir CNAME .
@@ -12791,6 +12807,8 @@ minify.link CNAME .
 *.minify.link CNAME .
 minny.link CNAME .
 *.minny.link CNAME .
+mktg8.link CNAME .
+*.mktg8.link CNAME .
 modash.link CNAME .
 *.modash.link CNAME .
 mojbio.link CNAME .
@@ -12799,6 +12817,8 @@ molok.link CNAME .
 *.molok.link CNAME .
 mostrar.link CNAME .
 *.mostrar.link CNAME .
+mt77.link CNAME .
+*.mt77.link CNAME .
 mybranded.link CNAME .
 *.mybranded.link CNAME .
 mycon.link CNAME .
@@ -13255,8 +13275,12 @@ microsoftfiles.live CNAME .
 *.microsoftfiles.live CNAME .
 munchbet.live CNAME .
 *.munchbet.live CNAME .
+my-club.live CNAME .
+*.my-club.live CNAME .
 nanatech.live CNAME .
 *.nanatech.live CNAME .
+nefeli.live CNAME .
+*.nefeli.live CNAME .
 neweden.live CNAME .
 *.neweden.live CNAME .
 nimex.live CNAME .
@@ -13369,6 +13393,8 @@ indahnyaberbagi.lol CNAME .
 *.indahnyaberbagi.lol CNAME .
 linkme.lol CNAME .
 *.linkme.lol CNAME .
+luto.lol CNAME .
+*.luto.lol CNAME .
 maxlink.lol CNAME .
 *.maxlink.lol CNAME .
 rebrand.lol CNAME .
@@ -15291,6 +15317,8 @@ mq3.net CNAME .
 *.mq3.net CNAME .
 mstuff.net CNAME .
 *.mstuff.net CNAME .
+mybiopage.net CNAME .
+*.mybiopage.net CNAME .
 mylnk.net CNAME .
 *.mylnk.net CNAME .
 myminiurl.net CNAME .
@@ -15319,6 +15347,8 @@ ls.notesit.net CNAME .
 *.ls.notesit.net CNAME .
 nowlinks.net CNAME .
 *.nowlinks.net CNAME .
+nullx.net CNAME .
+*.nullx.net CNAME .
 o-yes.net CNAME .
 *.o-yes.net CNAME .
 o9.net CNAME .
@@ -16767,6 +16797,8 @@ megalink.pro CNAME .
 *.megalink.pro CNAME .
 minilink.pro CNAME .
 *.minilink.pro CNAME .
+mysurveys.pro CNAME .
+*.mysurveys.pro CNAME .
 nathanaeldan.pro CNAME .
 *.nathanaeldan.pro CNAME .
 onbit.pro CNAME .
@@ -19829,6 +19861,10 @@ adlinkfly.mightyscripts.xyz CNAME .
 *.adlinkfly.mightyscripts.xyz CNAME .
 mightyurl.mightyscripts.xyz CNAME .
 *.mightyurl.mightyscripts.xyz CNAME .
+mipon.xyz CNAME .
+*.mipon.xyz CNAME .
+moreluck.xyz CNAME .
+*.moreluck.xyz CNAME .
 mtxt.xyz CNAME .
 *.mtxt.xyz CNAME .
 murls.xyz CNAME .

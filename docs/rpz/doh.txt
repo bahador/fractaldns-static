@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781250960 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781337660 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Jun 2026 07:56 UTC
-; Version: 2026.0612.0756.49
+; Last modified: 13 Jun 2026 08:01 UTC
+; Version: 2026.0613.0801.29
 ; Syntax: RPZ
-; Number of entries: 6862
+; Number of entries: 6868
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -2489,6 +2489,8 @@ dns.mihalcea.eu CNAME .
 *.dns.mihalcea.eu CNAME .
 mydevpn.eu CNAME .
 *.mydevpn.eu CNAME .
+n0.eu CNAME .
+*.n0.eu CNAME .
 personal-proj-by-me.eu CNAME .
 *.personal-proj-by-me.eu CNAME .
 dns.rhscz.eu CNAME .
@@ -3669,6 +3671,8 @@ adguard.amscenter.net CNAME .
 *.adguard.amscenter.net CNAME .
 adguard01.apexhost.net CNAME .
 *.adguard01.apexhost.net CNAME .
+mask-api.fe.apple-dns.net CNAME .
+*.mask-api.fe.apple-dns.net CNAME .
 applied-privacy.net CNAME .
 *.applied-privacy.net CNAME .
 doh.appliedprivacy.net CNAME .
@@ -5967,6 +5971,8 @@ agha.sunryu.site CNAME .
 *.agha.sunryu.site CNAME .
 tecdrive.site CNAME .
 *.tecdrive.site CNAME .
+vuivn.site CNAME .
+*.vuivn.site CNAME .
 dns.levonet.sk CNAME .
 *.dns.levonet.sk CNAME .
 dns.p3k.sk CNAME .
