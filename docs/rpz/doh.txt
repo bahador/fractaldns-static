@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781337660 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781422260 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Jun 2026 08:01 UTC
-; Version: 2026.0613.0801.29
+; Last modified: 14 Jun 2026 07:31 UTC
+; Version: 2026.0614.0731.35
 ; Syntax: RPZ
-; Number of entries: 6868
+; Number of entries: 6878
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1015,8 +1015,14 @@ dvgarm.com CNAME .
 *.dvgarm.com CNAME .
 roucious.dyndns-remote.com CNAME .
 *.roucious.dyndns-remote.com CNAME .
+resolver1.dyndnsinternetguide.com CNAME .
+*.resolver1.dyndnsinternetguide.com CNAME .
+resolver2.dyndnsinternetguide.com CNAME .
+*.resolver2.dyndnsinternetguide.com CNAME .
 rafi.dynns.com CNAME .
 *.rafi.dynns.com CNAME .
+saomai.dynu.com CNAME .
+*.saomai.dynu.com CNAME .
 safe.eaccelera.com CNAME .
 *.safe.eaccelera.com CNAME .
 easyhandshake.com CNAME .
@@ -3335,6 +3341,8 @@ void.mcfly.lol CNAME .
 *.void.mcfly.lol CNAME .
 dns.ntr.lol CNAME .
 *.dns.ntr.lol CNAME .
+quic.lol CNAME .
+*.quic.lol CNAME .
 toaster.lol CNAME .
 *.toaster.lol CNAME .
 adguard.ygd.lol CNAME .
@@ -4751,6 +4759,8 @@ sabeendns.duckdns.org CNAME .
 *.sabeendns.duckdns.org CNAME .
 salvadoserver.duckdns.org CNAME .
 *.salvadoserver.duckdns.org CNAME .
+site-2.duckdns.org CNAME .
+*.site-2.duckdns.org CNAME .
 site-3.duckdns.org CNAME .
 *.site-3.duckdns.org CNAME .
 soporte-premium.duckdns.org CNAME .

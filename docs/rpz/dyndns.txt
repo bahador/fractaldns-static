@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781278860 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781422200 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Jun 2026 15:41 UTC
-; Version: 2026.0612.1541.05
+; Last modified: 14 Jun 2026 07:30 UTC
+; Version: 2026.0614.0730.53
 ; Syntax: RPZ
-; Number of entries: 3012
+; Number of entries: 3024
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1210,6 +1210,8 @@ pendulumaudio.com CNAME .
 *.pendulumaudio.com CNAME .
 peregrineair.com CNAME .
 *.peregrineair.com CNAME .
+photo-cult.com CNAME .
+*.photo-cult.com CNAME .
 photo-frame.com CNAME .
 *.photo-frame.com CNAME .
 piroge.com CNAME .
@@ -1222,6 +1224,8 @@ point2this.com CNAME .
 *.point2this.com CNAME .
 portfwd.com CNAME .
 *.portfwd.com CNAME .
+portrelay.com CNAME .
+*.portrelay.com CNAME .
 prettyweak.com CNAME .
 *.prettyweak.com CNAME .
 privatedns.com CNAME .
@@ -1252,6 +1256,8 @@ robot-armies.com CNAME .
 *.robot-armies.com CNAME .
 rockingwranchinc.com CNAME .
 *.rockingwranchinc.com CNAME .
+routemehome.com CNAME .
+*.routemehome.com CNAME .
 rundis.com CNAME .
 *.rundis.com CNAME .
 russkoeumea.com CNAME .
@@ -1380,6 +1386,8 @@ suroot.com CNAME .
 *.suroot.com CNAME .
 synoserver.com CNAME .
 *.synoserver.com CNAME .
+syntereo.com CNAME .
+*.syntereo.com CNAME .
 sysadminetworks.com CNAME .
 *.sysadminetworks.com CNAME .
 system-ns.com CNAME .
@@ -3006,10 +3014,14 @@ pointto.us CNAME .
 *.pointto.us CNAME .
 possessed.us CNAME .
 *.possessed.us CNAME .
+punked.us CNAME .
+*.punked.us CNAME .
 shacknet.us CNAME .
 *.shacknet.us CNAME .
 stuff-4-sale.us CNAME .
 *.stuff-4-sale.us CNAME .
+tobuy.us CNAME .
+*.tobuy.us CNAME .
 hs.vc CNAME .
 *.hs.vc CNAME .
 webs.vc CNAME .
