@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781446140 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781474940 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 14 Jun 2026 14:09 UTC
-; Version: 2026.0614.1409.27
+; Last modified: 14 Jun 2026 22:09 UTC
+; Version: 2026.0614.2209.28
 ; Syntax: RPZ
-; Number of entries: 1936
+; Number of entries: 1940
 ;
 download.ac CNAME .
 *.download.ac CNAME .
@@ -674,6 +674,8 @@ webspawner.com CNAME .
 *.webspawner.com CNAME .
 webstarterz.com CNAME .
 *.webstarterz.com CNAME .
+webuda.com CNAME .
+*.webuda.com CNAME .
 weebly.com CNAME .
 *.weebly.com CNAME .
 weeblysite.com CNAME .
@@ -1626,6 +1628,8 @@ twc1.net CNAME .
 *.twc1.net CNAME .
 vollidiot.net CNAME .
 *.vollidiot.net CNAME .
+web44.net CNAME .
+*.web44.net CNAME .
 x90x.net CNAME .
 *.x90x.net CNAME .
 yourfreehosting.net CNAME .

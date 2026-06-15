@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781462940 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781508420 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 14 Jun 2026 18:49 UTC
-; Version: 2026.0614.1849.20
+; Last modified: 15 Jun 2026 07:27 UTC
+; Version: 2026.0615.0727.51
 ; Syntax: RPZ
-; Number of entries: 3026
+; Number of entries: 3030
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1472,6 +1472,8 @@ vpntraki.com CNAME .
 *.vpntraki.com CNAME .
 wakingmoon.com CNAME .
 *.wakingmoon.com CNAME .
+warp9computers.com CNAME .
+*.warp9computers.com CNAME .
 westblade.com CNAME .
 *.westblade.com CNAME .
 whyboner.com CNAME .
@@ -3024,6 +3026,8 @@ stuff-4-sale.us CNAME .
 *.stuff-4-sale.us CNAME .
 tobuy.us CNAME .
 *.tobuy.us CNAME .
+wwwhost.us CNAME .
+*.wwwhost.us CNAME .
 hs.vc CNAME .
 *.hs.vc CNAME .
 webs.vc CNAME .
