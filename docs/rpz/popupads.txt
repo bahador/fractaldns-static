@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781591220 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781632260 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Jun 2026 06:27 UTC
-; Version: 2026.0616.0627.05
+; Last modified: 16 Jun 2026 17:51 UTC
+; Version: 2026.0616.1751.12
 ; Syntax: RPZ
-; Number of entries: 116856
+; Number of entries: 116842
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -104,6 +104,8 @@ nouvelletalent.ai CNAME .
 *.nouvelletalent.ai CNAME .
 orion-scheduling.ai CNAME .
 *.orion-scheduling.ai CNAME .
+clk.ourdream.ai CNAME .
+*.clk.ourdream.ai CNAME .
 paymitly.ai CNAME .
 *.paymitly.ai CNAME .
 powerad.ai CNAME .
@@ -570,10 +572,8 @@ revlt.be CNAME .
 *.revlt.be CNAME .
 gvfejsk.beauty CNAME .
 *.gvfejsk.beauty CNAME .
-lc.krgirls.beauty CNAME .
-*.lc.krgirls.beauty CNAME .
-me.krgirls.beauty CNAME .
-*.me.krgirls.beauty CNAME .
+krgirls.beauty CNAME .
+*.krgirls.beauty CNAME .
 go1.sildenafi.beauty CNAME .
 *.go1.sildenafi.beauty CNAME .
 0.beer CNAME .
@@ -1596,6 +1596,8 @@ degreedistance.cfd CNAME .
 *.degreedistance.cfd CNAME .
 eclairstropia.cfd CNAME .
 *.eclairstropia.cfd CNAME .
+emeutetubbers.cfd CNAME .
+*.emeutetubbers.cfd CNAME .
 equalaglossa.cfd CNAME .
 *.equalaglossa.cfd CNAME .
 etrogshuzzah.cfd CNAME .
@@ -2898,24 +2900,8 @@ hengde.cn CNAME .
 *.hengde.cn CNAME .
 qiejushuo.hirz.cn CNAME .
 *.qiejushuo.hirz.cn CNAME .
-app-google-zh.hl.cn CNAME .
-*.app-google-zh.hl.cn CNAME .
-go-todesk.hl.cn CNAME .
-*.go-todesk.hl.cn CNAME .
-google-google-chrome-google-com.hl.cn CNAME .
-*.google-google-chrome-google-com.hl.cn CNAME .
-line-go.hl.cn CNAME .
-*.line-go.hl.cn CNAME .
-qh-qishuiyinyue.hl.cn CNAME .
-*.qh-qishuiyinyue.hl.cn CNAME .
-qishuimusic-cn.hl.cn CNAME .
-*.qishuimusic-cn.hl.cn CNAME .
-todesk-web.hl.cn CNAME .
-*.todesk-web.hl.cn CNAME .
-todesk-zh.hl.cn CNAME .
-*.todesk-zh.hl.cn CNAME .
-zh-todesk-cn.hl.cn CNAME .
-*.zh-todesk-cn.hl.cn CNAME .
+hl.cn CNAME .
+*.hl.cn CNAME .
 ho521.cn CNAME .
 *.ho521.cn CNAME .
 hologramid.cn CNAME .
@@ -31136,6 +31122,8 @@ dsf-egypt.com CNAME .
 *.dsf-egypt.com CNAME .
 js.dshaf.com CNAME .
 *.js.dshaf.com CNAME .
+dskcwz.com CNAME .
+*.dskcwz.com CNAME .
 dskidupoto.com CNAME .
 *.dskidupoto.com CNAME .
 dsnct.com CNAME .
@@ -98904,6 +98892,8 @@ enum.pro CNAME .
 *.enum.pro CNAME .
 envious-gap.pro CNAME .
 *.envious-gap.pro CNAME .
+enviousdisplay.pro CNAME .
+*.enviousdisplay.pro CNAME .
 epicweather.pro CNAME .
 *.epicweather.pro CNAME .
 equal-emphasis.pro CNAME .
@@ -103906,12 +103896,8 @@ barmanonymity.shop CNAME .
 *.barmanonymity.shop CNAME .
 barmingorrhoid.shop CNAME .
 *.barmingorrhoid.shop CNAME .
-chiyouranai.base.shop CNAME .
-*.chiyouranai.base.shop CNAME .
-tokujiro.base.shop CNAME .
-*.tokujiro.base.shop CNAME .
-uranai1111.base.shop CNAME .
-*.uranai1111.base.shop CNAME .
+base.shop CNAME .
+*.base.shop CNAME .
 basiscopyright.shop CNAME .
 *.basiscopyright.shop CNAME .
 battuelevered.shop CNAME .
