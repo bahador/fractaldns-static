@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781508420 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781562840 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Jun 2026 07:27 UTC
-; Version: 2026.0615.0727.51
+; Last modified: 15 Jun 2026 22:34 UTC
+; Version: 2026.0615.2234.49
 ; Syntax: RPZ
-; Number of entries: 3030
+; Number of entries: 3034
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1666,6 +1666,8 @@ klapa.eu CNAME .
 *.klapa.eu CNAME .
 packeting.eu CNAME .
 *.packeting.eu CNAME .
+spdns.eu CNAME .
+*.spdns.eu CNAME .
 ydns.eu CNAME .
 *.ydns.eu CNAME .
 z0d.eu CNAME .
@@ -2680,6 +2682,8 @@ sheepindonesia.org CNAME .
 *.sheepindonesia.org CNAME .
 solfa.org CNAME .
 *.solfa.org CNAME .
+spdns.org CNAME .
+*.spdns.org CNAME .
 ssl443.org CNAME .
 *.ssl443.org CNAME .
 stuff-4-sale.org CNAME .

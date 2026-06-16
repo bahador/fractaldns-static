@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781547420 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781592960 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Jun 2026 18:17 UTC
-; Version: 2026.0615.1817.39
+; Last modified: 16 Jun 2026 06:56 UTC
+; Version: 2026.0616.0656.13
 ; Syntax: RPZ
-; Number of entries: 2456
+; Number of entries: 2458
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -1880,6 +1880,8 @@ shorter.me CNAME .
 *.shorter.me CNAME .
 site123.me CNAME .
 *.site123.me CNAME .
+sitey.me CNAME .
+*.sitey.me CNAME .
 social-networking.me CNAME .
 *.social-networking.me CNAME .
 ukit.me CNAME .
@@ -2250,8 +2252,6 @@ qipim.ru CNAME .
 *.qipim.ru CNAME .
 qptr.ru CNAME .
 *.qptr.ru CNAME .
-regruhosting.ru CNAME .
-*.regruhosting.ru CNAME .
 seite.ru CNAME .
 *.seite.ru CNAME .
 swtest.ru CNAME .
@@ -2306,6 +2306,8 @@ brizy.site CNAME .
 *.brizy.site CNAME .
 company.site CNAME .
 *.company.site CNAME .
+loophole.site CNAME .
+*.loophole.site CNAME .
 studio.site CNAME .
 *.studio.site CNAME .
 temporary.site CNAME .
