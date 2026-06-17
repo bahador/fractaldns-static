@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781291580 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781669880 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Jun 2026 19:13 UTC
-; Version: 2026.0612.1913.39
+; Last modified: 17 Jun 2026 04:18 UTC
+; Version: 2026.0617.0418.26
 ; Syntax: RPZ
-; Number of entries: 696
+; Number of entries: 718
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -284,8 +284,30 @@ atfe.amazon-adsystem.com CNAME .
 *.atfe.amazon-adsystem.com CNAME .
 atue.amazon-adsystem.com CNAME .
 *.atue.amazon-adsystem.com CNAME .
-axp.amazon-adsystem.com CNAME .
-*.axp.amazon-adsystem.com CNAME .
+3px.axp.amazon-adsystem.com CNAME .
+*.3px.axp.amazon-adsystem.com CNAME .
+aax-beta-us-east.axp.amazon-adsystem.com CNAME .
+*.aax-beta-us-east.axp.amazon-adsystem.com CNAME .
+aax-gamma-us-east.axp.amazon-adsystem.com CNAME .
+*.aax-gamma-us-east.axp.amazon-adsystem.com CNAME .
+aes-beta.axp.amazon-adsystem.com CNAME .
+*.aes-beta.axp.amazon-adsystem.com CNAME .
+aps.axp.amazon-adsystem.com CNAME .
+*.aps.axp.amazon-adsystem.com CNAME .
+aes.eu-south.ono.axp.amazon-adsystem.com CNAME .
+*.aes.eu-south.ono.axp.amazon-adsystem.com CNAME .
+aes.eu-west.ono.axp.amazon-adsystem.com CNAME .
+*.aes.eu-west.ono.axp.amazon-adsystem.com CNAME .
+fe.ono.axp.amazon-adsystem.com CNAME .
+*.fe.ono.axp.amazon-adsystem.com CNAME .
+live-events.ono.axp.amazon-adsystem.com CNAME .
+*.live-events.ono.axp.amazon-adsystem.com CNAME .
+us-east.ono.axp.amazon-adsystem.com CNAME .
+*.us-east.ono.axp.amazon-adsystem.com CNAME .
+fe.us-west.ono.axp.amazon-adsystem.com CNAME .
+*.fe.us-west.ono.axp.amazon-adsystem.com CNAME .
+rtb.axp.amazon-adsystem.com CNAME .
+*.rtb.axp.amazon-adsystem.com CNAME .
 c.amazon-adsystem.com CNAME .
 *.c.amazon-adsystem.com CNAME .
 cdn-a.amazon-adsystem.com CNAME .

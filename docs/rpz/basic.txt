@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781634720 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781670480 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Jun 2026 18:32 UTC
-; Version: 2026.0616.1832.38
+; Last modified: 17 Jun 2026 04:28 UTC
+; Version: 2026.0617.0428.36
 ; Syntax: RPZ
-; Number of entries: 92498
+; Number of entries: 92556
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -7126,6 +7126,8 @@ genieedmp.com CNAME .
 *.genieedmp.com CNAME .
 genieessp.com CNAME .
 *.genieessp.com CNAME .
+genipspillion.com CNAME .
+*.genipspillion.com CNAME .
 geniusdexchange.com CNAME .
 *.geniusdexchange.com CNAME .
 geniuslinkcdn.com CNAME .
@@ -9326,6 +9328,8 @@ martted.com CNAME .
 *.martted.com CNAME .
 mascaraowners.com CNAME .
 *.mascaraowners.com CNAME .
+mashersjikungu.com CNAME .
+*.mashersjikungu.com CNAME .
 masterenter.com CNAME .
 *.masterenter.com CNAME .
 mastermind.com CNAME .
