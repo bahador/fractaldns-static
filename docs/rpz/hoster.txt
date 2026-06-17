@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781662200 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781679600 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jun 2026 02:10 UTC
-; Version: 2026.0617.0210.34
+; Last modified: 17 Jun 2026 07:00 UTC
+; Version: 2026.0617.0700.22
 ; Syntax: RPZ
-; Number of entries: 2494
+; Number of entries: 2512
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -118,6 +118,8 @@ blogspot.be CNAME .
 *.blogspot.be CNAME .
 shortu.be CNAME .
 *.shortu.be CNAME .
+blogspot.bg CNAME .
+*.blogspot.bg CNAME .
 1x.biz CNAME .
 *.1x.biz CNAME .
 awardspace.biz CNAME .
@@ -394,6 +396,8 @@ byethost12.com CNAME .
 *.byethost12.com CNAME .
 byethost13.com CNAME .
 *.byethost13.com CNAME .
+byethost14.com CNAME .
+*.byethost14.com CNAME .
 byethost17.com CNAME .
 *.byethost17.com CNAME .
 byethost18.com CNAME .
@@ -456,6 +460,8 @@ coolfreepages.com CNAME .
 *.3-89-181-9.cprapid.com CNAME .
 sitebeat.crazydomains.com CNAME .
 *.sitebeat.crazydomains.com CNAME .
+crypto-market-world.com CNAME .
+*.crypto-market-world.com CNAME .
 ctempurl.com CNAME .
 *.ctempurl.com CNAME .
 cutedrive.com CNAME .
@@ -490,6 +496,8 @@ e-docssig.com CNAME .
 *.e-docssig.com CNAME .
 easyfreehosting.com CNAME .
 *.easyfreehosting.com CNAME .
+eb2a.com CNAME .
+*.eb2a.com CNAME .
 ecardalert.com CNAME .
 *.ecardalert.com CNAME .
 ecomplanet.com CNAME .
@@ -820,6 +828,8 @@ rapidshare.com CNAME .
 *.rapidshare.com CNAME .
 redirme.com CNAME .
 *.redirme.com CNAME .
+reodev.com CNAME .
+*.reodev.com CNAME .
 royal-host.com CNAME .
 *.royal-host.com CNAME .
 goo-gl.ru.com CNAME .
@@ -830,6 +840,8 @@ citybios.sa.com CNAME .
 *.citybios.sa.com CNAME .
 schoolrack.com CNAME .
 *.schoolrack.com CNAME .
+sebipay.com CNAME .
+*.sebipay.com CNAME .
 securebankinggroup.com CNAME .
 *.securebankinggroup.com CNAME .
 seite.com CNAME .
@@ -2074,6 +2086,8 @@ umbler.net CNAME .
 *.umbler.net CNAME .
 vollidiot.net CNAME .
 *.vollidiot.net CNAME .
+web1337.net CNAME .
+*.web1337.net CNAME .
 web44.net CNAME .
 *.web44.net CNAME .
 x90x.net CNAME .
@@ -2286,6 +2300,8 @@ qipim.ru CNAME .
 *.qipim.ru CNAME .
 qptr.ru CNAME .
 *.qptr.ru CNAME .
+regruhosting.ru CNAME .
+*.regruhosting.ru CNAME .
 seite.ru CNAME .
 *.seite.ru CNAME .
 swtest.ru CNAME .
@@ -2350,6 +2366,8 @@ temporary-demo.site CNAME .
 *.temporary-demo.site CNAME .
 tiiny.site CNAME .
 *.tiiny.site CNAME .
+turbo.site CNAME .
+*.turbo.site CNAME .
 wapka.site CNAME .
 *.wapka.site CNAME .
 webboss.site CNAME .
