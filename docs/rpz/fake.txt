@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781764320 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781776320 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Jun 2026 06:32 UTC
-; Version: 2026.0618.0632.59
+; Last modified: 18 Jun 2026 09:52 UTC
+; Version: 2026.0618.0952.29
 ; Syntax: RPZ
-; Number of entries: 33854
+; Number of entries: 33852
 ;
 prosperi.academy CNAME .
 *.prosperi.academy CNAME .
@@ -11734,8 +11734,6 @@ lizabete.com CNAME .
 *.lizabete.com CNAME .
 ljekarna-osijek.com CNAME .
 *.ljekarna-osijek.com CNAME .
-ljekarnazagreb.com CNAME .
-*.ljekarnazagreb.com CNAME .
 lkw-reifenpanne.com CNAME .
 *.lkw-reifenpanne.com CNAME .
 lloyddeutschland.com CNAME .
