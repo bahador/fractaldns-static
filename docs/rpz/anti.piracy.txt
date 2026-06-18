@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781778900 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781809140 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Jun 2026 10:35 UTC
-; Version: 2026.0618.1035.06
+; Last modified: 18 Jun 2026 18:59 UTC
+; Version: 2026.0618.1859.42
 ; Syntax: RPZ
-; Number of entries: 55180
+; Number of entries: 55182
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -10050,6 +10050,8 @@ prophecywatch.com CNAME .
 *.prophecywatch.com CNAME .
 prostokvashino-lordfilm.com CNAME .
 *.prostokvashino-lordfilm.com CNAME .
+protoolsarena.com CNAME .
+*.protoolsarena.com CNAME .
 protvcollection.com CNAME .
 *.protvcollection.com CNAME .
 tpb.proxyduck.com CNAME .

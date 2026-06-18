@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781780100 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781807820 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Jun 2026 10:55 UTC
-; Version: 2026.0618.1055.14
+; Last modified: 18 Jun 2026 18:37 UTC
+; Version: 2026.0618.1837.12
 ; Syntax: RPZ
-; Number of entries: 91442
+; Number of entries: 91520
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -526,8 +526,6 @@ voitto.com.br CNAME .
 *.voitto.com.br CNAME .
 voxus.com.br CNAME .
 *.voxus.com.br CNAME .
-pages.net.br CNAME .
-*.pages.net.br CNAME .
 ivcbrasil.org.br CNAME .
 *.ivcbrasil.org.br CNAME .
 665636a.buzz CNAME .
@@ -764,8 +762,6 @@ stake.ceo CNAME .
 *.2u1z7qmjvy1covuwg2rxkj3.cfd CNAME .
 381iiejz6hn4lf.cfd CNAME .
 *.381iiejz6hn4lf.cfd CNAME .
-3uv4e4ozrekc56zx1jjwfbugpq1i275.cfd CNAME .
-*.3uv4e4ozrekc56zx1jjwfbugpq1i275.cfd CNAME .
 59gfm38j21ohoq8ugl831hrltiibq.cfd CNAME .
 *.59gfm38j21ohoq8ugl831hrltiibq.cfd CNAME .
 5qvjw9kq4lb5tevv26g.cfd CNAME .
@@ -814,6 +810,8 @@ bauderyhistory.cfd CNAME .
 *.bauderyhistory.cfd CNAME .
 beginbonaire.cfd CNAME .
 *.beginbonaire.cfd CNAME .
+behavecaplet.cfd CNAME .
+*.behavecaplet.cfd CNAME .
 benzeinnap.cfd CNAME .
 *.benzeinnap.cfd CNAME .
 bgulef837wmwxglvg2l5kyzbpz5ng2tg7tjwg.cfd CNAME .
@@ -946,6 +944,8 @@ inscapeclosure.cfd CNAME .
 *.inscapeclosure.cfd CNAME .
 insurgedahspsalmy.cfd CNAME .
 *.insurgedahspsalmy.cfd CNAME .
+jacalwoollen.cfd CNAME .
+*.jacalwoollen.cfd CNAME .
 jereanguschorism.cfd CNAME .
 *.jereanguschorism.cfd CNAME .
 jwube4zf2ffv6o4j.cfd CNAME .
@@ -1352,8 +1352,6 @@ hypers.com.cn CNAME .
 *.hypers.com.cn CNAME .
 pepsico.com.cn CNAME .
 *.pepsico.com.cn CNAME .
-pharmnet.com.cn CNAME .
-*.pharmnet.com.cn CNAME .
 taojike.com.cn CNAME .
 *.taojike.com.cn CNAME .
 tuxi.com.cn CNAME .
@@ -2626,6 +2624,8 @@ adpopcorn.com CNAME .
 *.adpopcorn.com CNAME .
 adportonic.com CNAME .
 *.adportonic.com CNAME .
+adpost.com CNAME .
+*.adpost.com CNAME .
 adprime.com CNAME .
 *.adprime.com CNAME .
 adprofex.com CNAME .
@@ -3154,6 +3154,8 @@ aldanefissate.com CNAME .
 *.aldanefissate.com CNAME .
 alexatracker.com CNAME .
 *.alexatracker.com CNAME .
+alfalfaemployeeresource.com CNAME .
+*.alfalfaemployeeresource.com CNAME .
 alfasense.com CNAME .
 *.alfasense.com CNAME .
 alfasrv.com CNAME .
@@ -3910,8 +3912,6 @@ best-girls-around.com CNAME .
 *.best-girls-around.com CNAME .
 bestadload.com CNAME .
 *.bestadload.com CNAME .
-bestadperf.com CNAME .
-*.bestadperf.com CNAME .
 bestonlinecoupons.com CNAME .
 *.bestonlinecoupons.com CNAME .
 smetrics.bet.com CNAME .
@@ -5540,6 +5540,8 @@ debonairdust.com CNAME .
 *.debonairdust.com CNAME .
 decacopy.com CNAME .
 *.decacopy.com CNAME .
+decafeligiblyhad.com CNAME .
+*.decafeligiblyhad.com CNAME .
 decentriq.com CNAME .
 *.decentriq.com CNAME .
 decimalediblegoose.com CNAME .
@@ -7224,8 +7226,6 @@ gfpxw.com CNAME .
 *.gfpxw.com CNAME .
 ggbbbet.com CNAME .
 *.ggbbbet.com CNAME .
-gggatat456.com CNAME .
-*.gggatat456.com CNAME .
 gggpppht.com CNAME .
 *.gggpppht.com CNAME .
 ggpht0.com CNAME .
@@ -9152,6 +9152,8 @@ luckyorange.com CNAME .
 *.luckyorange.com CNAME .
 luckysportsgear.com CNAME .
 *.luckysportsgear.com CNAME .
+luckystudio4u.com CNAME .
+*.luckystudio4u.com CNAME .
 ludashi.com CNAME .
 *.ludashi.com CNAME .
 ludashisafe.com CNAME .
@@ -17358,6 +17360,8 @@ zarpop.ir CNAME .
 *.zarpop.ir CNAME .
 majesticbank.is CNAME .
 *.majesticbank.is CNAME .
+z-lib.is CNAME .
+*.z-lib.is CNAME .
 ad-hub.it CNAME .
 *.ad-hub.it CNAME .
 adasta.it CNAME .
@@ -21680,8 +21684,6 @@ smartmetrics.co.uk CNAME .
 *.smartmetrics.co.uk CNAME .
 traffic-media.co.uk CNAME .
 *.traffic-media.co.uk CNAME .
-webeden.co.uk CNAME .
-*.webeden.co.uk CNAME .
 wowanalytics.co.uk CNAME .
 *.wowanalytics.co.uk CNAME .
 ubsco.uk CNAME .
