@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781938980 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781962440 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Jun 2026 07:03 UTC
-; Version: 2026.0620.0703.33
+; Last modified: 20 Jun 2026 13:34 UTC
+; Version: 2026.0620.1334.49
 ; Syntax: RPZ
-; Number of entries: 2242
+; Number of entries: 2230
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -26,8 +26,6 @@ pro.ac CNAME .
 *.pro.ac CNAME .
 2h.ae CNAME .
 *.2h.ae CNAME .
-aba.ae CNAME .
-*.aba.ae CNAME .
 blogspot.ae CNAME .
 *.blogspot.ae CNAME .
 i8.ae CNAME .
@@ -238,8 +236,6 @@ vidcloud.co CNAME .
 *.000space.com CNAME .
 000webapp.com CNAME .
 *.000webapp.com CNAME .
-000webhostapp.com CNAME .
-*.000webhostapp.com CNAME .
 000worldwide.com CNAME .
 *.000worldwide.com CNAME .
 00author.com CNAME .
@@ -760,8 +756,6 @@ webaccess-alert.com CNAME .
 *.webaccess-alert.com CNAME .
 webaccess-email.com CNAME .
 *.webaccess-email.com CNAME .
-webador.com CNAME .
-*.webador.com CNAME .
 webcindario.com CNAME .
 *.webcindario.com CNAME .
 webgarden.com CNAME .
@@ -1132,8 +1126,6 @@ ch2.eu CNAME .
 *.ch2.eu CNAME .
 community24.eu CNAME .
 *.community24.eu CNAME .
-edu.eu CNAME .
-*.edu.eu CNAME .
 im-internet.eu CNAME .
 *.im-internet.eu CNAME .
 inbox24.eu CNAME .
@@ -1462,8 +1454,6 @@ mylinkinb.io CNAME .
 *.mylinkinb.io CNAME .
 nicepage.io CNAME .
 *.nicepage.io CNAME .
-nip.io CNAME .
-*.nip.io CNAME .
 nxcli.io CNAME .
 *.nxcli.io CNAME .
 qrsu.io CNAME .
@@ -1774,8 +1764,6 @@ cryptonight.net CNAME .
 *.cryptonight.net CNAME .
 cwqso.net CNAME .
 *.cwqso.net CNAME .
-dailyuploads.net CNAME .
-*.dailyuploads.net CNAME .
 douploads.net CNAME .
 *.douploads.net CNAME .
 efacturas.net CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781940540 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781953980 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Jun 2026 07:29 UTC
-; Version: 2026.0620.0729.35
+; Last modified: 20 Jun 2026 11:13 UTC
+; Version: 2026.0620.1113.09
 ; Syntax: RPZ
-; Number of entries: 56840
+; Number of entries: 56846
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -9414,6 +9414,8 @@ megakino5.com CNAME .
 *.megakino5.com CNAME .
 megakino6.com CNAME .
 *.megakino6.com CNAME .
+megakino7.com CNAME .
+*.megakino7.com CNAME .
 megamanmaker.com CNAME .
 *.megamanmaker.com CNAME .
 megamodapk.com CNAME .
@@ -34924,6 +34926,8 @@ streamingcommunityz.ninja CNAME .
 *.streamingcommunityz.ninja CNAME .
 wawacity.ninja CNAME .
 *.wawacity.ninja CNAME .
+123movies9.nl CNAME .
+*.123movies9.nl CNAME .
 123moviesz.nl CNAME .
 *.123moviesz.nl CNAME .
 1movies.nl CNAME .
@@ -55184,6 +55188,8 @@ hdmoviehub.win CNAME .
 *.hdmoviehub.win CNAME .
 hdmovies4u.win CNAME .
 *.hdmovies4u.win CNAME .
+hianime.win CNAME .
+*.hianime.win CNAME .
 myflixer.win CNAME .
 *.myflixer.win CNAME .
 pelisflix.win CNAME .
