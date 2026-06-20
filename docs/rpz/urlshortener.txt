@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781851320 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781893200 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 19 Jun 2026 06:42 UTC
-; Version: 2026.0619.0642.10
+; Last modified: 19 Jun 2026 18:20 UTC
+; Version: 2026.0619.1820.17
 ; Syntax: RPZ
-; Number of entries: 20116
+; Number of entries: 20126
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1321,6 +1321,8 @@ flii.by CNAME .
 *.flii.by CNAME .
 goo.by CNAME .
 *.goo.by CNAME .
+iatp.by CNAME .
+*.iatp.by CNAME .
 go.qb.by CNAME .
 *.go.qb.by CNAME .
 qoo.by CNAME .
@@ -2281,6 +2283,8 @@ tvurl.cn CNAME .
 *.tvurl.cn CNAME .
 txul.cn CNAME .
 *.txul.cn CNAME .
+u6v.cn CNAME .
+*.u6v.cn CNAME .
 url.cn CNAME .
 *.url.cn CNAME .
 urlify.cn CNAME .
@@ -7673,8 +7677,6 @@ vurlz.com CNAME .
 *.vurlz.com CNAME .
 vytext.com CNAME .
 *.vytext.com CNAME .
-vzturl.com CNAME .
-*.vzturl.com CNAME .
 w0of-woof.com CNAME .
 *.w0of-woof.com CNAME .
 w2link.com CNAME .
@@ -8969,8 +8971,6 @@ you.lpo.fr CNAME .
 *.you.lpo.fr CNAME .
 lstu.fr CNAME .
 *.lstu.fr CNAME .
-lurl.fr CNAME .
-*.lurl.fr CNAME .
 m1p.fr CNAME .
 *.m1p.fr CNAME .
 matwo.fr CNAME .
@@ -9293,6 +9293,8 @@ han.gl CNAME .
 *.han.gl CNAME .
 in.gl CNAME .
 *.in.gl CNAME .
+joo.gl CNAME .
+*.joo.gl CNAME .
 ko.gl CNAME .
 *.ko.gl CNAME .
 oxelt.gl CNAME .
@@ -11515,8 +11517,6 @@ ilk.ir CNAME .
 *.ilk.ir CNAME .
 irbaz.ir CNAME .
 *.irbaz.ir CNAME .
-iwo.ir CNAME .
-*.iwo.ir CNAME .
 kccim.ir CNAME .
 *.kccim.ir CNAME .
 khtm.ir CNAME .
@@ -11567,8 +11567,6 @@ pb6.ir CNAME .
 *.pb6.ir CNAME .
 a.pg2.ir CNAME .
 *.a.pg2.ir CNAME .
-plink.ir CNAME .
-*.plink.ir CNAME .
 plusking.ir CNAME .
 *.plusking.ir CNAME .
 go.poweren.ir CNAME .
@@ -11987,6 +11985,8 @@ lnk.ke CNAME .
 *.lnk.ke CNAME .
 qt.ke CNAME .
 *.qt.ke CNAME .
+hit.kg CNAME .
+*.hit.kg CNAME .
 lih.kg CNAME .
 *.lih.kg CNAME .
 shorturl.kg CNAME .
@@ -12159,6 +12159,8 @@ ume.la CNAME .
 *.ume.la CNAME .
 uto.la CNAME .
 *.uto.la CNAME .
+vai.la CNAME .
+*.vai.la CNAME .
 vo.la CNAME .
 *.vo.la CNAME .
 wes.la CNAME .
@@ -13629,8 +13631,6 @@ xbx.lv CNAME .
 *.7.ly CNAME .
 8.ly CNAME .
 *.8.ly CNAME .
-9.ly CNAME .
-*.9.ly CNAME .
 abit.ly CNAME .
 *.abit.ly CNAME .
 adf.ly CNAME .
@@ -14019,6 +14019,8 @@ cvent.me CNAME .
 *.cvent.me CNAME .
 dems.me CNAME .
 *.dems.me CNAME .
+derpy.me CNAME .
+*.derpy.me CNAME .
 desin.me CNAME .
 *.desin.me CNAME .
 dfl8.me CNAME .
@@ -17579,6 +17581,8 @@ tisfri.se CNAME .
 *.tisfri.se CNAME .
 whatel.se CNAME .
 *.whatel.se CNAME .
+whereel.se CNAME .
+*.whereel.se CNAME .
 whoel.se CNAME .
 *.whoel.se CNAME .
 wi.se CNAME .
@@ -17607,6 +17611,8 @@ spgrp.sg CNAME .
 *.spgrp.sg CNAME .
 tdy.sg CNAME .
 *.tdy.sg CNAME .
+tiny.sg CNAME .
+*.tiny.sg CNAME .
 url.sg CNAME .
 *.url.sg CNAME .
 072.sh CNAME .
@@ -18091,6 +18097,8 @@ smarinsights.study CNAME .
 *.smarinsights.study CNAME .
 wa.style CNAME .
 *.wa.style CNAME .
+676.su CNAME .
+*.676.su CNAME .
 707.su CNAME .
 *.707.su CNAME .
 anp.su CNAME .
@@ -18643,6 +18651,8 @@ trydevi.to CNAME .
 *.trydevi.to CNAME .
 tsl.to CNAME .
 *.tsl.to CNAME .
+twtr.to CNAME .
+*.twtr.to CNAME .
 tzu.to CNAME .
 *.tzu.to CNAME .
 u.to CNAME .

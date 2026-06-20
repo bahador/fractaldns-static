@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1779641400 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781893020 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 24 May 2026 16:50 UTC
-; Version: 2026.0524.1650.27
+; Last modified: 19 Jun 2026 18:17 UTC
+; Version: 2026.0619.1817.47
 ; Syntax: RPZ
-; Number of entries: 408
+; Number of entries: 414
 ;
 search.femboy.ad CNAME .
 *.search.femboy.ad CNAME .
@@ -102,6 +102,8 @@ mojeek.com CNAME .
 *.mojeek.com CNAME .
 monstercrawler.com CNAME .
 *.monstercrawler.com CNAME .
+neeva.com CNAME .
+*.neeva.com CNAME .
 nibblehole.com CNAME .
 *.nibblehole.com CNAME .
 searxng.no-logs.com CNAME .
@@ -234,6 +236,8 @@ gigablast.io CNAME .
 *.gigablast.io CNAME .
 search.privacytools.io CNAME .
 *.search.privacytools.io CNAME .
+searx.ir CNAME .
+*.searx.ir CNAME .
 librex.devol.it CNAME .
 *.librex.devol.it CNAME .
 searx.devol.it CNAME .
@@ -324,6 +328,8 @@ searx.elukerio.org CNAME .
 *.searx.elukerio.org CNAME .
 searx.everdot.org CNAME .
 *.searx.everdot.org CNAME .
+searx.feneas.org CNAME .
+*.searx.feneas.org CNAME .
 search.freestater.org CNAME .
 *.search.freestater.org CNAME .
 search.garudalinux.org CNAME .

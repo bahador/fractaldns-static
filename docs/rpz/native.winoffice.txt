@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781291640 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781894040 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Jun 2026 19:14 UTC
-; Version: 2026.0612.1914.17
+; Last modified: 19 Jun 2026 18:34 UTC
+; Version: 2026.0619.1834.49
 ; Syntax: RPZ
-; Number of entries: 776
+; Number of entries: 778
 ;
 h4g3z1-native.winoffice.web.app CNAME .
 *.h4g3z1-native.winoffice.web.app CNAME .
@@ -604,6 +604,8 @@ t-ring-trafficshield.msedge.net CNAME .
 *.t-ring-trafficshield.msedge.net CNAME .
 t-s1-ring.msedge.net CNAME .
 *.t-s1-ring.msedge.net CNAME .
+t-s2-ring.msedge.net CNAME .
+*.t-s2-ring.msedge.net CNAME .
 win10-trt.msedge.net CNAME .
 *.win10-trt.msedge.net CNAME .
 measure.office.net CNAME .

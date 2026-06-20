@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781852880 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781921400 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 19 Jun 2026 07:08 UTC
-; Version: 2026.0619.0708.11
+; Last modified: 20 Jun 2026 02:10 UTC
+; Version: 2026.0620.0210.02
 ; Syntax: RPZ
-; Number of entries: 2250
+; Number of entries: 2240
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -240,8 +240,6 @@ vidcloud.co CNAME .
 *.000webapp.com CNAME .
 000webhostapp.com CNAME .
 *.000webhostapp.com CNAME .
-000webhotapp.com CNAME .
-*.000webhotapp.com CNAME .
 000worldwide.com CNAME .
 *.000worldwide.com CNAME .
 00author.com CNAME .
@@ -442,8 +440,6 @@ events-games.com CNAME .
 *.events-games.com CNAME .
 exactpages.com CNAME .
 *.exactpages.com CNAME .
-ezyro.com CNAME .
-*.ezyro.com CNAME .
 faceboook-app.com CNAME .
 *.faceboook-app.com CNAME .
 facepl.com CNAME .
@@ -1864,8 +1860,6 @@ x90x.net CNAME .
 *.x90x.net CNAME .
 zabc.net CNAME .
 *.zabc.net CNAME .
-aeza.network CNAME .
-*.aeza.network CNAME .
 appwrite.network CNAME .
 *.appwrite.network CNAME .
 fr.nf CNAME .
@@ -1902,8 +1896,6 @@ azl.one CNAME .
 *.azl.one CNAME .
 trim.one CNAME .
 *.trim.one CNAME .
-webpages.one CNAME .
-*.webpages.one CNAME .
 betrunken.org CNAME .
 *.betrunken.org CNAME .
 blogspot.org CNAME .
@@ -1984,8 +1976,6 @@ tinyurl.ph CNAME .
 *.tinyurl.ph CNAME .
 5v.pl CNAME .
 *.5v.pl CNAME .
-89.pl CNAME .
-*.89.pl CNAME .
 c.pl CNAME .
 *.c.pl CNAME .
 ct8.pl CNAME .
