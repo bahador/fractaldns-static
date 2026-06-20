@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781962440 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781970000 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Jun 2026 13:34 UTC
-; Version: 2026.0620.1334.49
+; Last modified: 20 Jun 2026 15:40 UTC
+; Version: 2026.0620.1540.02
 ; Syntax: RPZ
-; Number of entries: 2230
+; Number of entries: 2190
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -36,8 +36,6 @@ yj.ae CNAME .
 *.yj.ae CNAME .
 freehost.ag CNAME .
 *.freehost.ag CNAME .
-blogspot.am CNAME .
-*.blogspot.am CNAME .
 qu.am CNAME .
 *.qu.am CNAME .
 4everland.app CNAME .
@@ -144,8 +142,6 @@ files.bz CNAME .
 *.files.bz CNAME .
 fw.bz CNAME .
 *.fw.bz CNAME .
-blogspot.ca CNAME .
-*.blogspot.ca CNAME .
 flyjasper.ca CNAME .
 *.flyjasper.ca CNAME .
 ja.cat CNAME .
@@ -322,8 +318,6 @@ billblett.com CNAME .
 *.billblett.com CNAME .
 free.bizhat.com CNAME .
 *.free.bizhat.com CNAME .
-blackapplehost.com CNAME .
-*.blackapplehost.com CNAME .
 blatnet.com CNAME .
 *.blatnet.com CNAME .
 blltly.com CNAME .
@@ -824,8 +818,6 @@ musik.cx CNAME .
 *.musik.cx CNAME .
 team.cx CNAME .
 *.team.cx CNAME .
-blogspot.cz CNAME .
-*.blogspot.cz CNAME .
 000a.de CNAME .
 *.000a.de CNAME .
 0bs.de CNAME .
@@ -1098,8 +1090,6 @@ webwave.dev CNAME .
 *.webwave.dev CNAME .
 chat.dj CNAME .
 *.chat.dj CNAME .
-blogspot.dk CNAME .
-*.blogspot.dk CNAME .
 kortlink.dk CNAME .
 *.kortlink.dk CNAME .
 lnk.do CNAME .
@@ -1108,8 +1098,6 @@ job.ec CNAME .
 *.job.ec CNAME .
 paste.ee CNAME .
 *.paste.ee CNAME .
-blogspot.com.es CNAME .
-*.blogspot.com.es CNAME .
 24.org.es CNAME .
 *.24.org.es CNAME .
 xurl.es CNAME .
@@ -1358,12 +1346,8 @@ z.gp CNAME .
 *.z.gp CNAME .
 za.gp CNAME .
 *.za.gp CNAME .
-blogspot.gr CNAME .
-*.blogspot.gr CNAME .
 kb.help CNAME .
 *.kb.help CNAME .
-blogspot.hk CNAME .
-*.blogspot.hk CNAME .
 cool.hn CNAME .
 *.cool.hn CNAME .
 ns.hn CNAME .
@@ -1440,8 +1424,6 @@ seite.info CNAME .
 *.seite.info CNAME .
 rcl.ink CNAME .
 *.rcl.ink CNAME .
-42web.io CNAME .
-*.42web.io CNAME .
 boxmode.io CNAME .
 *.boxmode.io CNAME .
 craftum.io CNAME .
@@ -1480,8 +1462,6 @@ fwh.is CNAME .
 *.fwh.is CNAME .
 135.it CNAME .
 *.135.it CNAME .
-blogspot.it CNAME .
-*.blogspot.it CNAME .
 2.je CNAME .
 *.2.je CNAME .
 24.je CNAME .
@@ -1496,8 +1476,6 @@ blogspot.it CNAME .
 *.9.je CNAME .
 xo.je CNAME .
 *.xo.je CNAME .
-blogspot.jp CNAME .
-*.blogspot.jp CNAME .
 ch.kg CNAME .
 *.ch.kg CNAME .
 gr.kg CNAME .
@@ -1640,8 +1618,6 @@ xxl.lc CNAME .
 *.xxl.lc CNAME .
 you.lc CNAME .
 *.you.lc CNAME .
-blogspot.li CNAME .
-*.blogspot.li CNAME .
 flf.li CNAME .
 *.flf.li CNAME .
 shortcm.li CNAME .
@@ -1738,8 +1714,6 @@ ju.mp CNAME .
 *.24.mu CNAME .
 world.mu CNAME .
 *.world.mu CNAME .
-blogspot.mx CNAME .
-*.blogspot.mx CNAME .
 0fees.net CNAME .
 *.0fees.net CNAME .
 one4u.0lx.net CNAME .
@@ -1858,12 +1832,8 @@ us.nf CNAME .
 *.us.nf CNAME .
 24.nl CNAME .
 *.24.nl CNAME .
-blogspot.nl CNAME .
-*.blogspot.nl CNAME .
 minilink.nl CNAME .
 *.minilink.nl CNAME .
-blogspot.no CNAME .
-*.blogspot.no CNAME .
 com.nu CNAME .
 *.com.nu CNAME .
 envy.nu CNAME .
@@ -2004,14 +1974,10 @@ fanclub.rocks CNAME .
 *.fanclub.rocks CNAME .
 mybb.rocks CNAME .
 *.mybb.rocks CNAME .
-blogspot.rs CNAME .
-*.blogspot.rs CNAME .
 mycpanel.rs CNAME .
 *.mycpanel.rs CNAME .
 bget.ru CNAME .
 *.bget.ru CNAME .
-blogspot.ru CNAME .
-*.blogspot.ru CNAME .
 corolain.ru CNAME .
 *.corolain.ru CNAME .
 hop.ru CNAME .
@@ -2052,8 +2018,6 @@ pancake.run CNAME .
 *.pancake.run CNAME .
 vn.run CNAME .
 *.vn.run CNAME .
-blogspot.se CNAME .
-*.blogspot.se CNAME .
 rapidshare.se CNAME .
 *.rapidshare.se CNAME .
 download.sh CNAME .
@@ -2098,8 +2062,6 @@ webboss.site CNAME .
 *.89q.sk CNAME .
 blogspot.sk CNAME .
 *.blogspot.sk CNAME .
-blogspot.sn CNAME .
-*.blogspot.sn CNAME .
 fli.so CNAME .
 *.fli.so CNAME .
 shorten.so CNAME .
@@ -2192,8 +2154,6 @@ quiztionnaire.uk CNAME .
 *.10h.us CNAME .
 1ll.us CNAME .
 *.1ll.us CNAME .
-20m.us CNAME .
-*.20m.us CNAME .
 f11.us CNAME .
 *.f11.us CNAME .
 lovelocals.us CNAME .

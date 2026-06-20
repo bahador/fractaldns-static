@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1781524380 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1781972520 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Jun 2026 11:53 UTC
-; Version: 2026.0615.1153.58
+; Last modified: 20 Jun 2026 16:22 UTC
+; Version: 2026.0620.1622.32
 ; Syntax: RPZ
-; Number of entries: 6882
+; Number of entries: 6872
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1021,8 +1021,6 @@ resolver2.dyndnsinternetguide.com CNAME .
 *.resolver2.dyndnsinternetguide.com CNAME .
 rafi.dynns.com CNAME .
 *.rafi.dynns.com CNAME .
-saomai.dynu.com CNAME .
-*.saomai.dynu.com CNAME .
 safe.eaccelera.com CNAME .
 *.safe.eaccelera.com CNAME .
 easyhandshake.com CNAME .
@@ -1117,8 +1115,6 @@ vps.grussenmeyer.com CNAME .
 *.vps.grussenmeyer.com CNAME .
 guanmengkai.com CNAME .
 *.guanmengkai.com CNAME .
-dns.guardmydns.com CNAME .
-*.dns.guardmydns.com CNAME .
 homedns.gumeniuk.com CNAME .
 *.homedns.gumeniuk.com CNAME .
 hkns.gzelvis.com CNAME .
@@ -1197,8 +1193,6 @@ dns.ikataruto.com CNAME .
 *.dns.ikataruto.com CNAME .
 mnsvless.ikwb.com CNAME .
 *.mnsvless.ikwb.com CNAME .
-ilinhy.com CNAME .
-*.ilinhy.com CNAME .
 dns.imaicool.com CNAME .
 *.dns.imaicool.com CNAME .
 ad.imblien.com CNAME .
@@ -3687,8 +3681,6 @@ doh.appliedprivacy.net CNAME .
 *.doh.appliedprivacy.net CNAME .
 dot1.appliedprivacy.net CNAME .
 *.dot1.appliedprivacy.net CNAME .
-doh.armadillodns.net CNAME .
-*.doh.armadillodns.net CNAME .
 resolver.as203038.net CNAME .
 *.resolver.as203038.net CNAME .
 dns.ashleyjackson.net CNAME .
@@ -6819,8 +6811,6 @@ irgrdns.nullapp.xyz CNAME .
 *.irgrdns.nullapp.xyz CNAME .
 paskam.xyz CNAME .
 *.paskam.xyz CNAME .
-loan.paymdm.xyz CNAME .
-*.loan.paymdm.xyz CNAME .
 pepetio.xyz CNAME .
 *.pepetio.xyz CNAME .
 pingbi.xyz CNAME .
