@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782026160 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782047940 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 21 Jun 2026 07:16 UTC
-; Version: 2026.0621.0716.33
+; Last modified: 21 Jun 2026 13:19 UTC
+; Version: 2026.0621.1319.20
 ; Syntax: RPZ
-; Number of entries: 2188
+; Number of entries: 2198
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -232,6 +232,8 @@ vidcloud.co CNAME .
 *.000space.com CNAME .
 000webapp.com CNAME .
 *.000webapp.com CNAME .
+000webhotapp.com CNAME .
+*.000webhotapp.com CNAME .
 000worldwide.com CNAME .
 *.000worldwide.com CNAME .
 00author.com CNAME .
@@ -430,6 +432,8 @@ events-games.com CNAME .
 *.events-games.com CNAME .
 exactpages.com CNAME .
 *.exactpages.com CNAME .
+ezyro.com CNAME .
+*.ezyro.com CNAME .
 faceboook-app.com CNAME .
 *.faceboook-app.com CNAME .
 facepl.com CNAME .
@@ -1114,6 +1118,8 @@ ch2.eu CNAME .
 *.ch2.eu CNAME .
 community24.eu CNAME .
 *.community24.eu CNAME .
+edu.eu CNAME .
+*.edu.eu CNAME .
 im-internet.eu CNAME .
 *.im-internet.eu CNAME .
 inbox24.eu CNAME .
@@ -1822,6 +1828,8 @@ x90x.net CNAME .
 *.x90x.net CNAME .
 zabc.net CNAME .
 *.zabc.net CNAME .
+aeza.network CNAME .
+*.aeza.network CNAME .
 appwrite.network CNAME .
 *.appwrite.network CNAME .
 fr.nf CNAME .
@@ -1854,6 +1862,8 @@ azl.one CNAME .
 *.azl.one CNAME .
 trim.one CNAME .
 *.trim.one CNAME .
+webpages.one CNAME .
+*.webpages.one CNAME .
 betrunken.org CNAME .
 *.betrunken.org CNAME .
 blogspot.org CNAME .
