@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782114300 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782134700 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Jun 2026 07:45 UTC
-; Version: 2026.0622.0745.50
+; Last modified: 22 Jun 2026 13:25 UTC
+; Version: 2026.0622.1325.24
 ; Syntax: RPZ
-; Number of entries: 86528
+; Number of entries: 86572
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1146,6 +1146,8 @@ ldhy.click CNAME .
 *.ldhy.click CNAME .
 leadlab.click CNAME .
 *.leadlab.click CNAME .
+meadow-assets.click CNAME .
+*.meadow-assets.click CNAME .
 o18.click CNAME .
 *.o18.click CNAME .
 pageview.click CNAME .
@@ -3370,6 +3372,8 @@ avalanchetremorunfilled.com CNAME .
 *.avalanchetremorunfilled.com CNAME .
 avantisvideo.com CNAME .
 *.avantisvideo.com CNAME .
+avebeentriflin.com CNAME .
+*.avebeentriflin.com CNAME .
 avehospitablestrangers.com CNAME .
 *.avehospitablestrangers.com CNAME .
 aveuglediking.com CNAME .
@@ -4680,6 +4684,8 @@ code4us.com CNAME .
 *.code4us.com CNAME .
 codeanyapp.com CNAME .
 *.codeanyapp.com CNAME .
+codedrink.com CNAME .
+*.codedrink.com CNAME .
 codesour.com CNAME .
 *.codesour.com CNAME .
 coin-hive.com CNAME .
@@ -5520,6 +5526,8 @@ droughtperceptive.com CNAME .
 *.droughtperceptive.com CNAME .
 drsmediaexchange.com CNAME .
 *.drsmediaexchange.com CNAME .
+druxxo.com CNAME .
+*.druxxo.com CNAME .
 dryperception.com CNAME .
 *.dryperception.com CNAME .
 dsail-tech.com CNAME .
@@ -9400,6 +9408,8 @@ neighborlywatch.com CNAME .
 *.neighborlywatch.com CNAME .
 neladyhe.com CNAME .
 *.neladyhe.com CNAME .
+neo7x.com CNAME .
+*.neo7x.com CNAME .
 neodatagroup.com CNAME .
 *.neodatagroup.com CNAME .
 nereserv.com CNAME .
@@ -12476,8 +12486,6 @@ swatledgesling.com CNAME .
 *.swatledgesling.com CNAME .
 swaven.com CNAME .
 *.swaven.com CNAME .
-sweepstakesalerts.com CNAME .
-*.sweepstakesalerts.com CNAME .
 swift6060.com CNAME .
 *.swift6060.com CNAME .
 swinity.com CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782115620 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782124260 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Jun 2026 08:07 UTC
-; Version: 2026.0622.0807.09
+; Last modified: 22 Jun 2026 10:31 UTC
+; Version: 2026.0622.1031.50
 ; Syntax: RPZ
-; Number of entries: 57930
+; Number of entries: 57932
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -11616,6 +11616,8 @@ tapedown.com CNAME .
 *.tapedown.com CNAME .
 taraftarium24bjk.com CNAME .
 *.taraftarium24bjk.com CNAME .
+taraftarium24bjk4.com CNAME .
+*.taraftarium24bjk4.com CNAME .
 tarhex.com CNAME .
 *.tarhex.com CNAME .
 tarjetarojatvhd.com CNAME .
