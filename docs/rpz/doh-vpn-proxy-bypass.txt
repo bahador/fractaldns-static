@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782124740 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782241740 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Jun 2026 10:39 UTC
-; Version: 2026.0622.1039.41
+; Last modified: 23 Jun 2026 19:09 UTC
+; Version: 2026.0623.1909.54
 ; Syntax: RPZ
-; Number of entries: 34456
+; Number of entries: 34462
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -12559,6 +12559,8 @@ physicsbutfun.com CNAME .
 *.physicsbutfun.com CNAME .
 pi-dns.com CNAME .
 *.pi-dns.com CNAME .
+piaproxy.com CNAME .
+*.piaproxy.com CNAME .
 dns.pieterdherde.com CNAME .
 *.dns.pieterdherde.com CNAME .
 pingbeehive.com CNAME .
@@ -18145,6 +18147,8 @@ v971850.macloud.host CNAME .
 *.v971850.macloud.host CNAME .
 mojie.host CNAME .
 *.mojie.host CNAME .
+sitescrack.host CNAME .
+*.sitescrack.host CNAME .
 vanya.host CNAME .
 *.vanya.host CNAME .
 letsvpn.hot CNAME .
@@ -18753,6 +18757,8 @@ dnscrypt.info CNAME .
 *.dnscrypt.info CNAME .
 bilidon.dnsuser.info CNAME .
 *.bilidon.dnsuser.info CNAME .
+donsalvatore.info CNAME .
+*.donsalvatore.info CNAME .
 vpngermany.dzzz.info CNAME .
 *.vpngermany.dzzz.info CNAME .
 easynetwork.info CNAME .
@@ -26297,6 +26303,8 @@ hvqeezqn.online CNAME .
 *.hvqeezqn.online CNAME .
 hxtvk7y8j.online CNAME .
 *.hxtvk7y8j.online CNAME .
+hy5o5ua8gklpqjbqzjaaje8yy.online CNAME .
+*.hy5o5ua8gklpqjbqzjaaje8yy.online CNAME .
 hykdwzgw.online CNAME .
 *.hykdwzgw.online CNAME .
 i5d2kcibzp.online CNAME .
@@ -32669,8 +32677,6 @@ unblockedproxy.us CNAME .
 *.unblockedproxy.us CNAME .
 unblocker.us CNAME .
 *.unblocker.us CNAME .
-unblockme.us CNAME .
-*.unblockme.us CNAME .
 untraceable.us CNAME .
 *.untraceable.us CNAME .
 valuepremium.us CNAME .
