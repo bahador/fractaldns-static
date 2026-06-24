@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782239760 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782326160 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Jun 2026 18:36 UTC
-; Version: 2026.0623.1836.37
+; Last modified: 24 Jun 2026 18:36 UTC
+; Version: 2026.0624.1836.52
 ; Syntax: RPZ
-; Number of entries: 2454
+; Number of entries: 2456
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -898,6 +898,8 @@ vdxh.com CNAME .
 *.vdxh.com CNAME .
 veritafinancebank.com CNAME .
 *.veritafinancebank.com CNAME .
+vuzelia.com CNAME .
+*.vuzelia.com CNAME .
 w3spaces.com CNAME .
 *.w3spaces.com CNAME .
 webaccess-alert.com CNAME .
