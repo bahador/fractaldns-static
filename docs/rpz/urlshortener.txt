@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782238260 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782251640 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Jun 2026 18:11 UTC
-; Version: 2026.0623.1811.07
+; Last modified: 23 Jun 2026 21:54 UTC
+; Version: 2026.0623.2154.04
 ; Syntax: RPZ
-; Number of entries: 20182
+; Number of entries: 20178
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -8469,8 +8469,6 @@ zln.do CNAME .
 *.zln.do CNAME .
 wow.doctor CNAME .
 *.wow.doctor CNAME .
-looselead.dog CNAME .
-*.looselead.dog CNAME .
 adr.ec CNAME .
 *.adr.ec CNAME .
 cyb.ec CNAME .
@@ -19847,8 +19845,6 @@ vpn2.win CNAME .
 *.vpn2.win CNAME .
 jetzt.work CNAME .
 *.jetzt.work CNAME .
-mkoe.work CNAME .
-*.mkoe.work CNAME .
 myup.work CNAME .
 *.myup.work CNAME .
 nswroads.work CNAME .

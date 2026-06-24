@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782240300 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782269700 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Jun 2026 18:45 UTC
-; Version: 2026.0623.1845.44
+; Last modified: 24 Jun 2026 02:55 UTC
+; Version: 2026.0624.0255.02
 ; Syntax: RPZ
-; Number of entries: 87796
+; Number of entries: 87814
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -5972,6 +5972,8 @@ exrtbsrv.com CNAME .
 *.exrtbsrv.com CNAME .
 ext-jscdn.com CNAME .
 *.ext-jscdn.com CNAME .
+exteriorsingularsharply.com CNAME .
+*.exteriorsingularsharply.com CNAME .
 extrawatch.com CNAME .
 *.extrawatch.com CNAME .
 extreme-dm.com CNAME .
@@ -18688,6 +18690,8 @@ gulsachjewing.qpon CNAME .
 *.gulsachjewing.qpon CNAME .
 gutlessparsec.qpon CNAME .
 *.gutlessparsec.qpon CNAME .
+hatteryambry.qpon CNAME .
+*.hatteryambry.qpon CNAME .
 heuchscashaws.qpon CNAME .
 *.heuchscashaws.qpon CNAME .
 hookeyslampruh.qpon CNAME .
