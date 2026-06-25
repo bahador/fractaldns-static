@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782328260 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782374520 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 24 Jun 2026 19:11 UTC
-; Version: 2026.0624.1911.22
+; Last modified: 25 Jun 2026 08:02 UTC
+; Version: 2026.0625.0802.21
 ; Syntax: RPZ
-; Number of entries: 34450
+; Number of entries: 34454
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -33615,6 +33615,8 @@ gehzen.xyz CNAME .
 *.gehzen.xyz CNAME .
 gehzor.xyz CNAME .
 *.gehzor.xyz CNAME .
+www-proxy.gelaxiz.xyz CNAME .
+*.www-proxy.gelaxiz.xyz CNAME .
 getverdant.xyz CNAME .
 *.getverdant.xyz CNAME .
 getxvpn.xyz CNAME .
@@ -34379,6 +34381,8 @@ garlandisd.almotek.co.za CNAME .
 *.garlandisd.almotek.co.za CNAME .
 educationbooks.boxrepublic.co.za CNAME .
 *.educationbooks.boxrepublic.co.za CNAME .
+ct1doh.cipherdns.co.za CNAME .
+*.ct1doh.cipherdns.co.za CNAME .
 jb1doh.cipherdns.co.za CNAME .
 *.jb1doh.cipherdns.co.za CNAME .
 end.creativelighting.co.za CNAME .

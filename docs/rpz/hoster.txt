@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782353400 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782372120 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 25 Jun 2026 02:10 UTC
-; Version: 2026.0625.0210.40
+; Last modified: 25 Jun 2026 07:22 UTC
+; Version: 2026.0625.0722.55
 ; Syntax: RPZ
-; Number of entries: 2454
+; Number of entries: 2452
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -1622,8 +1622,6 @@ nicepage.io CNAME .
 *.nicepage.io CNAME .
 nip.io CNAME .
 *.nip.io CNAME .
-nxcli.io CNAME .
-*.nxcli.io CNAME .
 psee.io CNAME .
 *.psee.io CNAME .
 qrsu.io CNAME .
