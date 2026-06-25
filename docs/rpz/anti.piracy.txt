@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782327780 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782354720 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 24 Jun 2026 19:03 UTC
-; Version: 2026.0624.1903.38
+; Last modified: 25 Jun 2026 02:32 UTC
+; Version: 2026.0625.0232.13
 ; Syntax: RPZ
-; Number of entries: 58262
+; Number of entries: 58266
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -9898,6 +9898,8 @@ moviesflixcc.com CNAME .
 *.moviesflixcc.com CNAME .
 moviesfoundonline.com CNAME .
 *.moviesfoundonline.com CNAME .
+movieshubz.com CNAME .
+*.movieshubz.com CNAME .
 moviesmod02.com CNAME .
 *.moviesmod02.com CNAME .
 moviesmod1.com CNAME .
@@ -15398,6 +15400,8 @@ hdmovie2.foundation CNAME .
 *.hdmovie2.foundation CNAME .
 lookmovie.foundation CNAME .
 *.lookmovie.foundation CNAME .
+yomovies.foundation CNAME .
+*.yomovies.foundation CNAME .
 alldebrid.fr CNAME .
 *.alldebrid.fr CNAME .
 animationdigitalnetwork.fr CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782326160 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782353400 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 24 Jun 2026 18:36 UTC
-; Version: 2026.0624.1836.52
+; Last modified: 25 Jun 2026 02:10 UTC
+; Version: 2026.0625.0210.40
 ; Syntax: RPZ
-; Number of entries: 2456
+; Number of entries: 2454
 ;
 come.ac CNAME .
 *.come.ac CNAME .
@@ -116,6 +116,10 @@ blogspot.be CNAME .
 *.blogspot.be CNAME .
 shortu.be CNAME .
 *.shortu.be CNAME .
+blogspot.bg CNAME .
+*.blogspot.bg CNAME .
+keepo.bio CNAME .
+*.keepo.bio CNAME .
 1x.biz CNAME .
 *.1x.biz CNAME .
 awardspace.biz CNAME .
@@ -146,6 +150,8 @@ blogspot.com.br CNAME .
 *.blogspot.com.br CNAME .
 encurtador.com.br CNAME .
 *.encurtador.com.br CNAME .
+vpn.net.br CNAME .
+*.vpn.net.br CNAME .
 files.bz CNAME .
 *.files.bz CNAME .
 fw.bz CNAME .
@@ -158,12 +164,10 @@ flyjasper.ca CNAME .
 *.flyjasper.ca CNAME .
 ja.cat CNAME .
 *.ja.cat CNAME .
-premiumbyleo.co.cc CNAME .
-*.premiumbyleo.co.cc CNAME .
+ccwu.cc CNAME .
+*.ccwu.cc CNAME .
 surfblocked.co.cc CNAME .
 *.surfblocked.co.cc CNAME .
-universitriat.co.cc CNAME .
-*.universitriat.co.cc CNAME .
 flu.cc CNAME .
 *.flu.cc CNAME .
 freehosting.cc CNAME .
@@ -188,8 +192,6 @@ uploadbuzz.cc CNAME .
 *.uploadbuzz.cc CNAME .
 webn.cc CNAME .
 *.webn.cc CNAME .
-wox.cc CNAME .
-*.wox.cc CNAME .
 bitzli.ch CNAME .
 *.bitzli.ch CNAME .
 blogspot.ch CNAME .
@@ -236,8 +238,6 @@ synergize.co CNAME .
 *.synergize.co CNAME .
 vidcloud.co CNAME .
 *.vidcloud.co CNAME .
-000space.com CNAME .
-*.000space.com CNAME .
 000webapp.com CNAME .
 *.000webapp.com CNAME .
 000webhost.com CNAME .
@@ -302,8 +302,6 @@ vidcloud.co CNAME .
 *.20m.com CNAME .
 2itb.com CNAME .
 *.2itb.com CNAME .
-2shared.com CNAME .
-*.2shared.com CNAME .
 350.com CNAME .
 *.350.com CNAME .
 3blogger.com CNAME .
@@ -386,6 +384,8 @@ byethost12.com CNAME .
 *.byethost12.com CNAME .
 byethost13.com CNAME .
 *.byethost13.com CNAME .
+byethost14.com CNAME .
+*.byethost14.com CNAME .
 byethost17.com CNAME .
 *.byethost17.com CNAME .
 byethost18.com CNAME .
@@ -448,8 +448,6 @@ sitebeat.crazydomains.com CNAME .
 *.sitebeat.crazydomains.com CNAME .
 crypto-market-world.com CNAME .
 *.crypto-market-world.com CNAME .
-ctempurl.com CNAME .
-*.ctempurl.com CNAME .
 cutedrive.com CNAME .
 *.cutedrive.com CNAME .
 cyberbree.com CNAME .
@@ -692,6 +690,8 @@ kiluweb.com CNAME .
 *.kiluweb.com CNAME .
 kraftonevent.com CNAME .
 *.kraftonevent.com CNAME .
+launchaco.com CNAME .
+*.launchaco.com CNAME .
 leaguelineup.com CNAME .
 *.leaguelineup.com CNAME .
 leechall.com CNAME .
@@ -726,6 +726,8 @@ merchats.com CNAME .
 *.merchats.com CNAME .
 microsoftaistories.com CNAME .
 *.microsoftaistories.com CNAME .
+mihanblog.com CNAME .
+*.mihanblog.com CNAME .
 mindnmagick.com CNAME .
 *.mindnmagick.com CNAME .
 mirorii.com CNAME .
@@ -814,6 +816,8 @@ citybios.sa.com CNAME .
 *.citybios.sa.com CNAME .
 schoolrack.com CNAME .
 *.schoolrack.com CNAME .
+sebipay.com CNAME .
+*.sebipay.com CNAME .
 securebankinggroup.com CNAME .
 *.securebankinggroup.com CNAME .
 seite.com CNAME .
@@ -848,8 +852,6 @@ t35.com CNAME .
 *.t35.com CNAME .
 teamzonesports.com CNAME .
 *.teamzonesports.com CNAME .
-tek-blogs.com CNAME .
-*.tek-blogs.com CNAME .
 tempisite.com CNAME .
 *.tempisite.com CNAME .
 the-finance-world.com CNAME .
@@ -1360,8 +1362,6 @@ eu.gg CNAME .
 *.eu.gg CNAME .
 fun.gg CNAME .
 *.fun.gg CNAME .
-it.gg CNAME .
-*.it.gg CNAME .
 server.gg CNAME .
 *.server.gg CNAME .
 usa.gg CNAME .
@@ -1540,8 +1540,6 @@ ns.hn CNAME .
 *.ns.hn CNAME .
 shopping.hn CNAME .
 *.shopping.hn CNAME .
-portmap.host CNAME .
-*.portmap.host CNAME .
 sviluppo.host CNAME .
 *.sviluppo.host CNAME .
 tiiny.host CNAME .
@@ -1608,8 +1606,6 @@ profis.info CNAME .
 *.profis.info CNAME .
 seite.info CNAME .
 *.seite.info CNAME .
-rcl.ink CNAME .
-*.rcl.ink CNAME .
 42web.io CNAME .
 *.42web.io CNAME .
 boxmode.io CNAME .
@@ -1628,6 +1624,8 @@ nip.io CNAME .
 *.nip.io CNAME .
 nxcli.io CNAME .
 *.nxcli.io CNAME .
+psee.io CNAME .
+*.psee.io CNAME .
 qrsu.io CNAME .
 *.qrsu.io CNAME .
 risu.io CNAME .
@@ -1644,8 +1642,6 @@ wstd.io CNAME .
 *.wstd.io CNAME .
 yu3.io CNAME .
 *.yu3.io CNAME .
-2m.is CNAME .
-*.2m.is CNAME .
 fwh.is CNAME .
 *.fwh.is CNAME .
 135.it CNAME .
@@ -1872,8 +1868,6 @@ infinityfree.me CNAME .
 *.infinityfree.me CNAME .
 linkfast.me CNAME .
 *.linkfast.me CNAME .
-linkku.me CNAME .
-*.linkku.me CNAME .
 mybluehost.me CNAME .
 *.mybluehost.me CNAME .
 mybluehostin.me CNAME .
@@ -2058,8 +2052,6 @@ zabc.net CNAME .
 *.zabc.net CNAME .
 aeza.network CNAME .
 *.aeza.network CNAME .
-appwrite.network CNAME .
-*.appwrite.network CNAME .
 fr.nf CNAME .
 *.fr.nf CNAME .
 free.nf CNAME .
@@ -2180,6 +2172,8 @@ tinyurl.ph CNAME .
 *.tinyurl.ph CNAME .
 5v.pl CNAME .
 *.5v.pl CNAME .
+blogspot.pl CNAME .
+*.blogspot.pl CNAME .
 c.pl CNAME .
 *.c.pl CNAME .
 ct8.pl CNAME .
@@ -2214,14 +2208,14 @@ hostfree.pw CNAME .
 *.hostfree.pw CNAME .
 mybb.pw CNAME .
 *.mybb.pw CNAME .
+psce.pw CNAME .
+*.psce.pw CNAME .
 verifypass.pw CNAME .
 *.verifypass.pw CNAME .
 cli.re CNAME .
 *.cli.re CNAME .
 fanclub.rocks CNAME .
 *.fanclub.rocks CNAME .
-mybb.rocks CNAME .
-*.mybb.rocks CNAME .
 blogspot.rs CNAME .
 *.blogspot.rs CNAME .
 mycpanel.rs CNAME .
@@ -2296,8 +2290,6 @@ surge.sh CNAME .
 *.surge.sh CNAME .
 downfall.shop CNAME .
 *.downfall.shop CNAME .
-onlineweb.shop CNAME .
-*.onlineweb.shop CNAME .
 pizzakeep.shop CNAME .
 *.pizzakeep.shop CNAME .
 yuichi.shop CNAME .
@@ -2320,6 +2312,8 @@ temporary-demo.site CNAME .
 *.temporary-demo.site CNAME .
 tiiny.site CNAME .
 *.tiiny.site CNAME .
+turbo.site CNAME .
+*.turbo.site CNAME .
 wapka.site CNAME .
 *.wapka.site CNAME .
 webboss.site CNAME .
@@ -2344,6 +2338,8 @@ uk.st CNAME .
 *.uk.st CNAME .
 us.st CNAME .
 *.us.st CNAME .
+secureonline.store CNAME .
+*.secureonline.store CNAME .
 wapka.store CNAME .
 *.wapka.store CNAME .
 yip.su CNAME .
@@ -2444,6 +2440,8 @@ gg123.vip CNAME .
 *.gg123.vip CNAME .
 m.vu CNAME .
 *.m.vu CNAME .
+my-free.website CNAME .
+*.my-free.website CNAME .
 onepage.website CNAME .
 *.onepage.website CNAME .
 wapka.website CNAME .
