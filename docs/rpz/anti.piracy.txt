@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782373860 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782414420 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 25 Jun 2026 07:51 UTC
-; Version: 2026.0625.0751.51
+; Last modified: 25 Jun 2026 19:07 UTC
+; Version: 2026.0625.1907.01
 ; Syntax: RPZ
 ; Number of entries: 58736
 ;
@@ -9980,6 +9980,8 @@ movietvplay.com CNAME .
 *.movietvplay.com CNAME .
 moviezenith.com CNAME .
 *.moviezenith.com CNAME .
+moviezenn.com CNAME .
+*.moviezenn.com CNAME .
 moviful.com CNAME .
 *.moviful.com CNAME .
 movizdb.com CNAME .
@@ -16372,8 +16374,6 @@ xalaflix.health CNAME .
 *.xalaflix.health CNAME .
 10hitmovies.help CNAME .
 *.10hitmovies.help CNAME .
-123moviesfree.help CNAME .
-*.123moviesfree.help CNAME .
 altadefinizionegratis.help CNAME .
 *.altadefinizionegratis.help CNAME .
 casa-cinema.help CNAME .
@@ -20184,6 +20184,8 @@ kinox.co.jp CNAME .
 *.kinox.co.jp CNAME .
 filmarchives.jp CNAME .
 *.filmarchives.jp CNAME .
+gachanime.jp CNAME .
+*.gachanime.jp CNAME .
 mathkangaroo.jp CNAME .
 *.mathkangaroo.jp CNAME .
 cb01.kaufen CNAME .
@@ -27662,8 +27664,6 @@ vegamovies.locker CNAME .
 *.123movieshub.lol CNAME .
 123moviesnet.lol CNAME .
 *.123moviesnet.lol CNAME .
-1jour1filmhd.lol CNAME .
-*.1jour1filmhd.lol CNAME .
 1movies-hd.lol CNAME .
 *.1movies-hd.lol CNAME .
 24chasa-lordfilm.lol CNAME .
