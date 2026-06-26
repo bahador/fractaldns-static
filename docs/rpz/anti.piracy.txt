@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782460380 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782470280 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Jun 2026 07:53 UTC
-; Version: 2026.0626.0753.29
+; Last modified: 26 Jun 2026 10:38 UTC
+; Version: 2026.0626.1038.28
 ; Syntax: RPZ
-; Number of entries: 59344
+; Number of entries: 59340
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -14094,8 +14094,6 @@ pelisflix200.cyou CNAME .
 *.pelisflix200.cyou CNAME .
 purstream.cyou CNAME .
 *.purstream.cyou CNAME .
-putlocker.cyou CNAME .
-*.putlocker.cyou CNAME .
 putlocker-gy.cyou CNAME .
 *.putlocker-gy.cyou CNAME .
 putlocker-pe.cyou CNAME .
@@ -58994,8 +58992,6 @@ torrented.xyz CNAME .
 *.torrented.xyz CNAME .
 torrenteth.xyz CNAME .
 *.torrenteth.xyz CNAME .
-torrentfreak.xyz CNAME .
-*.torrentfreak.xyz CNAME .
 torrentfreaks.xyz CNAME .
 *.torrentfreaks.xyz CNAME .
 torrentfund.xyz CNAME .
