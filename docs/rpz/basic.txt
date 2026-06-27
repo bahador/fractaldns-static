@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782545880 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782586140 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Jun 2026 07:38 UTC
-; Version: 2026.0627.0738.46
+; Last modified: 27 Jun 2026 18:49 UTC
+; Version: 2026.0627.1849.17
 ; Syntax: RPZ
-; Number of entries: 87544
+; Number of entries: 87616
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -3390,6 +3390,8 @@ axjndvucr.com CNAME .
 *.axjndvucr.com CNAME .
 axonix.com CNAME .
 *.axonix.com CNAME .
+axonixgrid.com CNAME .
+*.axonixgrid.com CNAME .
 azontree.com CNAME .
 *.azontree.com CNAME .
 b-sing.com CNAME .
@@ -5680,6 +5682,8 @@ easyhits4u.com CNAME .
 *.easyhits4u.com CNAME .
 easytomessage.com CNAME .
 *.easytomessage.com CNAME .
+eatcells.com CNAME .
+*.eatcells.com CNAME .
 eatenmockingoverwhelm.com CNAME .
 *.eatenmockingoverwhelm.com CNAME .
 eazel.com CNAME .
@@ -9974,8 +9978,6 @@ pbterra.com CNAME .
 *.pbterra.com CNAME .
 pbxai.com CNAME .
 *.pbxai.com CNAME .
-pchelpsoft.com CNAME .
-*.pchelpsoft.com CNAME .
 pcpop.com CNAME .
 *.pcpop.com CNAME .
 pcprotect.com CNAME .
@@ -11494,8 +11496,6 @@ searchmagnified.com CNAME .
 *.searchmagnified.com CNAME .
 searchmarketing.com CNAME .
 *.searchmarketing.com CNAME .
-searchmarquis.com CNAME .
-*.searchmarquis.com CNAME .
 searchpoweronline.com CNAME .
 *.searchpoweronline.com CNAME .
 searchresultsworld.com CNAME .
@@ -15214,6 +15214,8 @@ galaxiemedia.fr CNAME .
 *.galaxiemedia.fr CNAME .
 mediasquare.fr CNAME .
 *.mediasquare.fr CNAME .
+oopt.fr CNAME .
+*.oopt.fr CNAME .
 orangeads.fr CNAME .
 *.orangeads.fr CNAME .
 pharmacie-sterling.fr CNAME .
