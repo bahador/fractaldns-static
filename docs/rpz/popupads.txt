@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782629400 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782669960 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 28 Jun 2026 06:50 UTC
-; Version: 2026.0628.0650.58
+; Last modified: 28 Jun 2026 18:06 UTC
+; Version: 2026.0628.1806.42
 ; Syntax: RPZ
-; Number of entries: 114516
+; Number of entries: 114502
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -2872,24 +2872,8 @@ hengde.cn CNAME .
 *.hengde.cn CNAME .
 qiejushuo.hirz.cn CNAME .
 *.qiejushuo.hirz.cn CNAME .
-app-google-zh.hl.cn CNAME .
-*.app-google-zh.hl.cn CNAME .
-go-todesk.hl.cn CNAME .
-*.go-todesk.hl.cn CNAME .
-google-google-chrome-google-com.hl.cn CNAME .
-*.google-google-chrome-google-com.hl.cn CNAME .
-line-go.hl.cn CNAME .
-*.line-go.hl.cn CNAME .
-qh-qishuiyinyue.hl.cn CNAME .
-*.qh-qishuiyinyue.hl.cn CNAME .
-qishuimusic-cn.hl.cn CNAME .
-*.qishuimusic-cn.hl.cn CNAME .
-todesk-web.hl.cn CNAME .
-*.todesk-web.hl.cn CNAME .
-todesk-zh.hl.cn CNAME .
-*.todesk-zh.hl.cn CNAME .
-zh-todesk-cn.hl.cn CNAME .
-*.zh-todesk-cn.hl.cn CNAME .
+hl.cn CNAME .
+*.hl.cn CNAME .
 ho521.cn CNAME .
 *.ho521.cn CNAME .
 hologramid.cn CNAME .
@@ -44164,6 +44148,8 @@ maurits.it.com CNAME .
 *.maurits.it.com CNAME .
 pata.it.com CNAME .
 *.pata.it.com CNAME .
+yewfjsdi.it.com CNAME .
+*.yewfjsdi.it.com CNAME .
 it62.com CNAME .
 *.it62.com CNAME .
 italianbeepimpediment.com CNAME .
@@ -80658,6 +80644,8 @@ daoasa.cyou CNAME .
 *.daoasa.cyou CNAME .
 daosa.cyou CNAME .
 *.daosa.cyou CNAME .
+dikaulicon.cyou CNAME .
+*.dikaulicon.cyou CNAME .
 dryopeunroots.cyou CNAME .
 *.dryopeunroots.cyou CNAME .
 oo.ecgoninchasses.cyou CNAME .
@@ -99166,6 +99154,8 @@ preciousnormal.pro CNAME .
 *.preciousnormal.pro CNAME .
 preciousprofile.pro CNAME .
 *.preciousprofile.pro CNAME .
+present-average.pro CNAME .
+*.present-average.pro CNAME .
 presenthospital.pro CNAME .
 *.presenthospital.pro CNAME .
 presentlab.pro CNAME .
@@ -101836,12 +101826,8 @@ barmanonymity.shop CNAME .
 *.barmanonymity.shop CNAME .
 barmingorrhoid.shop CNAME .
 *.barmingorrhoid.shop CNAME .
-chiyouranai.base.shop CNAME .
-*.chiyouranai.base.shop CNAME .
-tokujiro.base.shop CNAME .
-*.tokujiro.base.shop CNAME .
-uranai1111.base.shop CNAME .
-*.uranai1111.base.shop CNAME .
+base.shop CNAME .
+*.base.shop CNAME .
 basiscopyright.shop CNAME .
 *.basiscopyright.shop CNAME .
 battuelevered.shop CNAME .

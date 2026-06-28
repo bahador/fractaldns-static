@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782370560 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782654780 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 25 Jun 2026 06:56 UTC
-; Version: 2026.0625.0656.47
+; Last modified: 28 Jun 2026 13:53 UTC
+; Version: 2026.0628.1353.50
 ; Syntax: RPZ
-; Number of entries: 19996
+; Number of entries: 20000
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -4815,6 +4815,8 @@ clubhouse.it.com CNAME .
 *.clubhouse.it.com CNAME .
 linkbio.it.com CNAME .
 *.linkbio.it.com CNAME .
+yewfjsdi.it.com CNAME .
+*.yewfjsdi.it.com CNAME .
 kutt.itarian.com CNAME .
 *.kutt.itarian.com CNAME .
 itp24.com CNAME .
@@ -8247,6 +8249,8 @@ al4.dev CNAME .
 *.al4.dev CNAME .
 hive.arf.dev CNAME .
 *.hive.arf.dev CNAME .
+asset-cdn.dev CNAME .
+*.asset-cdn.dev CNAME .
 bridge.dev CNAME .
 *.bridge.dev CNAME .
 kutt.cengo.dev CNAME .
