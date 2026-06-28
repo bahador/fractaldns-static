@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782543360 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782629580 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Jun 2026 06:56 UTC
-; Version: 2026.0627.0656.03
+; Last modified: 28 Jun 2026 06:53 UTC
+; Version: 2026.0628.0653.29
 ; Syntax: RPZ
 ; Number of entries: 33702
 ;
@@ -4550,6 +4550,8 @@ canadadrugstore.com CNAME .
 *.canadadrugstore.com CNAME .
 canadanewsreport.com CNAME .
 *.canadanewsreport.com CNAME .
+canadapharmacyonline.com CNAME .
+*.canadapharmacyonline.com CNAME .
 canadapharmacypro.com CNAME .
 *.canadapharmacypro.com CNAME .
 canadasale365.com CNAME .
@@ -14230,8 +14232,6 @@ orderbuycheap.com CNAME .
 *.orderbuycheap.com CNAME .
 ordergunmagazinesonline.com CNAME .
 *.ordergunmagazinesonline.com CNAME .
-orderrxstore.com CNAME .
-*.orderrxstore.com CNAME .
 ordersurfsite.com CNAME .
 *.ordersurfsite.com CNAME .
 orderumbrella.com CNAME .
@@ -26142,8 +26142,6 @@ moodlily.de CNAME .
 *.moodlily.de CNAME .
 moonpod.de CNAME .
 *.moonpod.de CNAME .
-mooris.de CNAME .
-*.mooris.de CNAME .
 moosufergarten.de CNAME .
 *.moosufergarten.de CNAME .
 mooxishop.de CNAME .
@@ -32188,6 +32186,8 @@ modellbahnshop-club.shop CNAME .
 *.modellbahnshop-club.shop CNAME .
 modernnestliving.shop CNAME .
 *.modernnestliving.shop CNAME .
+moderwear.shop CNAME .
+*.moderwear.shop CNAME .
 modvigil.shop CNAME .
 *.modvigil.shop CNAME .
 moedllbahnlippe.shop CNAME .
