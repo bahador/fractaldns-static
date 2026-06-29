@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782587880 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782720900 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Jun 2026 19:18 UTC
-; Version: 2026.0627.1918.04
+; Last modified: 29 Jun 2026 08:15 UTC
+; Version: 2026.0629.0815.55
 ; Syntax: RPZ
-; Number of entries: 34456
+; Number of entries: 34460
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -17655,6 +17655,8 @@ ipprotectionauth.goog CNAME .
 *.8888.google CNAME .
 dns.google CNAME .
 *.dns.google CNAME .
+ohttp.prod.via.google CNAME .
+*.ohttp.prod.via.google CNAME .
 nicsezcheckfbi.gov CNAME .
 *.nicsezcheckfbi.gov CNAME .
 r.achievementnetwork.gq CNAME .
@@ -30689,6 +30691,8 @@ dns.olimpya44.shop CNAME .
 *.dns.olimpya44.shop CNAME .
 paradise-human.shop CNAME .
 *.paradise-human.shop CNAME .
+randomdomain.shop CNAME .
+*.randomdomain.shop CNAME .
 rivrs.shop CNAME .
 *.rivrs.shop CNAME .
 secure-proxy.shop CNAME .
