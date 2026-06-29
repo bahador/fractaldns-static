@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782715980 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782756480 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 29 Jun 2026 06:53 UTC
-; Version: 2026.0629.0653.29
+; Last modified: 29 Jun 2026 18:08 UTC
+; Version: 2026.0629.1808.25
 ; Syntax: RPZ
-; Number of entries: 33662
+; Number of entries: 33660
 ;
 prosperi.academy CNAME .
 *.prosperi.academy CNAME .
@@ -24022,8 +24022,6 @@ haustechnik-muenchen.de CNAME .
 *.haustechnik-muenchen.de CNAME .
 haustechnikmeine.de CNAME .
 *.haustechnikmeine.de CNAME .
-haustierstolz.de CNAME .
-*.haustierstolz.de CNAME .
 haustirwelten.de CNAME .
 *.haustirwelten.de CNAME .
 hautecouturetaschenreinigung.de CNAME .

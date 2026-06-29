@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782720900 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782760680 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 29 Jun 2026 08:15 UTC
-; Version: 2026.0629.0815.55
+; Last modified: 29 Jun 2026 19:18 UTC
+; Version: 2026.0629.1918.01
 ; Syntax: RPZ
-; Number of entries: 34460
+; Number of entries: 34458
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -23967,8 +23967,6 @@ feisucloud.net CNAME .
 *.feisucloud.net CNAME .
 feiyujiasu.net CNAME .
 *.feiyujiasu.net CNAME .
-feiyulink.net CNAME .
-*.feiyulink.net CNAME .
 dnscrypt-cert.ffmuc.net CNAME .
 *.dnscrypt-cert.ffmuc.net CNAME .
 doh.ffmuc.net CNAME .
