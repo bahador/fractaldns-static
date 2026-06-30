@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782835740 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782846060 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 30 Jun 2026 16:09 UTC
-; Version: 2026.0630.1609.59
+; Last modified: 30 Jun 2026 19:01 UTC
+; Version: 2026.0630.1901.04
 ; Syntax: RPZ
-; Number of entries: 61392
+; Number of entries: 61396
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -5916,6 +5916,8 @@ animefillerchecker.com CNAME .
 *.animefillerchecker.com CNAME .
 animeflvnet.com CNAME .
 *.animeflvnet.com CNAME .
+animegojoo.com CNAME .
+*.animegojoo.com CNAME .
 animehd47.com CNAME .
 *.animehd47.com CNAME .
 animekaizoku.com CNAME .
@@ -52808,6 +52810,8 @@ putlocker.sb CNAME .
 *.123moviefree.sbs CNAME .
 123moviesla.sbs CNAME .
 *.123moviesla.sbs CNAME .
+123moviesz.sbs CNAME .
+*.123moviesz.sbs CNAME .
 1movierulzhd.sbs CNAME .
 *.1movierulzhd.sbs CNAME .
 5movies.sbs CNAME .

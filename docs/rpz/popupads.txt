@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782832080 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782842700 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 30 Jun 2026 15:08 UTC
-; Version: 2026.0630.1508.14
+; Last modified: 30 Jun 2026 18:05 UTC
+; Version: 2026.0630.1805.32
 ; Syntax: RPZ
-; Number of entries: 114392
+; Number of entries: 114374
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -2872,24 +2872,8 @@ hengde.cn CNAME .
 *.hengde.cn CNAME .
 qiejushuo.hirz.cn CNAME .
 *.qiejushuo.hirz.cn CNAME .
-app-google-zh.hl.cn CNAME .
-*.app-google-zh.hl.cn CNAME .
-go-todesk.hl.cn CNAME .
-*.go-todesk.hl.cn CNAME .
-google-google-chrome-google-com.hl.cn CNAME .
-*.google-google-chrome-google-com.hl.cn CNAME .
-line-go.hl.cn CNAME .
-*.line-go.hl.cn CNAME .
-qh-qishuiyinyue.hl.cn CNAME .
-*.qh-qishuiyinyue.hl.cn CNAME .
-qishuimusic-cn.hl.cn CNAME .
-*.qishuimusic-cn.hl.cn CNAME .
-todesk-web.hl.cn CNAME .
-*.todesk-web.hl.cn CNAME .
-todesk-zh.hl.cn CNAME .
-*.todesk-zh.hl.cn CNAME .
-zh-todesk-cn.hl.cn CNAME .
-*.zh-todesk-cn.hl.cn CNAME .
+hl.cn CNAME .
+*.hl.cn CNAME .
 ho521.cn CNAME .
 *.ho521.cn CNAME .
 hologramid.cn CNAME .
@@ -77650,6 +77634,8 @@ wonderfullypeered.com CNAME .
 *.wonderfullypeered.com CNAME .
 wongahmalta.com CNAME .
 *.wongahmalta.com CNAME .
+wonmijrnd.com CNAME .
+*.wonmijrnd.com CNAME .
 wonnerdirging.com CNAME .
 *.wonnerdirging.com CNAME .
 oh.woodboxfilasse.com CNAME .
@@ -101710,12 +101696,8 @@ barmanonymity.shop CNAME .
 *.barmanonymity.shop CNAME .
 barmingorrhoid.shop CNAME .
 *.barmingorrhoid.shop CNAME .
-chiyouranai.base.shop CNAME .
-*.chiyouranai.base.shop CNAME .
-tokujiro.base.shop CNAME .
-*.tokujiro.base.shop CNAME .
-uranai1111.base.shop CNAME .
-*.uranai1111.base.shop CNAME .
+base.shop CNAME .
+*.base.shop CNAME .
 basiscopyright.shop CNAME .
 *.basiscopyright.shop CNAME .
 battuelevered.shop CNAME .
