@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782807840 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1782835740 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 30 Jun 2026 08:24 UTC
-; Version: 2026.0630.0824.12
+; Last modified: 30 Jun 2026 16:09 UTC
+; Version: 2026.0630.1609.59
 ; Syntax: RPZ
 ; Number of entries: 61392
 ;
@@ -52808,8 +52808,6 @@ putlocker.sb CNAME .
 *.123moviefree.sbs CNAME .
 123moviesla.sbs CNAME .
 *.123moviesla.sbs CNAME .
-123moviesz.sbs CNAME .
-*.123moviesz.sbs CNAME .
 1movierulzhd.sbs CNAME .
 *.1movierulzhd.sbs CNAME .
 5movies.sbs CNAME .
@@ -60794,6 +60792,8 @@ movieswatch.xyz CNAME .
 *.movieswatch.xyz CNAME .
 mp4moviezhub.xyz CNAME .
 *.mp4moviezhub.xyz CNAME .
+mp4sc.xyz CNAME .
+*.mp4sc.xyz CNAME .
 mp4se.xyz CNAME .
 *.mp4se.xyz CNAME .
 torrentdownloads.mrunblock.xyz CNAME .
