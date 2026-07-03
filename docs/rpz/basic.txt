@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783075740 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1783106820 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Jul 2026 10:49 UTC
-; Version: 2026.0703.1049.10
+; Last modified: 03 Jul 2026 19:27 UTC
+; Version: 2026.0703.1927.34
 ; Syntax: RPZ
-; Number of entries: 86894
+; Number of entries: 87044
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -34,6 +34,8 @@ trk.agency CNAME .
 *.trk.agency CNAME .
 adserv.ai CNAME .
 *.adserv.ai CNAME .
+adsgram.ai CNAME .
+*.adsgram.ai CNAME .
 adsquirrel.ai CNAME .
 *.adsquirrel.ai CNAME .
 adtrace.ai CNAME .
@@ -2096,6 +2098,8 @@ adbinead.com CNAME .
 *.adbinead.com CNAME .
 adbite.com CNAME .
 *.adbite.com CNAME .
+adbkwai.com CNAME .
+*.adbkwai.com CNAME .
 adblade.com CNAME .
 *.adblade.com CNAME .
 adblck.com CNAME .
@@ -3116,6 +3120,8 @@ areyouwatchingthis.com CNAME .
 *.areyouwatchingthis.com CNAME .
 argrowlitheor.com CNAME .
 *.argrowlitheor.com CNAME .
+arhatsfenman.com CNAME .
+*.arhatsfenman.com CNAME .
 aricinquerida.com CNAME .
 *.aricinquerida.com CNAME .
 arid-aside.com CNAME .
@@ -3766,8 +3772,6 @@ bollyocean.com CNAME .
 *.bollyocean.com CNAME .
 bombora.com CNAME .
 *.bombora.com CNAME .
-bondeddarkenedswerve.com CNAME .
-*.bondeddarkenedswerve.com CNAME .
 bongacams11.com CNAME .
 *.bongacams11.com CNAME .
 bongacams7.com CNAME .
@@ -4692,6 +4696,8 @@ coolretargeting.com CNAME .
 *.coolretargeting.com CNAME .
 coolserving.com CNAME .
 *.coolserving.com CNAME .
+coolzy.com CNAME .
+*.coolzy.com CNAME .
 coosync.com CNAME .
 *.coosync.com CNAME .
 cootlogix.com CNAME .
@@ -5040,6 +5046,8 @@ debonairdust.com CNAME .
 *.debonairdust.com CNAME .
 debutpoignantsudden.com CNAME .
 *.debutpoignantsudden.com CNAME .
+decafeligiblyhad.com CNAME .
+*.decafeligiblyhad.com CNAME .
 decentriq.com CNAME .
 *.decentriq.com CNAME .
 declareloose.com CNAME .
@@ -8466,6 +8474,8 @@ meitustat.com CNAME .
 *.meitustat.com CNAME .
 melbet.com CNAME .
 *.melbet.com CNAME .
+mena-ads.com CNAME .
+*.mena-ads.com CNAME .
 mentionideablit.com CNAME .
 *.mentionideablit.com CNAME .
 mentorsticks.com CNAME .
@@ -11116,6 +11126,8 @@ servenobid.com CNAME .
 *.servenobid.com CNAME .
 servetraff.com CNAME .
 *.servetraff.com CNAME .
+service-analytics.com CNAME .
+*.service-analytics.com CNAME .
 serving-ad.com CNAME .
 *.serving-ad.com CNAME .
 servrapp.com CNAME .
@@ -12982,6 +12994,8 @@ viennaaustrohotel.com CNAME .
 *.viennaaustrohotel.com CNAME .
 viewdeos.com CNAME .
 *.viewdeos.com CNAME .
+viifwjox.com CNAME .
+*.viifwjox.com CNAME .
 viiukuhe.com CNAME .
 *.viiukuhe.com CNAME .
 villagetraitgarret.com CNAME .
