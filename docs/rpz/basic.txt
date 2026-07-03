@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783063380 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1783075740 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Jul 2026 07:23 UTC
-; Version: 2026.0703.0723.47
+; Last modified: 03 Jul 2026 10:49 UTC
+; Version: 2026.0703.1049.10
 ; Syntax: RPZ
-; Number of entries: 86886
+; Number of entries: 86894
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -3972,6 +3972,8 @@ buddhiknutty.com CNAME .
 *.buddhiknutty.com CNAME .
 budlniydym.com CNAME .
 *.budlniydym.com CNAME .
+budtawney.com CNAME .
+*.budtawney.com CNAME .
 budwutadb.com CNAME .
 *.budwutadb.com CNAME .
 bueno-analytics.com CNAME .
@@ -17966,8 +17968,6 @@ cigaladoldrum.qpon CNAME .
 *.cigaladoldrum.qpon CNAME .
 citralschancrecensing.qpon CNAME .
 *.citralschancrecensing.qpon CNAME .
-cnemicsynthol.qpon CNAME .
-*.cnemicsynthol.qpon CNAME .
 codeinakentontubulus.qpon CNAME .
 *.codeinakentontubulus.qpon CNAME .
 coillenormerscamisia.qpon CNAME .
