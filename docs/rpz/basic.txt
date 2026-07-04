@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783149660 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1783190640 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 04 Jul 2026 07:21 UTC
-; Version: 2026.0704.0721.36
+; Last modified: 04 Jul 2026 18:44 UTC
+; Version: 2026.0704.1844.26
 ; Syntax: RPZ
-; Number of entries: 86950
+; Number of entries: 86760
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -36,8 +36,6 @@ trk.agency CNAME .
 *.trk.agency CNAME .
 adserv.ai CNAME .
 *.adserv.ai CNAME .
-adsgram.ai CNAME .
-*.adsgram.ai CNAME .
 adsquirrel.ai CNAME .
 *.adsquirrel.ai CNAME .
 adtrace.ai CNAME .
@@ -1686,6 +1684,8 @@ ssm.codes CNAME .
 *.220withegress.com CNAME .
 22svkcdbyp.com CNAME .
 *.22svkcdbyp.com CNAME .
+2345.com CNAME .
+*.2345.com CNAME .
 23axinix.com CNAME .
 *.23axinix.com CNAME .
 24-sportnews.com CNAME .
@@ -4204,6 +4204,8 @@ cdn-fc.com CNAME .
 *.cdn-fc.com CNAME .
 cdn-fileserver.com CNAME .
 *.cdn-fileserver.com CNAME .
+cdn-mst-ru.com CNAME .
+*.cdn-mst-ru.com CNAME .
 cdn-spurit.com CNAME .
 *.cdn-spurit.com CNAME .
 cdn4ads.com CNAME .
@@ -5516,8 +5518,6 @@ easyhits4u.com CNAME .
 *.easyhits4u.com CNAME .
 easytomessage.com CNAME .
 *.easytomessage.com CNAME .
-eatcells.com CNAME .
-*.eatcells.com CNAME .
 eatenmockingoverwhelm.com CNAME .
 *.eatenmockingoverwhelm.com CNAME .
 eazel.com CNAME .
@@ -5620,8 +5620,6 @@ elandortal.com CNAME .
 *.elandortal.com CNAME .
 electroenchufe.com CNAME .
 *.electroenchufe.com CNAME .
-elementsguard.com CNAME .
-*.elementsguard.com CNAME .
 elevengk.com CNAME .
 *.elevengk.com CNAME .
 elitebidder.com CNAME .
@@ -7170,6 +7168,8 @@ imaginationblush.com CNAME .
 *.imaginationblush.com CNAME .
 imcounter.com CNAME .
 *.imcounter.com CNAME .
+imens-poort.com CNAME .
+*.imens-poort.com CNAME .
 img-ad-nex.com CNAME .
 *.img-ad-nex.com CNAME .
 img4mobi.com CNAME .
@@ -7190,6 +7190,8 @@ imidesestreat.com CNAME .
 *.imidesestreat.com CNAME .
 imkirh.com CNAME .
 *.imkirh.com CNAME .
+immanitys.com CNAME .
+*.immanitys.com CNAME .
 imop.com CNAME .
 *.imop.com CNAME .
 imp2aff.com CNAME .
@@ -7230,6 +7232,8 @@ imptracking.com CNAME .
 *.imptracking.com CNAME .
 imrworldwide.com CNAME .
 *.imrworldwide.com CNAME .
+imtolenplex.com CNAME .
+*.imtolenplex.com CNAME .
 imtwjwoasak.com CNAME .
 *.imtwjwoasak.com CNAME .
 in-page-push.com CNAME .
@@ -8156,6 +8160,8 @@ lrkt-in.com CNAME .
 *.lrkt-in.com CNAME .
 lrnszmhetq.com CNAME .
 *.lrnszmhetq.com CNAME .
+lstgddss.com CNAME .
+*.lstgddss.com CNAME .
 ltv-mob.com CNAME .
 *.ltv-mob.com CNAME .
 ltxuroxvga.com CNAME .
@@ -9578,6 +9584,8 @@ paslsa.com CNAME .
 *.paslsa.com CNAME .
 passfixx.com CNAME .
 *.passfixx.com CNAME .
+passion-industry-game.com CNAME .
+*.passion-industry-game.com CNAME .
 passivepolo.com CNAME .
 *.passivepolo.com CNAME .
 payeessarif.com CNAME .
@@ -9600,6 +9608,8 @@ pbxai.com CNAME .
 *.pbxai.com CNAME .
 pc2121.com CNAME .
 *.pc2121.com CNAME .
+pchelpsoft.com CNAME .
+*.pchelpsoft.com CNAME .
 pcpop.com CNAME .
 *.pcpop.com CNAME .
 pcprotect.com CNAME .
@@ -10370,6 +10380,8 @@ raffleprotectionbow.com CNAME .
 *.raffleprotectionbow.com CNAME .
 rafikfangas.com CNAME .
 *.rafikfangas.com CNAME .
+ragan-qdr.com CNAME .
+*.ragan-qdr.com CNAME .
 rageagainstthesoap.com CNAME .
 *.rageagainstthesoap.com CNAME .
 raglanyakking.com CNAME .
@@ -11032,6 +11044,8 @@ searchmagnified.com CNAME .
 *.searchmagnified.com CNAME .
 searchmarketing.com CNAME .
 *.searchmarketing.com CNAME .
+searchmarquis.com CNAME .
+*.searchmarquis.com CNAME .
 searchpoweronline.com CNAME .
 *.searchpoweronline.com CNAME .
 searchresultsworld.com CNAME .
@@ -11336,6 +11350,8 @@ singlefeed.com CNAME .
 *.singlefeed.com CNAME .
 singleflirt.com CNAME .
 *.singleflirt.com CNAME .
+singlsw.com CNAME .
+*.singlsw.com CNAME .
 singroot.com CNAME .
 *.singroot.com CNAME .
 sinisterblare.com CNAME .
@@ -12092,8 +12108,6 @@ terratraf.com CNAME .
 *.terratraf.com CNAME .
 tesseradigital.com CNAME .
 *.tesseradigital.com CNAME .
-test4.com CNAME .
-*.test4.com CNAME .
 tettacrown.com CNAME .
 *.tettacrown.com CNAME .
 tevvbgbjiv.com CNAME .
@@ -13188,6 +13202,8 @@ walmp.com CNAME .
 *.walmp.com CNAME .
 walnutneckvariability.com CNAME .
 *.walnutneckvariability.com CNAME .
+wannaknowmysecret.com CNAME .
+*.wannaknowmysecret.com CNAME .
 want-s0me-push.com CNAME .
 *.want-s0me-push.com CNAME .
 want-some-push.com CNAME .
@@ -13732,6 +13748,8 @@ ykialgtdbpp.com CNAME .
 *.ykialgtdbpp.com CNAME .
 ykinroxfqdpgv.com CNAME .
 *.ykinroxfqdpgv.com CNAME .
+ykoza.com CNAME .
+*.ykoza.com CNAME .
 yldbt.com CNAME .
 *.yldbt.com CNAME .
 yllix.com CNAME .
@@ -14624,8 +14642,6 @@ galaxiemedia.fr CNAME .
 *.galaxiemedia.fr CNAME .
 mediasquare.fr CNAME .
 *.mediasquare.fr CNAME .
-oopt.fr CNAME .
-*.oopt.fr CNAME .
 orangeads.fr CNAME .
 *.orangeads.fr CNAME .
 pharmacie-sterling.fr CNAME .
@@ -19104,10 +19120,6 @@ doseg.site CNAME .
 *.doseg.site CNAME .
 egoi.site CNAME .
 *.egoi.site CNAME .
-ejswzcylcynfb.site CNAME .
-*.ejswzcylcynfb.site CNAME .
-ekwihhtasvcma.site CNAME .
-*.ekwihhtasvcma.site CNAME .
 gaming001.site CNAME .
 *.gaming001.site CNAME .
 giqqjsydoqthi.site CNAME .
@@ -19192,8 +19204,6 @@ btsar.space CNAME .
 *.btsar.space CNAME .
 cedar-static.space CNAME .
 *.cedar-static.space CNAME .
-epwazedxpqxqz.space CNAME .
-*.epwazedxpqxqz.space CNAME .
 fickotstuk.space CNAME .
 *.fickotstuk.space CNAME .
 fubuki-umami.space CNAME .
@@ -19246,6 +19256,8 @@ liontx.stream CNAME .
 *.liontx.stream CNAME .
 ocelot.studio CNAME .
 *.ocelot.studio CNAME .
+lisabermagic.study CNAME .
+*.lisabermagic.study CNAME .
 ad.style CNAME .
 *.ad.style CNAME .
 bil.su CNAME .
@@ -19862,6 +19874,8 @@ vvdrhe.win CNAME .
 *.vvdrhe.win CNAME .
 apsolution.work CNAME .
 *.apsolution.work CNAME .
+bicyclebusgrave.work CNAME .
+*.bicyclebusgrave.work CNAME .
 cdnjs.work CNAME .
 *.cdnjs.work CNAME .
 dr-blanca-mhfscak.work CNAME .
