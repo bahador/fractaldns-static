@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783336860 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1783363980 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Jul 2026 11:21 UTC
-; Version: 2026.0706.1121.34
+; Last modified: 06 Jul 2026 18:53 UTC
+; Version: 2026.0706.1853.22
 ; Syntax: RPZ
-; Number of entries: 88356
+; Number of entries: 88358
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -38,6 +38,8 @@ trk.agency CNAME .
 *.trk.agency CNAME .
 adserv.ai CNAME .
 *.adserv.ai CNAME .
+adsgram.ai CNAME .
+*.adsgram.ai CNAME .
 adsquirrel.ai CNAME .
 *.adsquirrel.ai CNAME .
 adtrace.ai CNAME .
@@ -546,6 +548,8 @@ easyca.ca CNAME .
 *.easyca.ca CNAME .
 paymentree.ca CNAME .
 *.paymentree.ca CNAME .
+comics18.cam CNAME .
+*.comics18.cam CNAME .
 whale.camera CNAME .
 *.whale.camera CNAME .
 cryptotyc.care CNAME .
@@ -1354,6 +1358,8 @@ ad-scope.com.cn CNAME .
 *.ad-scope.com.cn CNAME .
 adn-plus.com.cn CNAME .
 *.adn-plus.com.cn CNAME .
+cippe.com.cn CNAME .
+*.cippe.com.cn CNAME .
 duiba.com.cn CNAME .
 *.duiba.com.cn CNAME .
 ename.com.cn CNAME .
@@ -2768,6 +2774,8 @@ adventori.com CNAME .
 *.adventori.com CNAME .
 advertica.com CNAME .
 *.advertica.com CNAME .
+advertisercommunity.com CNAME .
+*.advertisercommunity.com CNAME .
 advertiserurl.com CNAME .
 *.advertiserurl.com CNAME .
 advertnative.com CNAME .
@@ -2810,6 +2818,10 @@ adwisedfs.com CNAME .
 *.adwisedfs.com CNAME .
 adwmg.com CNAME .
 *.adwmg.com CNAME .
+adwords.com CNAME .
+*.adwords.com CNAME .
+adwords-community.com CNAME .
+*.adwords-community.com CNAME .
 adwstats.com CNAME .
 *.adwstats.com CNAME .
 adx1.com CNAME .
@@ -4024,8 +4036,6 @@ bollywoodmenswear.com CNAME .
 *.bollywoodmenswear.com CNAME .
 bombora.com CNAME .
 *.bombora.com CNAME .
-bondeddarkenedswerve.com CNAME .
-*.bondeddarkenedswerve.com CNAME .
 bongacams11.com CNAME .
 *.bongacams11.com CNAME .
 bongacams7.com CNAME .
@@ -4794,6 +4804,8 @@ cobaltads.com CNAME .
 *.cobaltads.com CNAME .
 cobaltsanctionyodel.com CNAME .
 *.cobaltsanctionyodel.com CNAME .
+cobnutscopsole.com CNAME .
+*.cobnutscopsole.com CNAME .
 cobolgammed.com CNAME .
 *.cobolgammed.com CNAME .
 cockysnailleather.com CNAME .
@@ -5468,6 +5480,8 @@ diagramjawlineunhappy.com CNAME .
 *.diagramjawlineunhappy.com CNAME .
 dianomi.com CNAME .
 *.dianomi.com CNAME .
+diasyrmunionic.com CNAME .
+*.diasyrmunionic.com CNAME .
 dibsemey.com CNAME .
 *.dibsemey.com CNAME .
 diclotrans.com CNAME .
@@ -6826,6 +6840,8 @@ gfpxw.com CNAME .
 *.gfpxw.com CNAME .
 ggbbbet.com CNAME .
 *.ggbbbet.com CNAME .
+gggatat456.com CNAME .
+*.gggatat456.com CNAME .
 gggpppht.com CNAME .
 *.gggpppht.com CNAME .
 ggijmlyqpfwl.com CNAME .
@@ -9766,6 +9782,8 @@ offerwall-adnative.com CNAME .
 *.offerwall-adnative.com CNAME .
 offfurreton.com CNAME .
 *.offfurreton.com CNAME .
+officeklafter.com CNAME .
+*.officeklafter.com CNAME .
 officence.com CNAME .
 *.officence.com CNAME .
 official-permit.com CNAME .
@@ -10478,6 +10496,8 @@ premiumvertising.com CNAME .
 *.premiumvertising.com CNAME .
 prepareplanes.com CNAME .
 *.prepareplanes.com CNAME .
+preplaneffie.com CNAME .
+*.preplaneffie.com CNAME .
 pressize.com CNAME .
 *.pressize.com CNAME .
 pressreportzone.com CNAME .
@@ -12620,6 +12640,8 @@ taboola-ocm.com CNAME .
 *.taboola-ocm.com CNAME .
 taboolasyndication.com CNAME .
 *.taboolasyndication.com CNAME .
+tabretwicht.com CNAME .
+*.tabretwicht.com CNAME .
 tabrr.com CNAME .
 *.tabrr.com CNAME .
 tackytrains.com CNAME .
@@ -18774,6 +18796,8 @@ piratebay.party CNAME .
 *.piratebay.party CNAME .
 thepiratebay.party CNAME .
 *.thepiratebay.party CNAME .
+000.pe CNAME .
+*.000.pe CNAME .
 diariouno.pe CNAME .
 *.diariouno.pe CNAME .
 utpaqp.edu.pe CNAME .
@@ -21270,6 +21294,8 @@ ospartners.xyz CNAME .
 *.ospartners.xyz CNAME .
 out2.xyz CNAME .
 *.out2.xyz CNAME .
+ozonhelp.xyz CNAME .
+*.ozonhelp.xyz CNAME .
 p13a.xyz CNAME .
 *.p13a.xyz CNAME .
 packetsdk.xyz CNAME .
@@ -21310,6 +21336,8 @@ sisadmin-my.xyz CNAME .
 *.sisadmin-my.xyz CNAME .
 slise.xyz CNAME .
 *.slise.xyz CNAME .
+snazzysnip.xyz CNAME .
+*.snazzysnip.xyz CNAME .
 sported.xyz CNAME .
 *.sported.xyz CNAME .
 stranbild.xyz CNAME .
