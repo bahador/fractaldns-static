@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783323300 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1783336860 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Jul 2026 07:35 UTC
-; Version: 2026.0706.0735.33
+; Last modified: 06 Jul 2026 11:21 UTC
+; Version: 2026.0706.1121.34
 ; Syntax: RPZ
-; Number of entries: 88890
+; Number of entries: 88356
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -3166,6 +3166,8 @@ andyhoppe.com CNAME .
 *.andyhoppe.com CNAME .
 anemiachoky.com CNAME .
 *.anemiachoky.com CNAME .
+anetfiber.com CNAME .
+*.anetfiber.com CNAME .
 anewfeedliberty.com CNAME .
 *.anewfeedliberty.com CNAME .
 anfe8trk.com CNAME .
@@ -15250,8 +15252,6 @@ mpartner.digital CNAME .
 *.mpartner.digital CNAME .
 thebook.digital CNAME .
 *.thebook.digital CNAME .
-theo.digital CNAME .
-*.theo.digital CNAME .
 cncpt.dk CNAME .
 *.cncpt.dk CNAME .
 manatee.dk CNAME .
@@ -17004,6 +17004,8 @@ ireklama.mk CNAME .
 *.ireklama.mk CNAME .
 wpfc.ml CNAME .
 *.wpfc.ml CNAME .
+mov.mn CNAME .
+*.mov.mn CNAME .
 1kxun.mobi CNAME .
 *.1kxun.mobi CNAME .
 1xbet.mobi CNAME .
@@ -20388,6 +20390,8 @@ garlicice.store CNAME .
 *.garlicice.store CNAME .
 laroya.store CNAME .
 *.laroya.store CNAME .
+linkerfunyfile.store CNAME .
+*.linkerfunyfile.store CNAME .
 pcapp.store CNAME .
 *.pcapp.store CNAME .
 sanchz.store CNAME .
