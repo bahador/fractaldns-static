@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783365540 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783451580 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Jul 2026 19:19 UTC
-; Version: 2026.0706.1919.09
+; Last modified: 07 Jul 2026 19:13 UTC
+; Version: 2026.0707.1913.31
 ; Syntax: RPZ
-; Number of entries: 6828
+; Number of entries: 6820
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -543,8 +543,6 @@ dns.mzrme.cn CNAME .
 *.dns.mzrme.cn CNAME .
 route.netshi.cn CNAME .
 *.route.netshi.cn CNAME .
-doh.p2cdn.cn CNAME .
-*.doh.p2cdn.cn CNAME .
 dns.rubyfish.cn CNAME .
 *.dns.rubyfish.cn CNAME .
 ea-dns.rubyfish.cn CNAME .
@@ -5907,8 +5905,6 @@ hfgx.shop CNAME .
 *.hfgx.shop CNAME .
 moamao.shop CNAME .
 *.moamao.shop CNAME .
-dns.olimpya44.shop CNAME .
-*.dns.olimpya44.shop CNAME .
 paradise-human.shop CNAME .
 *.paradise-human.shop CNAME .
 polisitogel.show CNAME .
@@ -5931,8 +5927,6 @@ dns.labnekotest.site CNAME .
 *.dns.labnekotest.site CNAME .
 doh.mochou.site CNAME .
 *.doh.mochou.site CNAME .
-oscnl.site CNAME .
-*.oscnl.site CNAME .
 s1.s2.shahramv1.site CNAME .
 *.s1.s2.shahramv1.site CNAME .
 dns.srijan.site CNAME .
@@ -6169,8 +6163,6 @@ cattery.noddos.top CNAME .
 *.cattery.noddos.top CNAME .
 cattery2.noddos.top CNAME .
 *.cattery2.noddos.top CNAME .
-artemis.orionnexus.top CNAME .
-*.artemis.orionnexus.top CNAME .
 revelio.top CNAME .
 *.revelio.top CNAME .
 dns.seekfor.top CNAME .
