@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783104720 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1783534440 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Samsung Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Jul 2026 18:52 UTC
-; Version: 2026.0703.1852.30
+; Last modified: 08 Jul 2026 18:14 UTC
+; Version: 2026.0708.1814.52
 ; Syntax: RPZ
-; Number of entries: 398
+; Number of entries: 404
 ;
 h4g3z1-native.samsung.web.app CNAME .
 *.h4g3z1-native.samsung.web.app CNAME .
@@ -110,8 +110,14 @@ plbusiness.samsung.com CNAME .
 *.plbusiness.samsung.com CNAME .
 api.runestone.samsung.com CNAME .
 *.api.runestone.samsung.com CNAME .
-di.runestone.samsung.com CNAME .
-*.di.runestone.samsung.com CNAME .
+dc.di.runestone.samsung.com CNAME .
+*.dc.di.runestone.samsung.com CNAME .
+dls.di.runestone.samsung.com CNAME .
+*.dls.di.runestone.samsung.com CNAME .
+orsdls.di.runestone.samsung.com CNAME .
+*.orsdls.di.runestone.samsung.com CNAME .
+orsfs.di.runestone.samsung.com CNAME .
+*.orsfs.di.runestone.samsung.com CNAME .
 sca.samsung.com CNAME .
 *.sca.samsung.com CNAME .
 lp.smartbusiness.samsung.com CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782499740 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1783532820 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Social Networks DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Jun 2026 18:49 UTC
-; Version: 2026.0626.1849.43
+; Last modified: 08 Jul 2026 17:47 UTC
+; Version: 2026.0708.1747.41
 ; Syntax: RPZ
-; Number of entries: 1800
+; Number of entries: 1798
 ;
 masto.ai CNAME .
 *.masto.ai CNAME .
@@ -216,8 +216,6 @@ discordcdn.com CNAME .
 *.discordcdn.com CNAME .
 discordmerch.com CNAME .
 *.discordmerch.com CNAME .
-discordpartygames.com CNAME .
-*.discordpartygames.com CNAME .
 discordsays.com CNAME .
 *.discordsays.com CNAME .
 discordstatus.com CNAME .
