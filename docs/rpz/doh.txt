@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783451580 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783497300 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,8 +10,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Jul 2026 19:13 UTC
-; Version: 2026.0707.1913.31
+; Last modified: 08 Jul 2026 07:55 UTC
+; Version: 2026.0708.0755.20
 ; Syntax: RPZ
 ; Number of entries: 6820
 ;
@@ -1915,8 +1915,6 @@ dns.kukal.cz CNAME .
 *.dns.kukal.cz CNAME .
 odvr.nic.cz CNAME .
 *.odvr.nic.cz CNAME .
-adguard.rabmoor.cz CNAME .
-*.adguard.rabmoor.cz CNAME .
 dns.titov.cz CNAME .
 *.dns.titov.cz CNAME .
 aqua.is.my.waifu.cz CNAME .
@@ -5829,6 +5827,8 @@ adguard.tver-tech.ru CNAME .
 *.adguard.tver-tech.ru CNAME .
 rb750gr3.ulfhednar.ru CNAME .
 *.rb750gr3.ulfhednar.ru CNAME .
+adguard-ironhide.ultima-thule.ru CNAME .
+*.adguard-ironhide.ultima-thule.ru CNAME .
 v0dka.ru CNAME .
 *.v0dka.ru CNAME .
 vasiliysoldatkin.ru CNAME .
