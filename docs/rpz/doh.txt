@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783532280 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783620300 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Jul 2026 17:38 UTC
-; Version: 2026.0708.1738.36
+; Last modified: 09 Jul 2026 18:05 UTC
+; Version: 2026.0709.1805.04
 ; Syntax: RPZ
-; Number of entries: 6812
+; Number of entries: 6808
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1791,8 +1791,6 @@ dot.ublockdns.com CNAME .
 *.dot.ublockdns.com CNAME .
 my.ublockdns.com CNAME .
 *.my.ublockdns.com CNAME .
-vless-service.ufodns.com CNAME .
-*.vless-service.ufodns.com CNAME .
 doh.ultradns.com CNAME .
 *.doh.ultradns.com CNAME .
 dns.umbrella.com CNAME .
@@ -2889,8 +2887,6 @@ doh.this.web.id CNAME .
 *.doh.this.web.id CNAME .
 doh.zephyrus.id CNAME .
 *.doh.zephyrus.id CNAME .
-web-rated.ie CNAME .
-*.web-rated.ie CNAME .
 ag.hostme.co.il CNAME .
 *.ag.hostme.co.il CNAME .
 us.aab.im CNAME .
