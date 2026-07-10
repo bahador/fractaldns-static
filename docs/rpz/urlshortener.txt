@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783666740 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783677300 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 10 Jul 2026 06:59 UTC
-; Version: 2026.0710.0659.36
+; Last modified: 10 Jul 2026 09:55 UTC
+; Version: 2026.0710.0955.55
 ; Syntax: RPZ
-; Number of entries: 19810
+; Number of entries: 19814
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -8131,6 +8131,8 @@ vaddev.de CNAME .
 *.vaddev.de CNAME .
 vbg-spezial.de CNAME .
 *.vbg-spezial.de CNAME .
+vneq.de CNAME .
+*.vneq.de CNAME .
 w0o.de CNAME .
 *.w0o.de CNAME .
 wbze.de CNAME .
@@ -8911,6 +8913,8 @@ short.mypaste.fun CNAME .
 *.short.mypaste.fun CNAME .
 sikilat.fun CNAME .
 *.sikilat.fun CNAME .
+vidmy.fun CNAME .
+*.vidmy.fun CNAME .
 zlink.fun CNAME .
 *.zlink.fun CNAME .
 23.fyi CNAME .
