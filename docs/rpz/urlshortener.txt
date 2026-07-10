@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783620360 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783666740 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,8 +16,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Jul 2026 18:06 UTC
-; Version: 2026.0709.1806.57
+; Last modified: 10 Jul 2026 06:59 UTC
+; Version: 2026.0710.0659.36
 ; Syntax: RPZ
 ; Number of entries: 19810
 ;
@@ -18039,6 +18039,8 @@ whr.tn CNAME .
 *.9link.to CNAME .
 abr.to CNAME .
 *.abr.to CNAME .
+adcryp.to CNAME .
+*.adcryp.to CNAME .
 adm.to CNAME .
 *.adm.to CNAME .
 ady.to CNAME .
@@ -18407,8 +18409,6 @@ wwtt.to CNAME .
 *.wwtt.to CNAME .
 yelp.to CNAME .
 *.yelp.to CNAME .
-yorl.to CNAME .
-*.yorl.to CNAME .
 youlink.to CNAME .
 *.youlink.to CNAME .
 zoho.to CNAME .

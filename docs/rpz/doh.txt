@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783620300 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783670700 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Jul 2026 18:05 UTC
-; Version: 2026.0709.1805.04
+; Last modified: 10 Jul 2026 08:05 UTC
+; Version: 2026.0710.0805.37
 ; Syntax: RPZ
-; Number of entries: 6808
+; Number of entries: 6804
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -747,6 +747,8 @@ domburg.beruys.com CNAME .
 *.domburg.beruys.com CNAME .
 bestwon203.com CNAME .
 *.bestwon203.com CNAME .
+dns.bezmezhau.com CNAME .
+*.dns.bezmezhau.com CNAME .
 dns.bgeneto.com CNAME .
 *.dns.bgeneto.com CNAME .
 httpdns.bilivideo.com CNAME .
@@ -2985,8 +2987,6 @@ chlaebi.info CNAME .
 *.chlaebi.info CNAME .
 hk.conana.info CNAME .
 *.hk.conana.info CNAME .
-bilidon.dnsuser.info CNAME .
-*.bilidon.dnsuser.info CNAME .
 adh.fastpacefixit.info CNAME .
 *.adh.fastpacefixit.info CNAME .
 dns.api.integration.globuscs.info CNAME .
@@ -5845,8 +5845,6 @@ dns.yandex.ru CNAME .
 *.dns.yandex.ru CNAME .
 ns6.ygy.ru CNAME .
 *.ns6.ygy.ru CNAME .
-doh.yspv.ru CNAME .
-*.doh.yspv.ru CNAME .
 dns.ytpom.ru CNAME .
 *.dns.ytpom.ru CNAME .
 dns2.ytpom.ru CNAME .
@@ -6027,8 +6025,6 @@ tuskythehusky.tech CNAME .
 *.tuskythehusky.tech CNAME .
 dns.vmisch.tech CNAME .
 *.dns.vmisch.tech CNAME .
-fi.wjcload.tech CNAME .
-*.fi.wjcload.tech CNAME .
 dns.zfsystem.tech CNAME .
 *.dns.zfsystem.tech CNAME .
 voyage-s01.cloudku.technology CNAME .

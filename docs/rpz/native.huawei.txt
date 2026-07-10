@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783330020 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1783669200 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Huawei Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Jul 2026 09:27 UTC
-; Version: 2026.0706.0927.13
+; Last modified: 10 Jul 2026 07:40 UTC
+; Version: 2026.0710.0740.36
 ; Syntax: RPZ
-; Number of entries: 264
+; Number of entries: 266
 ;
 h4g3z1-native.huawei.web.app CNAME .
 *.h4g3z1-native.huawei.web.app CNAME .
@@ -238,6 +238,8 @@ tracking-data-drru.platform.hihonorcloud.com CNAME .
 *.tracking-data-drru.platform.hihonorcloud.com CNAME .
 ads.cloud.huawei.com CNAME .
 *.ads.cloud.huawei.com CNAME .
+nebula-collector.huawei.com CNAME .
+*.nebula-collector.huawei.com CNAME .
 rnd-cbgpas01.huawei.com CNAME .
 *.rnd-cbgpas01.huawei.com CNAME .
 uba.huaweicloud.com CNAME .
