@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783756860 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783768320 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 11 Jul 2026 08:01 UTC
-; Version: 2026.0711.0801.42
+; Last modified: 11 Jul 2026 11:12 UTC
+; Version: 2026.0711.1112.21
 ; Syntax: RPZ
-; Number of entries: 65964
+; Number of entries: 65960
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -40456,8 +40456,6 @@ torrentfile.net CNAME .
 *.torrentfile.net CNAME .
 torrentfilmes.net CNAME .
 *.torrentfilmes.net CNAME .
-torrentfilmesagora.net CNAME .
-*.torrentfilmesagora.net CNAME .
 torrentgamers.net CNAME .
 *.torrentgamers.net CNAME .
 torrentialstorm.net CNAME .
@@ -61324,8 +61322,6 @@ unblocked.top CNAME .
 *.unblocked.top CNAME .
 unblocked-games-us.top CNAME .
 *.unblocked-games-us.top CNAME .
-unblockedgames6x.top CNAME .
-*.unblockedgames6x.top CNAME .
 unblockit.top CNAME .
 *.unblockit.top CNAME .
 ettv.unblockproject.top CNAME .

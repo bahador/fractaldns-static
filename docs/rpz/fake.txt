@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783753080 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783792500 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 11 Jul 2026 06:58 UTC
-; Version: 2026.0711.0658.10
+; Last modified: 11 Jul 2026 17:55 UTC
+; Version: 2026.0711.1755.50
 ; Syntax: RPZ
 ; Number of entries: 32970
 ;
@@ -29804,6 +29804,8 @@ krabihotelsthailand.net CNAME .
 *.krabihotelsthailand.net CNAME .
 lekarna-cz.net CNAME .
 *.lekarna-cz.net CNAME .
+levorelio.net CNAME .
+*.levorelio.net CNAME .
 libri24.net CNAME .
 *.libri24.net CNAME .
 lion-invest.net CNAME .
@@ -30118,8 +30120,6 @@ wmshoe.net CNAME .
 *.wmshoe.net CNAME .
 xeviet.net CNAME .
 *.xeviet.net CNAME .
-yannelli.net CNAME .
-*.yannelli.net CNAME .
 yumgo.net CNAME .
 *.yumgo.net CNAME .
 z8gaming.net CNAME .
