@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783843320 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783854360 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Jul 2026 08:02 UTC
-; Version: 2026.0712.0802.07
+; Last modified: 12 Jul 2026 11:06 UTC
+; Version: 2026.0712.1106.16
 ; Syntax: RPZ
 ; Number of entries: 66786
 ;
@@ -10070,6 +10070,8 @@ megagames.com CNAME .
 *.megagames.com CNAME .
 megakino1-co.com CNAME .
 *.megakino1-co.com CNAME .
+megakino10.com CNAME .
+*.megakino10.com CNAME .
 megakino2.com CNAME .
 *.megakino2.com CNAME .
 megakino3.com CNAME .
@@ -16592,8 +16594,6 @@ namako.fun CNAME .
 *.namako.fun CNAME .
 natsumi.fun CNAME .
 *.natsumi.fun CNAME .
-netmirror.fun CNAME .
-*.netmirror.fun CNAME .
 noclass.fun CNAME .
 *.noclass.fun CNAME .
 nomat.fun CNAME .
@@ -39116,6 +39116,8 @@ anime-legion.net CNAME .
 *.anime-legion.net CNAME .
 animeflv.net CNAME .
 *.animeflv.net CNAME .
+animehdzeroo.net CNAME .
+*.animehdzeroo.net CNAME .
 animeindex.net CNAME .
 *.animeindex.net CNAME .
 anisource.net CNAME .
@@ -59772,8 +59774,6 @@ lordfilmzon.study CNAME .
 *.lordfilmzon.study CNAME .
 mkvcinemas.study CNAME .
 *.mkvcinemas.study CNAME .
-multicanais.study CNAME .
-*.multicanais.study CNAME .
 multicanaishd.study CNAME .
 *.multicanaishd.study CNAME .
 mycima.study CNAME .
