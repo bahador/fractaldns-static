@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783929720 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783940520 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Jul 2026 08:02 UTC
-; Version: 2026.0713.0802.39
+; Last modified: 13 Jul 2026 11:02 UTC
+; Version: 2026.0713.1102.17
 ; Syntax: RPZ
-; Number of entries: 67080
+; Number of entries: 67082
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -15470,6 +15470,8 @@ vegamovies.dog CNAME .
 *.vegamovies.dog CNAME .
 watchmovierulz.dog CNAME .
 *.watchmovierulz.dog CNAME .
+worldfree4u.dog CNAME .
+*.worldfree4u.dog CNAME .
 xalaflix.dog CNAME .
 *.xalaflix.dog CNAME .
 123movies.domains CNAME .
@@ -43384,6 +43386,8 @@ animepahe.org CNAME .
 *.animepahe.org CNAME .
 animerealms.org CNAME .
 *.animerealms.org CNAME .
+animesquadron.org CNAME .
+*.animesquadron.org CNAME .
 animestars.org CNAME .
 *.animestars.org CNAME .
 animetoon.org CNAME .
@@ -57950,8 +57954,6 @@ fallout-lordfilm.sbs CNAME .
 *.fallout-lordfilm.sbs CNAME .
 film-pertutti.sbs CNAME .
 *.film-pertutti.sbs CNAME .
-filmoflix.sbs CNAME .
-*.filmoflix.sbs CNAME .
 filmstreaming.sbs CNAME .
 *.filmstreaming.sbs CNAME .
 flemmix.sbs CNAME .
