@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783930200 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1783954200 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Jul 2026 08:10 UTC
-; Version: 2026.0713.0810.40
+; Last modified: 13 Jul 2026 14:50 UTC
+; Version: 2026.0713.1450.17
 ; Syntax: RPZ
-; Number of entries: 33354
+; Number of entries: 33368
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -3267,6 +3267,8 @@ zjavr.cn CNAME .
 *.zjavr.cn CNAME .
 dns.zzuhacker.cn CNAME .
 *.dns.zzuhacker.cn CNAME .
+1vpn.co CNAME .
+*.1vpn.co CNAME .
 acskey.co CNAME .
 *.acskey.co CNAME .
 acsnet.co CNAME .
@@ -5737,6 +5739,10 @@ cloakpoint.com CNAME .
 *.cloakpoint.com CNAME .
 cloakvpn.com CNAME .
 *.cloakvpn.com CNAME .
+cloudburstcdn.com CNAME .
+*.cloudburstcdn.com CNAME .
+cloudflaracdn.com CNAME .
+*.cloudflaracdn.com CNAME .
 dns.cloudflare.com CNAME .
 *.dns.cloudflare.com CNAME .
 cloudflare-dns.com CNAME .
@@ -5749,6 +5755,10 @@ cloudflaredns.com CNAME .
 *.cloudflaredns.com CNAME .
 cloudflareresolve.com CNAME .
 *.cloudflareresolve.com CNAME .
+cloudflingcdn.com CNAME .
+*.cloudflingcdn.com CNAME .
+cloudlogcdn.com CNAME .
+*.cloudlogcdn.com CNAME .
 cloudnetcdn.com CNAME .
 *.cloudnetcdn.com CNAME .
 cloudnymous.com CNAME .
@@ -5759,6 +5769,8 @@ cloudquickcdn.com CNAME .
 *.cloudquickcdn.com CNAME .
 dns.cloudseriousshit.com CNAME .
 *.dns.cloudseriousshit.com CNAME .
+cloudtimecdn.com CNAME .
+*.cloudtimecdn.com CNAME .
 manchaland.clubskunk.com CNAME .
 *.manchaland.clubskunk.com CNAME .
 clvsfeew.com CNAME .
@@ -20137,6 +20149,8 @@ smart-force-177.nowgg.me CNAME .
 *.smart-force-177.nowgg.me CNAME .
 wise-bear-455.nowgg.me CNAME .
 *.wise-bear-455.nowgg.me CNAME .
+api.npvu.me CNAME .
+*.api.npvu.me CNAME .
 oculta.me CNAME .
 *.oculta.me CNAME .
 p99nxpivfscyverz.me CNAME .
