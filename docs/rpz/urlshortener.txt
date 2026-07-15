@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784099280 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784138340 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Jul 2026 07:08 UTC
-; Version: 2026.0715.0708.23
+; Last modified: 15 Jul 2026 17:59 UTC
+; Version: 2026.0715.1759.28
 ; Syntax: RPZ
-; Number of entries: 19834
+; Number of entries: 19868
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -327,6 +327,8 @@ aiurl.app CNAME .
 *.aiurl.app CNAME .
 alter-kpi.app CNAME .
 *.alter-kpi.app CNAME .
+aparca.app CNAME .
+*.aparca.app CNAME .
 links.avalaunch.app CNAME .
 *.links.avalaunch.app CNAME .
 azipurl.app CNAME .
@@ -1131,8 +1133,12 @@ anmeld.biz CNAME .
 *.anmeld.biz CNAME .
 asharq.biz CNAME .
 *.asharq.biz CNAME .
+bee4.biz CNAME .
+*.bee4.biz CNAME .
 benqurl.biz CNAME .
 *.benqurl.biz CNAME .
+boshoki.biz CNAME .
+*.boshoki.biz CNAME .
 cheap-stocks.biz CNAME .
 *.cheap-stocks.biz CNAME .
 checkbill.biz CNAME .
@@ -3413,6 +3419,8 @@ arpressllc.com CNAME .
 *.arpressllc.com CNAME .
 arshorten.com CNAME .
 *.arshorten.com CNAME .
+aryenmotors.com CNAME .
+*.aryenmotors.com CNAME .
 asiagacor-77.com CNAME .
 *.asiagacor-77.com CNAME .
 asmoah.com CNAME .
@@ -3521,6 +3529,8 @@ bidiurl.com CNAME .
 *.bidiurl.com CNAME .
 bigfk.com CNAME .
 *.bigfk.com CNAME .
+bigolink.com CNAME .
+*.bigolink.com CNAME .
 biibly.com CNAME .
 *.biibly.com CNAME .
 s.bimoweb.com CNAME .
@@ -3531,6 +3541,8 @@ bioandlink.com CNAME .
 *.bioandlink.com CNAME .
 biocardpro.com CNAME .
 *.biocardpro.com CNAME .
+biohoster.com CNAME .
+*.biohoster.com CNAME .
 biolinkexp.com CNAME .
 *.biolinkexp.com CNAME .
 biolinkgo.com CNAME .
@@ -3811,6 +3823,8 @@ cleanuri.com CNAME .
 *.cleanuri.com CNAME .
 links.clearlabs.com CNAME .
 *.links.clearlabs.com CNAME .
+cleverurls.com CNAME .
+*.cleverurls.com CNAME .
 click-genius.com CNAME .
 *.click-genius.com CNAME .
 click-goo.com CNAME .
@@ -8775,6 +8789,8 @@ qr.attps.fr CNAME .
 *.qr.attps.fr CNAME .
 ayt.fr CNAME .
 *.ayt.fr CNAME .
+azali.fr CNAME .
+*.azali.fr CNAME .
 b00.fr CNAME .
 *.b00.fr CNAME .
 b1.fr CNAME .
@@ -9175,6 +9191,8 @@ msi.gm CNAME .
 *.msi.gm CNAME .
 p7.gmbh CNAME .
 *.p7.gmbh CNAME .
+bitly.gold CNAME .
+*.bitly.gold CNAME .
 go.nasa.gov CNAME .
 *.go.nasa.gov CNAME .
 on.ny.gov CNAME .
@@ -9735,6 +9753,8 @@ asso.in CNAME .
 *.asso.in CNAME .
 b22.in CNAME .
 *.b22.in CNAME .
+b54.in CNAME .
+*.b54.in CNAME .
 bbc.in CNAME .
 *.bbc.in CNAME .
 be6.in CNAME .
@@ -9783,6 +9803,8 @@ cfre.in CNAME .
 *.cfre.in CNAME .
 cityreach.in CNAME .
 *.cityreach.in CNAME .
+cius.in CNAME .
+*.cius.in CNAME .
 clikk.in CNAME .
 *.clikk.in CNAME .
 boostability.co.in CNAME .
@@ -12433,6 +12455,8 @@ bitri.link CNAME .
 *.bitri.link CNAME .
 bliter.link CNAME .
 *.bliter.link CNAME .
+boldphoto.link CNAME .
+*.boldphoto.link CNAME .
 boofola.link CNAME .
 *.boofola.link CNAME .
 bookstw.link CNAME .
@@ -13735,6 +13759,8 @@ blinkbio.me CNAME .
 *.blinkbio.me CNAME .
 blinko.me CNAME .
 *.blinko.me CNAME .
+bloat.me CNAME .
+*.bloat.me CNAME .
 bosi.me CNAME .
 *.bosi.me CNAME .
 boskale.me CNAME .
@@ -13763,6 +13789,8 @@ bxl.me CNAME .
 *.bxl.me CNAME .
 bylink.me CNAME .
 *.bylink.me CNAME .
+bzh.me CNAME .
+*.bzh.me CNAME .
 cardinates.me CNAME .
 *.cardinates.me CNAME .
 careem.me CNAME .
@@ -14675,6 +14703,8 @@ t.mr CNAME .
 *.1drv.ms CNAME .
 ana.ms CNAME .
 *.ana.ms CNAME .
+bx.ms CNAME .
+*.bx.ms CNAME .
 cha.ms CNAME .
 *.cha.ms CNAME .
 cms.ms CNAME .
@@ -14763,6 +14793,8 @@ aka.my CNAME .
 *.aka.my CNAME .
 go.bigdomain.my CNAME .
 *.go.bigdomain.my CNAME .
+bioku.my CNAME .
+*.bioku.my CNAME .
 bitsy.my CNAME .
 *.bitsy.my CNAME .
 salesadvisor.nazriproton.com.my CNAME .
@@ -14897,6 +14929,8 @@ ai6.net CNAME .
 *.ai6.net CNAME .
 aneed.net CNAME .
 *.aneed.net CNAME .
+anonme.net CNAME .
+*.anonme.net CNAME .
 aosconnect.net CNAME .
 *.aosconnect.net CNAME .
 aporasal.net CNAME .
