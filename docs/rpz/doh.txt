@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784142480 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784190120 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Jul 2026 19:08 UTC
-; Version: 2026.0715.1908.44
+; Last modified: 16 Jul 2026 08:22 UTC
+; Version: 2026.0716.0822.55
 ; Syntax: RPZ
-; Number of entries: 6810
+; Number of entries: 6830
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -449,6 +449,8 @@ tls.vietguards.cloud CNAME .
 *.tls.vietguards.cloud CNAME .
 quadrogramma.vps.webdock.cloud CNAME .
 *.quadrogramma.vps.webdock.cloud CNAME .
+dns.wibenson.cloud CNAME .
+*.dns.wibenson.cloud CNAME .
 dns-1.wil.cloud CNAME .
 *.dns-1.wil.cloud CNAME .
 dns-2.wil.cloud CNAME .
@@ -1245,6 +1247,8 @@ dns.jstockley.com CNAME .
 *.dns.jstockley.com CNAME .
 dns.juancamos.com CNAME .
 *.dns.juancamos.com CNAME .
+dns.jupitrdns.com CNAME .
+*.dns.jupitrdns.com CNAME .
 jp01.just-a-web.com CNAME .
 *.jp01.just-a-web.com CNAME .
 sgs02.just-a-web.com CNAME .
@@ -1533,6 +1537,8 @@ adguard.pancybertronics.com CNAME .
 *.adguard.pancybertronics.com CNAME .
 pashagame456.com CNAME .
 *.pashagame456.com CNAME .
+doh.gcp.pathofgrace.com CNAME .
+*.doh.gcp.pathofgrace.com CNAME .
 dns.paxavemedia.com CNAME .
 *.dns.paxavemedia.com CNAME .
 dns.periactes.com CNAME .
@@ -1561,12 +1567,18 @@ dot.eastau.pi-dns.com CNAME .
 *.dot.eastau.pi-dns.com CNAME .
 doh.eastus.pi-dns.com CNAME .
 *.doh.eastus.pi-dns.com CNAME .
+dot.eastus.pi-dns.com CNAME .
+*.dot.eastus.pi-dns.com CNAME .
 doh.northeu.pi-dns.com CNAME .
 *.doh.northeu.pi-dns.com CNAME .
 dot.northeu.pi-dns.com CNAME .
 *.dot.northeu.pi-dns.com CNAME .
 doh.westeu.pi-dns.com CNAME .
 *.doh.westeu.pi-dns.com CNAME .
+doh.westus.pi-dns.com CNAME .
+*.doh.westus.pi-dns.com CNAME .
+dot.westus.pi-dns.com CNAME .
+*.dot.westus.pi-dns.com CNAME .
 dns.pieterdherde.com CNAME .
 *.dns.pieterdherde.com CNAME .
 helios.plan9-dns.com CNAME .
@@ -1575,6 +1587,8 @@ kronos.plan9-dns.com CNAME .
 *.kronos.plan9-dns.com CNAME .
 pluton.plan9-dns.com CNAME .
 *.pluton.plan9-dns.com CNAME .
+draco.plan9-ns2.com CNAME .
+*.draco.plan9-ns2.com CNAME .
 secure-dns.pleumkungz.com CNAME .
 *.secure-dns.pleumkungz.com CNAME .
 thanos.pleumkungz.com CNAME .
@@ -2257,6 +2271,8 @@ dns.edison42.dev CNAME .
 *.dns.edison42.dev CNAME .
 ejaysss.dev CNAME .
 *.ejaysss.dev CNAME .
+dns.faze.dev CNAME .
+*.dns.faze.dev CNAME .
 dns.hanahira.dev CNAME .
 *.dns.hanahira.dev CNAME .
 adg.herry.dev CNAME .
@@ -3271,6 +3287,8 @@ atsilva.link CNAME .
 *.atsilva.link CNAME .
 dns.chattalk.link CNAME .
 *.dns.chattalk.link CNAME .
+dns-free.link CNAME .
+*.dns-free.link CNAME .
 eth.link CNAME .
 *.eth.link CNAME .
 dns.getnoclip.link CNAME .
@@ -3731,8 +3749,6 @@ dot.cox.net CNAME .
 *.dot.cox.net CNAME .
 dohdot.coxlab.net CNAME .
 *.dohdot.coxlab.net CNAME .
-dns.criena.net CNAME .
-*.dns.criena.net CNAME .
 dns.itsec.crolla.net CNAME .
 *.dns.itsec.crolla.net CNAME .
 ae-agh1.dns.cryptroute.net CNAME .
@@ -4549,6 +4565,8 @@ ingenmannsland.online CNAME .
 *.ingenmannsland.online CNAME .
 inpssh.online CNAME .
 *.inpssh.online CNAME .
+externalmobiel.lekdijk.online CNAME .
+*.externalmobiel.lekdijk.online CNAME .
 dns.mahiro.online CNAME .
 *.dns.mahiro.online CNAME .
 ddns.martinmore.online CNAME .
@@ -6795,6 +6813,8 @@ zhang.wenru.xyz CNAME .
 *.zhang.wenru.xyz CNAME .
 adguard.x88x.xyz CNAME .
 *.adguard.x88x.xyz CNAME .
+dns.xwdmw.xyz CNAME .
+*.dns.xwdmw.xyz CNAME .
 dns.y2f.xyz CNAME .
 *.dns.y2f.xyz CNAME .
 adguard.yuki2th.xyz CNAME .
