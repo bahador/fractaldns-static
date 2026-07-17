@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783532820 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784309520 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Social Networks DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Jul 2026 17:47 UTC
-; Version: 2026.0708.1747.41
+; Last modified: 17 Jul 2026 17:32 UTC
+; Version: 2026.0717.1732.43
 ; Syntax: RPZ
-; Number of entries: 1798
+; Number of entries: 1796
 ;
 masto.ai CNAME .
 *.masto.ai CNAME .
@@ -994,8 +994,6 @@ redditmail.com CNAME .
 *.redditmail.com CNAME .
 redditmedia.com CNAME .
 *.redditmedia.com CNAME .
-redditstatic.com CNAME .
-*.redditstatic.com CNAME .
 redkix.com CNAME .
 *.redkix.com CNAME .
 rocksdb.com CNAME .

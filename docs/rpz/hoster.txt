@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784140080 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784311980 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Jul 2026 18:28 UTC
-; Version: 2026.0715.1828.27
+; Last modified: 17 Jul 2026 18:13 UTC
+; Version: 2026.0717.1813.49
 ; Syntax: RPZ
 ; Number of entries: 2476
 ;
@@ -202,6 +202,8 @@ freehoster.ch CNAME .
 *.freehoster.ch CNAME .
 blogspot.cl CNAME .
 *.blogspot.cl CNAME .
+radiola.club CNAME .
+*.radiola.club CNAME .
 wapka.club CNAME .
 *.wapka.club CNAME .
 asia.cm CNAME .
@@ -2038,8 +2040,6 @@ site88.net CNAME .
 *.site88.net CNAME .
 site90.net CNAME .
 *.site90.net CNAME .
-speed4up.net CNAME .
-*.speed4up.net CNAME .
 sportsontheweb.net CNAME .
 *.sportsontheweb.net CNAME .
 sylu.net CNAME .
