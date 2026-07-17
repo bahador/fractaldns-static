@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784224980 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784271600 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Jul 2026 18:03 UTC
-; Version: 2026.0716.1803.00
+; Last modified: 17 Jul 2026 07:00 UTC
+; Version: 2026.0717.0700.13
 ; Syntax: RPZ
-; Number of entries: 19916
+; Number of entries: 19944
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1089,6 +1089,8 @@ mylnk.bio CNAME .
 *.mylnk.bio CNAME .
 myown.bio CNAME .
 *.myown.bio CNAME .
+noni.bio CNAME .
+*.noni.bio CNAME .
 pascol.bio CNAME .
 *.pascol.bio CNAME .
 pawl.bio CNAME .
@@ -2055,6 +2057,8 @@ nord.click CNAME .
 *.nord.click CNAME .
 olinks.click CNAME .
 *.olinks.click CNAME .
+only-fans.click CNAME .
+*.only-fans.click CNAME .
 paksa.click CNAME .
 *.paksa.click CNAME .
 pinball.click CNAME .
@@ -2225,6 +2229,8 @@ kfurl.cn CNAME .
 *.kfurl.cn CNAME .
 liurl.cn CNAME .
 *.liurl.cn CNAME .
+n7i.cn CNAME .
+*.n7i.cn CNAME .
 ock.cn CNAME .
 *.ock.cn CNAME .
 ooa.cn CNAME .
@@ -5587,6 +5593,8 @@ n66d.com CNAME .
 *.n66d.com CNAME .
 na2.com CNAME .
 *.na2.com CNAME .
+nagakuat.com CNAME .
+*.nagakuat.com CNAME .
 naik-terus.com CNAME .
 *.naik-terus.com CNAME .
 nanuba.com CNAME .
@@ -5697,8 +5705,12 @@ nxlnk.com CNAME .
 *.nxlnk.com CNAME .
 nxturl.com CNAME .
 *.nxturl.com CNAME .
+nynko.com CNAME .
+*.nynko.com CNAME .
 obblink.com CNAME .
 *.obblink.com CNAME .
+oblino.com CNAME .
+*.oblino.com CNAME .
 ocurto.com CNAME .
 *.ocurto.com CNAME .
 odinurl.com CNAME .
@@ -5753,6 +5765,8 @@ oslash.com CNAME .
 *.oslash.com CNAME .
 otlnk.com CNAME .
 *.otlnk.com CNAME .
+ouiasso.com CNAME .
+*.ouiasso.com CNAME .
 owalska.com CNAME .
 *.owalska.com CNAME .
 p-url.com CNAME .
@@ -7891,6 +7905,8 @@ nav.cx CNAME .
 *.nav.cx CNAME .
 nst.cx CNAME .
 *.nst.cx CNAME .
+protected.cx CNAME .
+*.protected.cx CNAME .
 spn.cx CNAME .
 *.spn.cx CNAME .
 tini.cx CNAME .
@@ -8885,6 +8901,8 @@ link.miu2.fr CNAME .
 *.link.miu2.fr CNAME .
 nity.fr CNAME .
 *.nity.fr CNAME .
+nordlitt.fr CNAME .
+*.nordlitt.fr CNAME .
 li.nuabee.fr CNAME .
 *.li.nuabee.fr CNAME .
 o-x.fr CNAME .
@@ -9455,6 +9473,8 @@ bca.id CNAME .
 *.bca.id CNAME .
 aje.biz.id CNAME .
 *.aje.biz.id CNAME .
+come.biz.id CNAME .
+*.come.biz.id CNAME .
 dnl.biz.id CNAME .
 *.dnl.biz.id CNAME .
 url.nafi.biz.id CNAME .
@@ -10915,6 +10935,8 @@ mdsh.io CNAME .
 *.mdsh.io CNAME .
 microlinkfy.io CNAME .
 *.microlinkfy.io CNAME .
+microlinks.io CNAME .
+*.microlinks.io CNAME .
 microurls.io CNAME .
 *.microurls.io CNAME .
 milc.io CNAME .
@@ -12355,6 +12377,8 @@ linelive.life CNAME .
 *.linelive.life CNAME .
 mainaku.life CNAME .
 *.mainaku.life CNAME .
+monghainam.life CNAME .
+*.monghainam.life CNAME .
 mytbg.life CNAME .
 *.mytbg.life CNAME .
 nalo.life CNAME .
@@ -13239,6 +13263,8 @@ mattes.live CNAME .
 *.mattes.live CNAME .
 microsoftfiles.live CNAME .
 *.microsoftfiles.live CNAME .
+monghaibon.live CNAME .
+*.monghaibon.live CNAME .
 my-club.live CNAME .
 *.my-club.live CNAME .
 nanatech.live CNAME .
@@ -16239,6 +16265,8 @@ mtiny.org CNAME .
 *.mtiny.org CNAME .
 mwrti.org CNAME .
 *.mwrti.org CNAME .
+mypowerlinks.org CNAME .
+*.mypowerlinks.org CNAME .
 bio.mytsi.org CNAME .
 *.bio.mytsi.org CNAME .
 nanourl.org CNAME .
