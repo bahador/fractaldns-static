@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784311980 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784360280 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jul 2026 18:13 UTC
-; Version: 2026.0717.1813.49
+; Last modified: 18 Jul 2026 07:38 UTC
+; Version: 2026.0718.0738.05
 ; Syntax: RPZ
 ; Number of entries: 2476
 ;
@@ -2048,6 +2048,8 @@ tbns.net CNAME .
 *.tbns.net CNAME .
 totalh.net CNAME .
 *.totalh.net CNAME .
+tutorial-blog.net CNAME .
+*.tutorial-blog.net CNAME .
 ultrashare.net CNAME .
 *.ultrashare.net CNAME .
 umbler.net CNAME .
@@ -2322,8 +2324,6 @@ business.site CNAME .
 *.business.site CNAME .
 company.site CNAME .
 *.company.site CNAME .
-loophole.site CNAME .
-*.loophole.site CNAME .
 studio.site CNAME .
 *.studio.site CNAME .
 temporary.site CNAME .
