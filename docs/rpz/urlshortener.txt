@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784358360 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784397480 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Jul 2026 07:06 UTC
-; Version: 2026.0718.0706.45
+; Last modified: 18 Jul 2026 17:58 UTC
+; Version: 2026.0718.1758.03
 ; Syntax: RPZ
-; Number of entries: 20030
+; Number of entries: 20040
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1129,6 +1129,8 @@ verified.bio CNAME .
 *.verified.bio CNAME .
 youris.bio CNAME .
 *.youris.bio CNAME .
+yurl.bio CNAME .
+*.yurl.bio CNAME .
 zqq.bio CNAME .
 *.zqq.bio CNAME .
 zulu.bio CNAME .
@@ -2271,6 +2273,10 @@ urlify.cn CNAME .
 *.urlify.cn CNAME .
 ws91.cn CNAME .
 *.ws91.cn CNAME .
+x5n.cn CNAME .
+*.x5n.cn CNAME .
+z5h.cn CNAME .
+*.z5h.cn CNAME .
 0se.co CNAME .
 *.0se.co CNAME .
 10dh.co CNAME .
@@ -11137,6 +11143,8 @@ salesquared.io CNAME .
 *.salesquared.io CNAME .
 sbgo.io CNAME .
 *.sbgo.io CNAME .
+yourls.sci.io CNAME .
+*.yourls.sci.io CNAME .
 sck.io CNAME .
 *.sck.io CNAME .
 scnv.io CNAME .
@@ -20019,6 +20027,8 @@ y30.xyz CNAME .
 *.y30.xyz CNAME .
 url.yousufraissi.xyz CNAME .
 *.url.yousufraissi.xyz CNAME .
+zeroshort.xyz CNAME .
+*.zeroshort.xyz CNAME .
 zonearcad.xyz CNAME .
 *.zonearcad.xyz CNAME .
 lkdg.yoga CNAME .
