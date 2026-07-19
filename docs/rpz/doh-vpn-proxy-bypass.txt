@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784448420 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784472720 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 19 Jul 2026 08:07 UTC
-; Version: 2026.0719.0807.08
+; Last modified: 19 Jul 2026 14:52 UTC
+; Version: 2026.0719.1452.57
 ; Syntax: RPZ
-; Number of entries: 33632
+; Number of entries: 33638
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -18607,6 +18607,8 @@ anonvpn.io CNAME .
 *.anonvpn.io CNAME .
 anyip.io CNAME .
 *.anyip.io CNAME .
+anyone.io CNAME .
+*.anyone.io CNAME .
 aoxlink.io CNAME .
 *.aoxlink.io CNAME .
 aoxvpn.io CNAME .
@@ -25081,6 +25083,8 @@ streamr.network CNAME .
 *.streamr.network CNAME .
 talc.network CNAME .
 *.talc.network CNAME .
+u2dpn.network CNAME .
+*.u2dpn.network CNAME .
 undef.network CNAME .
 *.undef.network CNAME .
 dns.unerror.network CNAME .
@@ -30529,6 +30533,8 @@ kuailian.team CNAME .
 *.kuailian.team CNAME .
 3jjxxl.tech CNAME .
 *.3jjxxl.tech CNAME .
+anyone.tech CNAME .
+*.anyone.tech CNAME .
 dns.cybertonic.tech CNAME .
 *.dns.cybertonic.tech CNAME .
 dns.daarrk.tech CNAME .

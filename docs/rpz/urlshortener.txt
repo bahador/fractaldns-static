@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784411760 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784483880 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Jul 2026 21:56 UTC
-; Version: 2026.0718.2156.14
+; Last modified: 19 Jul 2026 17:58 UTC
+; Version: 2026.0719.1758.57
 ; Syntax: RPZ
-; Number of entries: 20044
+; Number of entries: 20052
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -1669,6 +1669,8 @@ isurl.cc CNAME .
 *.isurl.cc CNAME .
 j2c.cc CNAME .
 *.j2c.cc CNAME .
+jm-88.cc CNAME .
+*.jm-88.cc CNAME .
 jppt.cc CNAME .
 *.jppt.cc CNAME .
 koi800.cc CNAME .
@@ -3123,6 +3125,8 @@ has.coffee CNAME .
 *.2fear.com CNAME .
 t.2merkato.com CNAME .
 *.t.2merkato.com CNAME .
+2osb.com CNAME .
+*.2osb.com CNAME .
 2sap.com CNAME .
 *.2sap.com CNAME .
 2shorter.com CNAME .
@@ -15253,6 +15257,8 @@ go777.net CNAME .
 *.go777.net CNAME .
 gocps.net CNAME .
 *.gocps.net CNAME .
+goodpics.net CNAME .
+*.goodpics.net CNAME .
 gsor.net CNAME .
 *.gsor.net CNAME .
 haworld.net CNAME .
@@ -15669,6 +15675,8 @@ waveurl.net CNAME .
 *.waveurl.net CNAME .
 webdevtutor.net CNAME .
 *.webdevtutor.net CNAME .
+webls.net CNAME .
+*.webls.net CNAME .
 webmienphi.net CNAME .
 *.webmienphi.net CNAME .
 webrc.net CNAME .
