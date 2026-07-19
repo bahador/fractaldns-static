@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784399820 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784429700 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Jul 2026 18:37 UTC
-; Version: 2026.0718.1837.36
+; Last modified: 19 Jul 2026 02:55 UTC
+; Version: 2026.0719.0255.19
 ; Syntax: RPZ
-; Number of entries: 87008
+; Number of entries: 87068
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1774,6 +1774,8 @@ ssm.codes CNAME .
 *.7moor.com CNAME .
 7mts.com CNAME .
 *.7mts.com CNAME .
+7ploraon.com CNAME .
+*.7ploraon.com CNAME .
 8004management.com CNAME .
 *.8004management.com CNAME .
 811b27ab9f.com CNAME .

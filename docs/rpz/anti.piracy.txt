@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784401020 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784414700 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 18 Jul 2026 18:57 UTC
-; Version: 2026.0718.1857.49
+; Last modified: 18 Jul 2026 22:45 UTC
+; Version: 2026.0718.2245.20
 ; Syntax: RPZ
-; Number of entries: 70116
+; Number of entries: 70120
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -20172,6 +20172,8 @@ zxcprime.icu CNAME .
 *.zxcprime.icu CNAME .
 altadefinizione.id CNAME .
 *.altadefinizione.id CNAME .
+animeplus.id CNAME .
+*.animeplus.id CNAME .
 vexmovies.biz.id CNAME .
 *.vexmovies.biz.id CNAME .
 capcutmodapk.id CNAME .
@@ -65836,6 +65838,8 @@ serialgo.tv CNAME .
 *.serialgo.tv CNAME .
 serialno.tv CNAME .
 *.serialno.tv CNAME .
+seroiptv.tv CNAME .
+*.seroiptv.tv CNAME .
 simplecloud.tv CNAME .
 *.simplecloud.tv CNAME .
 simpsonai.tv CNAME .
