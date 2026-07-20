@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784512260 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784530380 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Jul 2026 01:51 UTC
-; Version: 2026.0720.0151.59
+; Last modified: 20 Jul 2026 06:53 UTC
+; Version: 2026.0720.0653.00
 ; Syntax: RPZ
-; Number of entries: 113186
+; Number of entries: 113192
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -59976,6 +59976,8 @@ jb.psendroomth.com CNAME .
 *.jb.psendroomth.com CNAME .
 psergete.com CNAME .
 *.psergete.com CNAME .
+pseudoenarbor.com CNAME .
+*.pseudoenarbor.com CNAME .
 psflip.com CNAME .
 *.psflip.com CNAME .
 psfmi.com CNAME .
@@ -101236,8 +101238,12 @@ barapolaran.shop CNAME .
 *.barapolaran.shop CNAME .
 barmanonymity.shop CNAME .
 *.barmanonymity.shop CNAME .
-base.shop CNAME .
-*.base.shop CNAME .
+chiyouranai.base.shop CNAME .
+*.chiyouranai.base.shop CNAME .
+tokujiro.base.shop CNAME .
+*.tokujiro.base.shop CNAME .
+uranai1111.base.shop CNAME .
+*.uranai1111.base.shop CNAME .
 basiscopyright.shop CNAME .
 *.basiscopyright.shop CNAME .
 battuelevered.shop CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784483880 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784530620 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Blocklist URL Shortener
@@ -16,10 +16,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 19 Jul 2026 17:58 UTC
-; Version: 2026.0719.1758.57
+; Last modified: 20 Jul 2026 06:57 UTC
+; Version: 2026.0720.0657.39
 ; Syntax: RPZ
-; Number of entries: 20052
+; Number of entries: 20056
 ;
 gma.abc CNAME .
 *.gma.abc CNAME .
@@ -12911,6 +12911,8 @@ onepixel.link CNAME .
 *.onepixel.link CNAME .
 oneshort.link CNAME .
 *.oneshort.link CNAME .
+onne.link CNAME .
+*.onne.link CNAME .
 oo.link CNAME .
 *.oo.link CNAME .
 orts.link CNAME .
@@ -14151,6 +14153,8 @@ izip.me CNAME .
 *.izip.me CNAME .
 jalanku.me CNAME .
 *.jalanku.me CNAME .
+jali.me CNAME .
+*.jali.me CNAME .
 janji.me CNAME .
 *.janji.me CNAME .
 janjikita.me CNAME .
