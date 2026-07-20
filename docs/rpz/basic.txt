@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784533140 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784572860 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Jul 2026 07:39 UTC
-; Version: 2026.0720.0739.18
+; Last modified: 20 Jul 2026 18:41 UTC
+; Version: 2026.0720.1841.03
 ; Syntax: RPZ
-; Number of entries: 86204
+; Number of entries: 86518
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -3774,8 +3774,6 @@ browser-intake-ap1-datadoghq.com CNAME .
 *.browser-intake-ap1-datadoghq.com CNAME .
 browser-intake-ap2-datadoghq.com CNAME .
 *.browser-intake-ap2-datadoghq.com CNAME .
-browser-intake-datadoghq.com CNAME .
-*.browser-intake-datadoghq.com CNAME .
 browser-intake-ddog-gov.com CNAME .
 *.browser-intake-ddog-gov.com CNAME .
 browser-intake-us3-datadoghq.com CNAME .
@@ -4540,6 +4538,8 @@ crackingpatching.com CNAME .
 *.crackingpatching.com CNAME .
 craftsmanplus.com CNAME .
 *.craftsmanplus.com CNAME .
+crafttutorscrub.com CNAME .
+*.crafttutorscrub.com CNAME .
 crashstrike.com CNAME .
 *.crashstrike.com CNAME .
 crazyegg.com CNAME .
@@ -8564,6 +8564,8 @@ noemisnakier.com CNAME .
 *.noemisnakier.com CNAME .
 noibu.com CNAME .
 *.noibu.com CNAME .
+nonandacoly.com CNAME .
+*.nonandacoly.com CNAME .
 nonchalantnerve.com CNAME .
 *.nonchalantnerve.com CNAME .
 nordpar.com CNAME .
@@ -10140,6 +10142,8 @@ roy-union.com CNAME .
 *.roy-union.com CNAME .
 royalcactus.com CNAME .
 *.royalcactus.com CNAME .
+roz0aukrhp.com CNAME .
+*.roz0aukrhp.com CNAME .
 rpwmct.com CNAME .
 *.rpwmct.com CNAME .
 rqmob.com CNAME .
@@ -10736,6 +10740,8 @@ slideblast.com CNAME .
 *.slideblast.com CNAME .
 slimfitcaps.com CNAME .
 *.slimfitcaps.com CNAME .
+slimybaptism.com CNAME .
+*.slimybaptism.com CNAME .
 slinksuggestion.com CNAME .
 *.slinksuggestion.com CNAME .
 smaato.com CNAME .
@@ -11848,6 +11854,8 @@ tryzens-analytics.com CNAME .
 *.tryzens-analytics.com CNAME .
 tscprts.com CNAME .
 *.tscprts.com CNAME .
+tsxscreen.com CNAME .
+*.tsxscreen.com CNAME .
 tsyndicate.com CNAME .
 *.tsyndicate.com CNAME .
 ttekf42.com CNAME .
@@ -13008,6 +13016,8 @@ ymonetize.com CNAME .
 *.ymonetize.com CNAME .
 ymtracking.com CNAME .
 *.ymtracking.com CNAME .
+ynrenai.com CNAME .
+*.ynrenai.com CNAME .
 yoast-schema-graph.com CNAME .
 *.yoast-schema-graph.com CNAME .
 yodimedia.com CNAME .
@@ -14086,6 +14096,8 @@ mobiads.co.in CNAME .
 *.mobiads.co.in CNAME .
 coinad.in CNAME .
 *.coinad.in CNAME .
+coslogdydy.in CNAME .
+*.coslogdydy.in CNAME .
 couriercare.in CNAME .
 *.couriercare.in CNAME .
 cprgggy.in CNAME .
@@ -15192,8 +15204,6 @@ spindl.link CNAME .
 *.spindl.link CNAME .
 svarogonil.link CNAME .
 *.svarogonil.link CNAME .
-tazaromikaz.link CNAME .
-*.tazaromikaz.link CNAME .
 temporary.link CNAME .
 *.temporary.link CNAME .
 universitypoint.link CNAME .
@@ -16862,6 +16872,8 @@ cruzswim.org CNAME .
 *.cruzswim.org CNAME .
 digitaladvertisingalliance.org CNAME .
 *.digitaladvertisingalliance.org CNAME .
+digitalcollege.org CNAME .
+*.digitalcollege.org CNAME .
 domob.org CNAME .
 *.domob.org CNAME .
 eduforms.org CNAME .
@@ -18278,6 +18290,8 @@ hillghibli.shop CNAME .
 *.hillghibli.shop CNAME .
 innedroxane.shop CNAME .
 *.innedroxane.shop CNAME .
+jobberytoluene.shop CNAME .
+*.jobberytoluene.shop CNAME .
 jotamibs.shop CNAME .
 *.jotamibs.shop CNAME .
 kalmiasparple.shop CNAME .
@@ -19146,8 +19160,6 @@ pathtrck.website CNAME .
 *.pathtrck.website CNAME .
 rallytrck.website CNAME .
 *.rallytrck.website CNAME .
-sjwbwoahrivlb.website CNAME .
-*.sjwbwoahrivlb.website CNAME .
 stripchats.website CNAME .
 *.stripchats.website CNAME .
 svlepipcewecn.website CNAME .
@@ -19268,6 +19280,8 @@ blowingwind.xyz CNAME .
 *.blowingwind.xyz CNAME .
 cdnfgo.xyz CNAME .
 *.cdnfgo.xyz CNAME .
+certifierifball.xyz CNAME .
+*.certifierifball.xyz CNAME .
 chika1995.xyz CNAME .
 *.chika1995.xyz CNAME .
 cliphotbokep.xyz CNAME .
