@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784731500 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784746800 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Jul 2026 14:45 UTC
-; Version: 2026.0722.1445.02
+; Last modified: 22 Jul 2026 19:00 UTC
+; Version: 2026.0722.1900.04
 ; Syntax: RPZ
-; Number of entries: 72122
+; Number of entries: 72126
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -30484,6 +30484,8 @@ liber3.eth.limo CNAME .
 *.4khdhub.link CNAME .
 altadefinizionegratis.link CNAME .
 *.altadefinizionegratis.link CNAME .
+animesalt.link CNAME .
+*.animesalt.link CNAME .
 mkvcinemasmovies.bio.link CNAME .
 *.mkvcinemasmovies.bio.link CNAME .
 moviesmod.bio.link CNAME .
@@ -49096,6 +49098,8 @@ cpasbien3.pro CNAME .
 *.cpasbien3.pro CNAME .
 crimsonstorm18.pro CNAME .
 *.crimsonstorm18.pro CNAME .
+cryptoiptv.pro CNAME .
+*.cryptoiptv.pro CNAME .
 defcon.pro CNAME .
 *.defcon.pro CNAME .
 desiflix.pro CNAME .

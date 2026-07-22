@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784731860 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784747220 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Jul 2026 14:51 UTC
-; Version: 2026.0722.1451.24
+; Last modified: 22 Jul 2026 19:07 UTC
+; Version: 2026.0722.1907.50
 ; Syntax: RPZ
-; Number of entries: 34474
+; Number of entries: 34472
 ;
 bebra.ac CNAME .
 *.bebra.ac CNAME .
@@ -21813,10 +21813,8 @@ akunssh.net CNAME .
 *.akunssh.net CNAME .
 dnsnl.alekberg.net CNAME .
 *.dnsnl.alekberg.net CNAME .
-odoh-target-noads-se.alekberg.net CNAME .
-*.odoh-target-noads-se.alekberg.net CNAME .
-odoh-target-se.alekberg.net CNAME .
-*.odoh-target-se.alekberg.net CNAME .
+odoh-target.alekberg.net CNAME .
+*.odoh-target.alekberg.net CNAME .
 alexahub.net CNAME .
 *.alexahub.net CNAME .
 diskstation.alexpollard.net CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784732460 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784745540 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Jul 2026 15:01 UTC
-; Version: 2026.0722.1501.01
+; Last modified: 22 Jul 2026 18:39 UTC
+; Version: 2026.0722.1839.29
 ; Syntax: RPZ
-; Number of entries: 87274
+; Number of entries: 87292
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1938,6 +1938,8 @@ ackzany.com CNAME .
 *.ackzany.com CNAME .
 acmvid.com CNAME .
 *.acmvid.com CNAME .
+acorntar.com CNAME .
+*.acorntar.com CNAME .
 acquiredeceasedundress.com CNAME .
 *.acquiredeceasedundress.com CNAME .
 acreageupwhirl.com CNAME .
@@ -2682,6 +2684,8 @@ ahoravideo-chat.com CNAME .
 *.ahoravideo-chat.com CNAME .
 ahoravideo-endpoint.com CNAME .
 *.ahoravideo-endpoint.com CNAME .
+ahousewaits.com CNAME .
+*.ahousewaits.com CNAME .
 aibsgc.com CNAME .
 *.aibsgc.com CNAME .
 aieic.com CNAME .
@@ -5604,6 +5608,8 @@ fixedfold.com CNAME .
 *.fixedfold.com CNAME .
 fixidle.com CNAME .
 *.fixidle.com CNAME .
+fizzledesire.com CNAME .
+*.fizzledesire.com CNAME .
 fizzyacerbitymellow.com CNAME .
 *.fizzyacerbitymellow.com CNAME .
 fjordsand.com CNAME .
