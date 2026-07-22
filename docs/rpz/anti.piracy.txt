@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784707260 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784731500 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Jul 2026 08:01 UTC
-; Version: 2026.0722.0801.21
+; Last modified: 22 Jul 2026 14:45 UTC
+; Version: 2026.0722.1445.02
 ; Syntax: RPZ
-; Number of entries: 72118
+; Number of entries: 72122
 ;
 animehub.ac CNAME .
 *.animehub.ac CNAME .
@@ -3516,6 +3516,8 @@ filmstreaming.casa CNAME .
 *.filmstreaming.casa CNAME .
 flemmix.casa CNAME .
 *.flemmix.casa CNAME .
+frembed.casa CNAME .
+*.frembed.casa CNAME .
 guardarefilm.casa CNAME .
 *.guardarefilm.casa CNAME .
 hdmovie2.casa CNAME .
@@ -49910,6 +49912,8 @@ vidjoy.pro CNAME .
 *.vidjoy.pro CNAME .
 vidlink.pro CNAME .
 *.vidlink.pro CNAME .
+voiranime.pro CNAME .
+*.voiranime.pro CNAME .
 w-123movies.pro CNAME .
 *.w-123movies.pro CNAME .
 windglow99.pro CNAME .

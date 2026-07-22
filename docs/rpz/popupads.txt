@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784703480 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784728320 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Jul 2026 06:58 UTC
-; Version: 2026.0722.0658.07
+; Last modified: 22 Jul 2026 13:52 UTC
+; Version: 2026.0722.1352.14
 ; Syntax: RPZ
-; Number of entries: 113162
+; Number of entries: 113164
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -61908,6 +61908,8 @@ rddywd.com CNAME .
 *.rddywd.com CNAME .
 rdfencing.com CNAME .
 *.rdfencing.com CNAME .
+rdipmrbwgvk.com CNAME .
+*.rdipmrbwgvk.com CNAME .
 rdjpkunfu.com CNAME .
 *.rdjpkunfu.com CNAME .
 rdkvffqwn.com CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784706120 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784732460 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Jul 2026 07:42 UTC
-; Version: 2026.0722.0742.35
+; Last modified: 22 Jul 2026 15:01 UTC
+; Version: 2026.0722.1501.01
 ; Syntax: RPZ
-; Number of entries: 87236
+; Number of entries: 87274
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -5596,6 +5596,8 @@ fishboardcrew.com CNAME .
 *.fishboardcrew.com CNAME .
 fishingtoolsbox.com CNAME .
 *.fishingtoolsbox.com CNAME .
+fistulanigel.com CNAME .
+*.fistulanigel.com CNAME .
 fix-crowdstrike-bsod.com CNAME .
 *.fix-crowdstrike-bsod.com CNAME .
 fixedfold.com CNAME .
@@ -7210,6 +7212,8 @@ klangoo.com CNAME .
 *.klangoo.com CNAME .
 klickly.com CNAME .
 *.klickly.com CNAME .
+klikanggaran.com CNAME .
+*.klikanggaran.com CNAME .
 klmmnd.com CNAME .
 *.klmmnd.com CNAME .
 klsylnruavtjc.com CNAME .
@@ -8442,8 +8446,6 @@ noemisnakier.com CNAME .
 *.noemisnakier.com CNAME .
 noibu.com CNAME .
 *.noibu.com CNAME .
-nonandacoly.com CNAME .
-*.nonandacoly.com CNAME .
 nonchalantnerve.com CNAME .
 *.nonchalantnerve.com CNAME .
 nordpar.com CNAME .
@@ -11744,6 +11746,8 @@ tvsquared.com CNAME .
 *.tvsquared.com CNAME .
 tvtelemetrie.com CNAME .
 *.tvtelemetrie.com CNAME .
+tw1tter.com CNAME .
+*.tw1tter.com CNAME .
 twiago.com CNAME .
 *.twiago.com CNAME .
 twingly.com CNAME .
