@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784793600 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784817900 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Anti-Piracy DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Jul 2026 08:00 UTC
-; Version: 2026.0723.0800.27
+; Last modified: 23 Jul 2026 14:45 UTC
+; Version: 2026.0723.1445.41
 ; Syntax: RPZ
 ; Number of entries: 72648
 ;
@@ -47154,8 +47154,6 @@ hdfilmcehennemi4.org CNAME .
 *.hdfilmcehennemi4.org CNAME .
 hdfilmcehennemi6.org CNAME .
 *.hdfilmcehennemi6.org CNAME .
-hdfilmcenneti.org CNAME .
-*.hdfilmcenneti.org CNAME .
 hdfilmevreni.org CNAME .
 *.hdfilmevreni.org CNAME .
 hdfilmizle2.org CNAME .
@@ -64458,6 +64456,8 @@ hdmovie2.solutions CNAME .
 *.hdmovie2.solutions CNAME .
 123movies.soy CNAME .
 *.123movies.soy CNAME .
+filmyfly.soy CNAME .
+*.filmyfly.soy CNAME .
 motchill.soy CNAME .
 *.motchill.soy CNAME .
 altadefinizione01.spa CNAME .
