@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784847120 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784881200 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
@@ -10,8 +10,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Jul 2026 22:52 UTC
-; Version: 2026.0723.2252.33
+; Last modified: 24 Jul 2026 08:20 UTC
+; Version: 2026.0724.0820.42
 ; Syntax: RPZ
 ; Number of entries: 34478
 ;
@@ -21817,6 +21817,8 @@ dnsnl.alekberg.net CNAME .
 *.dnsnl.alekberg.net CNAME .
 odoh-target.alekberg.net CNAME .
 *.odoh-target.alekberg.net CNAME .
+odoh-target-noads-se.alekberg.net CNAME .
+*.odoh-target-noads-se.alekberg.net CNAME .
 odoh-target-se.alekberg.net CNAME .
 *.odoh-target-se.alekberg.net CNAME .
 alexahub.net CNAME .
@@ -23603,8 +23605,6 @@ dohdot.coxlab.net CNAME .
 *.dohdot.coxlab.net CNAME .
 createssh.net CNAME .
 *.createssh.net CNAME .
-dns.criena.net CNAME .
-*.dns.criena.net CNAME .
 dns.itsec.crolla.net CNAME .
 *.dns.itsec.crolla.net CNAME .
 croxyproxy.net CNAME .
