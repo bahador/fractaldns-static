@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784897940 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784917320 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 24 Jul 2026 12:59 UTC
-; Version: 2026.0724.1259.56
+; Last modified: 24 Jul 2026 18:22 UTC
+; Version: 2026.0724.1822.36
 ; Syntax: RPZ
-; Number of entries: 87154
+; Number of entries: 87252
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -476,6 +476,8 @@ voxus.com.br CNAME .
 *.voxus.com.br CNAME .
 ivcbrasil.org.br CNAME .
 *.ivcbrasil.org.br CNAME .
+azureedge-global-fastly-cloudfront-ondigitalocean-stackpathcdn.buzz CNAME .
+*.azureedge-global-fastly-cloudfront-ondigitalocean-stackpathcdn.buzz CNAME .
 theharityhild.buzz CNAME .
 *.theharityhild.buzz CNAME .
 call-tracking.by CNAME .
@@ -4312,6 +4314,8 @@ colossalcry.com CNAME .
 *.colossalcry.com CNAME .
 colossusssp.com CNAME .
 *.colossusssp.com CNAME .
+comanicilikeiste.com CNAME .
+*.comanicilikeiste.com CNAME .
 combbit.com CNAME .
 *.combbit.com CNAME .
 combcompetition.com CNAME .
@@ -8204,8 +8208,6 @@ mutinyhq.com CNAME .
 *.mutinyhq.com CNAME .
 mutualdocs.com CNAME .
 *.mutualdocs.com CNAME .
-muzikguide.com CNAME .
-*.muzikguide.com CNAME .
 mxapis.com CNAME .
 *.mxapis.com CNAME .
 mxlqrdrtac.com CNAME .
@@ -19206,6 +19208,8 @@ certifierifball.xyz CNAME .
 *.certifierifball.xyz CNAME .
 chika1995.xyz CNAME .
 *.chika1995.xyz CNAME .
+chorumebbbbgoza.xyz CNAME .
+*.chorumebbbbgoza.xyz CNAME .
 cliphotbokep.xyz CNAME .
 *.cliphotbokep.xyz CNAME .
 coffeinoffice.xyz CNAME .
