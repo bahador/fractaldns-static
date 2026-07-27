@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785138600 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785177600 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Jul 2026 07:50 UTC
-; Version: 2026.0727.0750.14
+; Last modified: 27 Jul 2026 18:40 UTC
+; Version: 2026.0727.1840.57
 ; Syntax: RPZ
-; Number of entries: 85100
+; Number of entries: 85134
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -2140,6 +2140,8 @@ adflycode.com CNAME .
 *.adflycode.com CNAME .
 adfpoint.com CNAME .
 *.adfpoint.com CNAME .
+adfunlink.com CNAME .
+*.adfunlink.com CNAME .
 adgear.com CNAME .
 *.adgear.com CNAME .
 adgitize.com CNAME .
@@ -3198,6 +3200,8 @@ auriq.com CNAME .
 *.auriq.com CNAME .
 australiarevival.com CNAME .
 *.australiarevival.com CNAME .
+authoritativepaulbasic.com CNAME .
+*.authoritativepaulbasic.com CNAME .
 autoaudience.com CNAME .
 *.autoaudience.com CNAME .
 autoid.com CNAME .
@@ -3966,6 +3970,8 @@ carbonads.com CNAME .
 *.carbonads.com CNAME .
 carbonquotes.com CNAME .
 *.carbonquotes.com CNAME .
+cardeductdoctrine.com CNAME .
+*.cardeductdoctrine.com CNAME .
 career-mesh.com CNAME .
 *.career-mesh.com CNAME .
 carloforward.com CNAME .
@@ -4008,6 +4014,8 @@ cchytech.com CNAME .
 *.cchytech.com CNAME .
 ccutu.com CNAME .
 *.ccutu.com CNAME .
+cdcosmos.com CNAME .
+*.cdcosmos.com CNAME .
 cdend.com CNAME .
 *.cdend.com CNAME .
 cdluck.com CNAME .
@@ -5358,6 +5366,8 @@ enterdrama.com CNAME .
 *.enterdrama.com CNAME .
 entertainrankreprimand.com CNAME .
 *.entertainrankreprimand.com CNAME .
+enticecreep.com CNAME .
+*.enticecreep.com CNAME .
 entravision.com CNAME .
 *.entravision.com CNAME .
 eoapxl.com CNAME .
@@ -7236,8 +7246,6 @@ klangoo.com CNAME .
 *.klangoo.com CNAME .
 klickly.com CNAME .
 *.klickly.com CNAME .
-klikanggaran.com CNAME .
-*.klikanggaran.com CNAME .
 klmmnd.com CNAME .
 *.klmmnd.com CNAME .
 klyaryibsa.com CNAME .
@@ -7840,6 +7848,8 @@ mediego.com CNAME .
 *.mediego.com CNAME .
 medievalkin.com CNAME .
 *.medievalkin.com CNAME .
+medium-while.com CNAME .
+*.medium-while.com CNAME .
 mediumdirt.com CNAME .
 *.mediumdirt.com CNAME .
 medleyads.com CNAME .
@@ -8874,6 +8884,8 @@ pcxrl.com CNAME .
 *.pcxrl.com CNAME .
 pdbarea.com CNAME .
 *.pdbarea.com CNAME .
+pdfworker.com CNAME .
+*.pdfworker.com CNAME .
 pdfxd.com CNAME .
 *.pdfxd.com CNAME .
 pdn-1.com CNAME .
@@ -9336,6 +9348,8 @@ ptgncdn.com CNAME .
 *.ptgncdn.com CNAME .
 ptinusmufasal.com CNAME .
 *.ptinusmufasal.com CNAME .
+ptkalsatriapsara.com CNAME .
+*.ptkalsatriapsara.com CNAME .
 ptlwmstc.com CNAME .
 *.ptlwmstc.com CNAME .
 ptmnd.com CNAME .
@@ -10606,6 +10620,8 @@ snoobi.com CNAME .
 *.snoobi.com CNAME .
 snoweeanalytics.com CNAME .
 *.snoweeanalytics.com CNAME .
+snowplowanalytics.com CNAME .
+*.snowplowanalytics.com CNAME .
 snuffilm.com CNAME .
 *.snuffilm.com CNAME .
 so-gr3at3.com CNAME .
@@ -13850,6 +13866,8 @@ unbrick.id CNAME .
 *.unbrick.id CNAME .
 z-lib.id CNAME .
 *.z-lib.id CNAME .
+shoobaloo.ie CNAME .
+*.shoobaloo.ie CNAME .
 clicka1.co.il CNAME .
 *.clicka1.co.il CNAME .
 clickon.co.il CNAME .
@@ -14514,6 +14532,8 @@ promolayer.io CNAME .
 *.promolayer.io CNAME .
 prvk.io CNAME .
 *.prvk.io CNAME .
+pubmonetize.io CNAME .
+*.pubmonetize.io CNAME .
 pubpowerplatform.io CNAME .
 *.pubpowerplatform.io CNAME .
 pubwise.io CNAME .
@@ -14992,8 +15012,6 @@ game2030.link CNAME .
 *.game2030.link CNAME .
 impression.link CNAME .
 *.impression.link CNAME .
-krasnomaga.link CNAME .
-*.krasnomaga.link CNAME .
 krut.link CNAME .
 *.krut.link CNAME .
 lasso.link CNAME .
@@ -15002,28 +15020,20 @@ mno.link CNAME .
 *.mno.link CNAME .
 momentary.link CNAME .
 *.momentary.link CNAME .
-nevalyashka.link CNAME .
-*.nevalyashka.link CNAME .
 o18.link CNAME .
 *.o18.link CNAME .
 shakyhot.link CNAME .
 *.shakyhot.link CNAME .
 spindl.link CNAME .
 *.spindl.link CNAME .
-taramashka.link CNAME .
-*.taramashka.link CNAME .
 temporary.link CNAME .
 *.temporary.link CNAME .
 universitypoint.link CNAME .
 *.universitypoint.link CNAME .
-vertiguzha.link CNAME .
-*.vertiguzha.link CNAME .
 wct.link CNAME .
 *.wct.link CNAME .
 zog.link CNAME .
 *.zog.link CNAME .
-zveroboyna.link CNAME .
-*.zveroboyna.link CNAME .
 avads.live CNAME .
 *.avads.live CNAME .
 ay.live CNAME .
@@ -15046,6 +15056,8 @@ oneid.live CNAME .
 *.oneid.live CNAME .
 pirateproxy.live CNAME .
 *.pirateproxy.live CNAME .
+rbstsystems.live CNAME .
+*.rbstsystems.live CNAME .
 djsalcbhew47.lol CNAME .
 *.djsalcbhew47.lol CNAME .
 soycdn.lol CNAME .
@@ -17480,6 +17492,8 @@ catsnetwork.ru CNAME .
 *.catsnetwork.ru CNAME .
 cdnrtbsape.ru CNAME .
 *.cdnrtbsape.ru CNAME .
+check-ftp.ru CNAME .
+*.check-ftp.ru CNAME .
 adx.com.ru CNAME .
 *.adx.com.ru CNAME .
 rtb.com.ru CNAME .
@@ -18218,6 +18232,8 @@ gaming001.site CNAME .
 *.gaming001.site CNAME .
 goratu.site CNAME .
 *.goratu.site CNAME .
+handsomeone.site CNAME .
+*.handsomeone.site CNAME .
 ikikigxywqcrf.site CNAME .
 *.ikikigxywqcrf.site CNAME .
 imp-mintads.site CNAME .

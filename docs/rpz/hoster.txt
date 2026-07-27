@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785091200 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785161700 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Badware Hoster DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Jul 2026 18:40 UTC
-; Version: 2026.0726.1840.19
+; Last modified: 27 Jul 2026 14:15 UTC
+; Version: 2026.0727.1415.31
 ; Syntax: RPZ
 ; Number of entries: 2486
 ;
@@ -604,8 +604,6 @@ friendcircles.com CNAME .
 *.friendcircles.com CNAME .
 genblogger.com CNAME .
 *.genblogger.com CNAME .
-gerentebr.com CNAME .
-*.gerentebr.com CNAME .
 getresponsesite.com CNAME .
 *.getresponsesite.com CNAME .
 godaddysites.com CNAME .
@@ -1000,6 +998,8 @@ musik.cx CNAME .
 *.musik.cx CNAME .
 team.cx CNAME .
 *.team.cx CNAME .
+blogspot.com.cy CNAME .
+*.blogspot.com.cy CNAME .
 blogspot.cz CNAME .
 *.blogspot.cz CNAME .
 000a.de CNAME .
