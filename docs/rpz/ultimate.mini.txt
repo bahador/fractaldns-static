@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785238320 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785243060 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Ultimate mini DNS/Browser Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 28 Jul 2026 11:32 UTC
-; Version: 2026.0728.1132.06
+; Last modified: 28 Jul 2026 12:51 UTC
+; Version: 2026.0728.1251.21
 ; Syntax: RPZ
-; Number of entries: 159030
+; Number of entries: 159024
 ;
 ids-irl.global.abb CNAME .
 *.ids-irl.global.abb CNAME .
@@ -44484,14 +44484,8 @@ gameitlive.com CNAME .
 *.gameitlive.com CNAME .
 ad.gameley.com CNAME .
 *.ad.gameley.com CNAME .
-201205igp.gameloft.com CNAME .
-*.201205igp.gameloft.com CNAME .
-a314.gameloft.com CNAME .
-*.a314.gameloft.com CNAME .
 gla.ads-server.gameloft.com CNAME .
 *.gla.ads-server.gameloft.com CNAME .
-datalake.gameloft.com CNAME .
-*.datalake.gameloft.com CNAME .
 etsv2.gameloft.com CNAME .
 *.etsv2.gameloft.com CNAME .
 gla.gameloft.com CNAME .
