@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785250500 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785263880 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Light DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 28 Jul 2026 14:55 UTC
-; Version: 2026.0728.1455.43
+; Last modified: 28 Jul 2026 18:38 UTC
+; Version: 2026.0728.1838.00
 ; Syntax: RPZ
-; Number of entries: 85726
+; Number of entries: 85832
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -3514,6 +3514,8 @@ bleachinjectionuncommon.com CNAME .
 *.bleachinjectionuncommon.com CNAME .
 blendedbird.com CNAME .
 *.blendedbird.com CNAME .
+blendee.com CNAME .
+*.blendee.com CNAME .
 blis.com CNAME .
 *.blis.com CNAME .
 blismedia.com CNAME .
@@ -16438,8 +16440,6 @@ logicalmind.online CNAME .
 *.logicalmind.online CNAME .
 microsoft23-uslive4.online CNAME .
 *.microsoft23-uslive4.online CNAME .
-ngfhkglghgdjliwgh.online CNAME .
-*.ngfhkglghgdjliwgh.online CNAME .
 nxszybhvuiblq.online CNAME .
 *.nxszybhvuiblq.online CNAME .
 oast.online CNAME .
