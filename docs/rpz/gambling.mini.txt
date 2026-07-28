@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785238440 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785250740 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Gambling DNS Blocklist - mini version
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 28 Jul 2026 11:34 UTC
-; Version: 2026.0728.1134.38
+; Last modified: 28 Jul 2026 14:59 UTC
+; Version: 2026.0728.1459.25
 ; Syntax: RPZ
-; Number of entries: 180562
+; Number of entries: 180564
 ;
 789f.ac CNAME .
 *.789f.ac CNAME .
@@ -71180,6 +71180,8 @@ lochrasterkarten.com CNAME .
 *.lochrasterkarten.com CNAME .
 locked-in-bets.com CNAME .
 *.locked-in-bets.com CNAME .
+lockerimage.com CNAME .
+*.lockerimage.com CNAME .
 lockhart-web.com CNAME .
 *.lockhart-web.com CNAME .
 loco-casinoe.com CNAME .

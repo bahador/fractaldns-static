@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785232380 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785246720 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 28 Jul 2026 09:53 UTC
-; Version: 2026.0728.0953.34
+; Last modified: 28 Jul 2026 13:52 UTC
+; Version: 2026.0728.1352.40
 ; Syntax: RPZ
 ; Number of entries: 113222
 ;
@@ -48204,6 +48204,8 @@ lockerdome.com CNAME .
 *.lockerdome.com CNAME .
 lockerdomecdn.com CNAME .
 *.lockerdomecdn.com CNAME .
+lockerimage.com CNAME .
+*.lockerimage.com CNAME .
 locketsauce.com CNAME .
 *.locketsauce.com CNAME .
 ld.lockiancrab.com CNAME .
@@ -73724,8 +73726,6 @@ unitedlawsfriendship.com CNAME .
 *.unitedlawsfriendship.com CNAME .
 unitedtraders.com CNAME .
 *.unitedtraders.com CNAME .
-offerwall.unity3d.com CNAME .
-*.offerwall.unity3d.com CNAME .
 universalsrc.com CNAME .
 *.universalsrc.com CNAME .
 universityofinternetscience.com CNAME .
