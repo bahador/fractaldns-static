@@ -58,7 +58,8 @@ jobs:
           curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif-ips.txt" > docs/rpz/tif-ips.txt
           curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif.medium.txt" > docs/rpz/tif.medium.txt
           curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif.mini.txt" > docs/rpz/tif.mini.txt
-          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif.txt" > docs/rpz/tif.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif-1.txt" > docs/rpz/tif-1.txt
+          curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/tif-2.txt" > docs/rpz/tif-2.txt
           curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/ultimate.mini.txt" > docs/rpz/ultimate.mini.txt
           curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/ultimate.txt" > docs/rpz/ultimate.txt
           curl -fsSL --max-time 60 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/rpz/urlshortener.txt" > docs/rpz/urlshortener.txt
