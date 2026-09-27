@@ -1,18 +1,18 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784308800 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1789767900 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's safesearch not supported DNS Blocklist
-; Description: Prevents the use of search engines that do not support safesearch.
+; Title: HaGeZi's safesearch not supported - blocks search engines that skip Safesearch!
+; Description: Blocks search engines that don't support Safesearch.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 17 Jul 2026 17:20 UTC
-; Version: 2026.0717.1720.39
+; Expires: 8 hours
+; Last modified: 18 Sep 2026 21:45 UTC
+; Version: 2026.0918.2145.28
 ; Syntax: RPZ
-; Number of entries: 412
+; Number of entries: 410
 ;
 search.femboy.ad CNAME .
 *.search.femboy.ad CNAME .
@@ -74,8 +74,6 @@ boomle.com CNAME .
 *.boomle.com CNAME .
 dogpile.com CNAME .
 *.dogpile.com CNAME .
-results.excite.com CNAME .
-*.results.excite.com CNAME .
 gibiru.com CNAME .
 *.gibiru.com CNAME .
 gigablast.com CNAME .
@@ -146,6 +144,8 @@ suche.aol.de CNAME .
 *.suche.aol.de CNAME .
 searx.decatec.de CNAME .
 *.searx.decatec.de CNAME .
+searxng.diadz.de CNAME .
+*.searxng.diadz.de CNAME .
 search.dojoro.de CNAME .
 *.search.dojoro.de CNAME .
 eulie.de CNAME .
@@ -188,8 +188,6 @@ search.zina.dev CNAME .
 *.search.zina.dev CNAME .
 searx.divided-by-zero.eu CNAME .
 *.searx.divided-by-zero.eu CNAME .
-librex.myroware.eu CNAME .
-*.librex.myroware.eu CNAME .
 searxng.nicfab.eu CNAME .
 *.searxng.nicfab.eu CNAME .
 nigma.eu CNAME .

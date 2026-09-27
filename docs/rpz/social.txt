@@ -1,18 +1,19 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784309520 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1790373420 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's Social Networks DNS Blocklist
-; Description: Blocks access to social networks (Facebook, Instagram, TikTok, X (formerly Twitter), Snapchat, ...)
+; Title: HaGeZi's Social Networks - blocks access to social networks!
+; Description: Blocks social networks like Facebook, Instagram, TikTok, X (formerly Twitter), Snapchat, and others.
+; Note: This list won't block messaging apps like WhatsApp or streaming platforms like Twitch. It's strictly aimed at classic social networking sites.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 17 Jul 2026 17:32 UTC
-; Version: 2026.0717.1732.43
+; Expires: 8 hours
+; Last modified: 25 Sep 2026 21:57 UTC
+; Version: 2026.0925.2157.19
 ; Syntax: RPZ
-; Number of entries: 1796
+; Number of entries: 1798
 ;
 masto.ai CNAME .
 *.masto.ai CNAME .
@@ -794,14 +795,16 @@ p16-tiktok-dm-sticker-sign-va.ibyteimg.com CNAME .
 *.p16-tiktok-dm-sticker-sign-va.ibyteimg.com CNAME .
 p16-tiktok-group-icon-sign-sg.ibyteimg.com CNAME .
 *.p16-tiktok-group-icon-sign-sg.ibyteimg.com CNAME .
+p16-tiktok-live-smb-fe-sg.ibyteimg.com CNAME .
+*.p16-tiktok-live-smb-fe-sg.ibyteimg.com CNAME .
 p16-tiktok-livestudio-asset-sg.ibyteimg.com CNAME .
 *.p16-tiktok-livestudio-asset-sg.ibyteimg.com CNAME .
 p16-tiktok-ls-merchant-sign-sg.ibyteimg.com CNAME .
 *.p16-tiktok-ls-merchant-sign-sg.ibyteimg.com CNAME .
 p16-tiktok-poi-picture-sign-sg.ibyteimg.com CNAME .
 *.p16-tiktok-poi-picture-sign-sg.ibyteimg.com CNAME .
-p16-tiktok-va.ibyteimg.com CNAME .
-*.p16-tiktok-va.ibyteimg.com CNAME .
+p16-tiktok-web-ads-sg.ibyteimg.com CNAME .
+*.p16-tiktok-web-ads-sg.ibyteimg.com CNAME .
 igcdn.com CNAME .
 *.igcdn.com CNAME .
 igsonar.com CNAME .
@@ -994,10 +997,10 @@ redditmail.com CNAME .
 *.redditmail.com CNAME .
 redditmedia.com CNAME .
 *.redditmedia.com CNAME .
+redditstatic.com CNAME .
+*.redditstatic.com CNAME .
 redkix.com CNAME .
 *.redkix.com CNAME .
-rocksdb.com CNAME .
-*.rocksdb.com CNAME .
 sc-gw.com CNAME .
 *.sc-gw.com CNAME .
 sc-jpl.com CNAME .
@@ -1484,6 +1487,8 @@ mastodon.nl CNAME .
 *.mastodon.nl CNAME .
 pinterest.nl CNAME .
 *.pinterest.nl CNAME .
+twitter.now CNAME .
+*.twitter.now CNAME .
 masto.nu CNAME .
 *.masto.nu CNAME .
 mastodon.nu CNAME .
@@ -1586,8 +1591,6 @@ reactjs.org CNAME .
 *.reactjs.org CNAME .
 recoiljs.org CNAME .
 *.recoiljs.org CNAME .
-rocksdb.org CNAME .
-*.rocksdb.org CNAME .
 mastodon.sdf.org CNAME .
 *.mastodon.sdf.org CNAME .
 snapmap.org CNAME .
