@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790757600 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790781240 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 30 Sep 2026 08:40 UTC
-; Version: 2026.0930.0840.34
+; Last modified: 30 Sep 2026 15:14 UTC
+; Version: 2026.0930.1514.20
 ; Syntax: RPZ
-; Number of entries: 90430
+; Number of entries: 90424
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -2563,6 +2563,8 @@ afflat3c1.com CNAME .
 *.afflat3c1.com CNAME .
 afflat3d2.com CNAME .
 *.afflat3d2.com CNAME .
+afflat3d3.com CNAME .
+*.afflat3d3.com CNAME .
 afflat3e3.com CNAME .
 *.afflat3e3.com CNAME .
 affoutrck.com CNAME .
@@ -3811,6 +3813,8 @@ carbonatix.com CNAME .
 *.carbonatix.com CNAME .
 carbonquotes.com CNAME .
 *.carbonquotes.com CNAME .
+caribanpitmans.com CNAME .
+*.caribanpitmans.com CNAME .
 cariousphiale.com CNAME .
 *.cariousphiale.com CNAME .
 carloforward.com CNAME .
@@ -4703,8 +4707,6 @@ dftoutiao.com CNAME .
 *.dftoutiao.com CNAME .
 dfxwdc.com CNAME .
 *.dfxwdc.com CNAME .
-dgpwxgw.com CNAME .
-*.dgpwxgw.com CNAME .
 dgrtccqbovu.com CNAME .
 *.dgrtccqbovu.com CNAME .
 dhm8.com CNAME .
@@ -7831,6 +7833,8 @@ miniast.com CNAME .
 *.miniast.com CNAME .
 mintronick.com CNAME .
 *.mintronick.com CNAME .
+minusesasfast.com CNAME .
+*.minusesasfast.com CNAME .
 minutemedia.com CNAME .
 *.minutemedia.com CNAME .
 minutemedia-prebid.com CNAME .
@@ -8453,6 +8457,8 @@ oddgate.com CNAME .
 *.oddgate.com CNAME .
 oddsserve.com CNAME .
 *.oddsserve.com CNAME .
+odylismnumina.com CNAME .
+*.odylismnumina.com CNAME .
 offerwall-adnative.com CNAME .
 *.offerwall-adnative.com CNAME .
 offfurreton.com CNAME .
@@ -10325,8 +10331,6 @@ shrinktheweb.com CNAME .
 *.shrinktheweb.com CNAME .
 shticksmazut.com CNAME .
 *.shticksmazut.com CNAME .
-shucaihangjia.com CNAME .
-*.shucaihangjia.com CNAME .
 shukriya90.com CNAME .
 *.shukriya90.com CNAME .
 shulovbaazar.com CNAME .
@@ -10643,8 +10647,6 @@ srmdata-eur.com CNAME .
 *.srmdata-eur.com CNAME .
 srmdata-us.com CNAME .
 *.srmdata-us.com CNAME .
-srnky.com CNAME .
-*.srnky.com CNAME .
 srowox.com CNAME .
 *.srowox.com CNAME .
 srv224.com CNAME .
@@ -14841,10 +14843,16 @@ momentary.link CNAME .
 *.momentary.link CNAME .
 o18.link CNAME .
 *.o18.link CNAME .
+pepyakanew.link CNAME .
+*.pepyakanew.link CNAME .
 spindl.link CNAME .
 *.spindl.link CNAME .
+tazaromikaz.link CNAME .
+*.tazaromikaz.link CNAME .
 temporary.link CNAME .
 *.temporary.link CNAME .
+teplodara.link CNAME .
+*.teplodara.link CNAME .
 veselchaga.link CNAME .
 *.veselchaga.link CNAME .
 wct.link CNAME .
