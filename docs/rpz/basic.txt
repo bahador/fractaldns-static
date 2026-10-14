@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1791966780 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792010580 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 14 Oct 2026 08:33 UTC
-; Version: 2026.1014.0833.02
+; Last modified: 14 Oct 2026 20:43 UTC
+; Version: 2026.1014.2043.36
 ; Syntax: RPZ
-; Number of entries: 116364
+; Number of entries: 116362
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -941,6 +941,8 @@ ringiteinsect.cfd CNAME .
 *.ringiteinsect.cfd CNAME .
 robberdarers.cfd CNAME .
 *.robberdarers.cfd CNAME .
+rollmopidylist.cfd CNAME .
+*.rollmopidylist.cfd CNAME .
 roubkirsen.cfd CNAME .
 *.roubkirsen.cfd CNAME .
 rufflywahoo.cfd CNAME .
@@ -15417,6 +15419,8 @@ e-planning.net CNAME .
 *.e-planning.net CNAME .
 earn4win.net CNAME .
 *.earn4win.net CNAME .
+ecole-saint-simon.net CNAME .
+*.ecole-saint-simon.net CNAME .
 ed-sys.net CNAME .
 *.ed-sys.net CNAME .
 edgelib.net CNAME .
@@ -15571,6 +15575,8 @@ img-c.net CNAME .
 *.img-c.net CNAME .
 imgfrost.net CNAME .
 *.imgfrost.net CNAME .
+immediateconnect.net CNAME .
+*.immediateconnect.net CNAME .
 imtmp.net CNAME .
 *.imtmp.net CNAME .
 incentivesnetwork.net CNAME .
@@ -15789,8 +15795,6 @@ p7cloud.net CNAME .
 *.p7cloud.net CNAME .
 packetsdk.net CNAME .
 *.packetsdk.net CNAME .
-pagemaster.net CNAME .
-*.pagemaster.net CNAME .
 parkingcrew.net CNAME .
 *.parkingcrew.net CNAME .
 paupsoborofoow.net CNAME .
