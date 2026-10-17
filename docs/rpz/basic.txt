@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792191780 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792228560 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 16 Oct 2026 23:03 UTC
-; Version: 2026.1016.2303.36
+; Last modified: 17 Oct 2026 09:16 UTC
+; Version: 2026.1017.0916.35
 ; Syntax: RPZ
-; Number of entries: 124302
+; Number of entries: 125806
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1793,6 +1793,8 @@ ssm.codes CNAME .
 *.6cq8d7xyk.com CNAME .
 6k1alauto.com CNAME .
 *.6k1alauto.com CNAME .
+6tve.com CNAME .
+*.6tve.com CNAME .
 6y10di5jko.com CNAME .
 *.6y10di5jko.com CNAME .
 700be1edfc.com CNAME .
@@ -3353,6 +3355,8 @@ bestchoicepills.com CNAME .
 *.bestchoicepills.com CNAME .
 bestfastlink.com CNAME .
 *.bestfastlink.com CNAME .
+bestfungamestoday.com CNAME .
+*.bestfungamestoday.com CNAME .
 besthitsnow.com CNAME .
 *.besthitsnow.com CNAME .
 besthunny.com CNAME .
@@ -5409,10 +5413,6 @@ fabric-analytics.com CNAME .
 *.fabric-analytics.com CNAME .
 fabricsdirect4you.com CNAME .
 *.fabricsdirect4you.com CNAME .
-facebgook.com CNAME .
-*.facebgook.com CNAME .
-facebooik.com CNAME .
-*.facebooik.com CNAME .
 facil-iti.com CNAME .
 *.facil-iti.com CNAME .
 fadedsnow.com CNAME .
@@ -5855,8 +5855,6 @@ gaipuzui.com CNAME .
 *.gaipuzui.com CNAME .
 galaksion.com CNAME .
 *.galaksion.com CNAME .
-galileofx.com CNAME .
-*.galileofx.com CNAME .
 gallerieshub.com CNAME .
 *.gallerieshub.com CNAME .
 gamaibids.com CNAME .
@@ -6907,8 +6905,6 @@ insolubledoomedbenignity.com CNAME .
 *.insolubledoomedbenignity.com CNAME .
 inspoloji.com CNAME .
 *.inspoloji.com CNAME .
-instagrem.com CNAME .
-*.instagrem.com CNAME .
 instakink.com CNAME .
 *.instakink.com CNAME .
 instanceimprovedhew.com CNAME .
@@ -7585,8 +7581,6 @@ lngtd.com CNAME .
 *.lngtd.com CNAME .
 lnk0.com CNAME .
 *.lnk0.com CNAME .
-lnstagram-help.com CNAME .
-*.lnstagram-help.com CNAME .
 loadedhearts.com CNAME .
 *.loadedhearts.com CNAME .
 loadingscripts.com CNAME .
@@ -11559,8 +11553,6 @@ toponad.com CNAME .
 *.toponad.com CNAME .
 toponadss.com CNAME .
 *.toponadss.com CNAME .
-toppillsstore.com CNAME .
-*.toppillsstore.com CNAME .
 topqualitylink.com CNAME .
 *.topqualitylink.com CNAME .
 topratedwaterfilter.com CNAME .
@@ -12429,8 +12421,6 @@ waxapushlite.com CNAME .
 *.waxapushlite.com CNAME .
 wayfarerorthodox.com CNAME .
 *.wayfarerorthodox.com CNAME .
-wayrates.com CNAME .
-*.wayrates.com CNAME .
 waytogrow.com CNAME .
 *.waytogrow.com CNAME .
 wbamedia.com CNAME .
@@ -13131,6 +13121,8 @@ zupertech.com CNAME .
 *.zupertech.com CNAME .
 zuuvicdn.com CNAME .
 *.zuuvicdn.com CNAME .
+zvrkntplm.com CNAME .
+*.zvrkntplm.com CNAME .
 zvxcuqfdzf.com CNAME .
 *.zvxcuqfdzf.com CNAME .
 zwg5j61a8.com CNAME .
@@ -15229,6 +15221,8 @@ krut.link CNAME .
 *.krut.link CNAME .
 lasso.link CNAME .
 *.lasso.link CNAME .
+lovescape.link CNAME .
+*.lovescape.link CNAME .
 metricsjs.link CNAME .
 *.metricsjs.link CNAME .
 momentary.link CNAME .
@@ -16801,6 +16795,8 @@ talaria.online CNAME .
 *.talaria.online CNAME .
 tivra.online CNAME .
 *.tivra.online CNAME .
+topicjournal.online CNAME .
+*.topicjournal.online CNAME .
 tpmedia.online CNAME .
 *.tpmedia.online CNAME .
 trackerredirect.online CNAME .
