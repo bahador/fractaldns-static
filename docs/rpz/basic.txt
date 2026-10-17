@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792228560 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792250820 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 17 Oct 2026 09:16 UTC
-; Version: 2026.1017.0916.35
+; Last modified: 17 Oct 2026 15:27 UTC
+; Version: 2026.1017.1527.31
 ; Syntax: RPZ
-; Number of entries: 125806
+; Number of entries: 125838
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -2615,6 +2615,8 @@ affixsisel.com CNAME .
 *.affixsisel.com CNAME .
 afflat3a1.com CNAME .
 *.afflat3a1.com CNAME .
+afflat3a2.com CNAME .
+*.afflat3a2.com CNAME .
 afflat3d2.com CNAME .
 *.afflat3d2.com CNAME .
 affoutrck.com CNAME .
@@ -9937,6 +9939,8 @@ relevanceads.com CNAME .
 *.relevanceads.com CNAME .
 relevant-digital.com CNAME .
 *.relevant-digital.com CNAME .
+relevantech.com CNAME .
+*.relevantech.com CNAME .
 reliablecounter.com CNAME .
 *.reliablecounter.com CNAME .
 reliedhounder.com CNAME .
@@ -12763,6 +12767,8 @@ xl-ads.com CNAME .
 *.xl-ads.com CNAME .
 xlgmedia.com CNAME .
 *.xlgmedia.com CNAME .
+xliiirdr.com CNAME .
+*.xliiirdr.com CNAME .
 xliirdr.com CNAME .
 *.xliirdr.com CNAME .
 xlirdr.com CNAME .
@@ -15303,6 +15309,8 @@ count.ly CNAME .
 *.count.ly CNAME .
 parse.ly CNAME .
 *.parse.ly CNAME .
+cu.ma CNAME .
+*.cu.ma CNAME .
 adtarget.market CNAME .
 *.adtarget.market CNAME .
 0hi.me CNAME .
@@ -16499,8 +16507,6 @@ traffboost.net CNAME .
 *.traffboost.net CNAME .
 traffer.net CNAME .
 *.traffer.net CNAME .
-trafficgate.net CNAME .
-*.trafficgate.net CNAME .
 trafficjunky.net CNAME .
 *.trafficjunky.net CNAME .
 trk42.net CNAME .
