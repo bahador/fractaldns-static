@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1792574580 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1792594260 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 21 Oct 2026 09:23 UTC
-; Version: 2026.1021.0923.48
+; Last modified: 21 Oct 2026 14:51 UTC
+; Version: 2026.1021.1451.13
 ; Syntax: RPZ
-; Number of entries: 135558
+; Number of entries: 135662
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -10329,6 +10329,8 @@ seobundlekit.com CNAME .
 *.seobundlekit.com CNAME .
 sepkicks.com CNAME .
 *.sepkicks.com CNAME .
+sepoygalliot.com CNAME .
+*.sepoygalliot.com CNAME .
 serialmenot.com CNAME .
 *.serialmenot.com CNAME .
 seriouswheels.com CNAME .
@@ -13233,6 +13235,8 @@ sacatraoopuhue.cyou CNAME .
 *.sacatraoopuhue.cyou CNAME .
 sandralift.cyou CNAME .
 *.sandralift.cyou CNAME .
+sarahagyrate.cyou CNAME .
+*.sarahagyrate.cyou CNAME .
 savantwaxwing.cyou CNAME .
 *.savantwaxwing.cyou CNAME .
 scagsdamlike.cyou CNAME .
@@ -14511,6 +14515,8 @@ pabidding.io CNAME .
 *.pabidding.io CNAME .
 packetsdk.io CNAME .
 *.packetsdk.io CNAME .
+page-kit.io CNAME .
+*.page-kit.io CNAME .
 pagesense.io CNAME .
 *.pagesense.io CNAME .
 pangle-b.io CNAME .
