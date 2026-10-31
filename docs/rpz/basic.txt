@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793438640 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793461500 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 31 Oct 2026 09:24 UTC
-; Version: 2026.1031.0924.10
+; Last modified: 31 Oct 2026 15:45 UTC
+; Version: 2026.1031.1545.53
 ; Syntax: RPZ
-; Number of entries: 155704
+; Number of entries: 155626
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -7741,8 +7741,6 @@ measurementapi.com CNAME .
 *.measurementapi.com CNAME .
 meazy-ads.com CNAME .
 *.meazy-ads.com CNAME .
-medexst.com CNAME .
-*.medexst.com CNAME .
 medfoodsafety.com CNAME .
 *.medfoodsafety.com CNAME .
 medgoodfood.com CNAME .
@@ -11011,6 +11009,8 @@ tabligheirani.com CNAME .
 *.tabligheirani.com CNAME .
 taboola.com CNAME .
 *.taboola.com CNAME .
+taboola-display.com CNAME .
+*.taboola-display.com CNAME .
 taboola-ocm.com CNAME .
 *.taboola-ocm.com CNAME .
 tabretwicht.com CNAME .
