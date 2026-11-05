@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793875200 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1793895420 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 05 Nov 2026 10:40 UTC
-; Version: 2026.1105.1040.35
+; Last modified: 05 Nov 2026 16:17 UTC
+; Version: 2026.1105.1617.43
 ; Syntax: RPZ
-; Number of entries: 174560
+; Number of entries: 174526
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -17345,6 +17345,8 @@ leadexpert.pl CNAME .
 *.leadexpert.pl CNAME .
 leadmy.pl CNAME .
 *.leadmy.pl CNAME .
+lekipoludzku.pl CNAME .
+*.lekipoludzku.pl CNAME .
 lexspace.pl CNAME .
 *.lexspace.pl CNAME .
 mega-kino.pl CNAME .
@@ -19281,8 +19283,6 @@ zigzag.vn CNAME .
 *.zigzag.vn CNAME .
 rabbits.webcam CNAME .
 *.rabbits.webcam CNAME .
-jmjfjeueskgtb.website CNAME .
-*.jmjfjeueskgtb.website CNAME .
 multifbpixels.website CNAME .
 *.multifbpixels.website CNAME .
 pathtrck.website CNAME .
