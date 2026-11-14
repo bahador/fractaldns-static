@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794558660 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794611040 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 13 Nov 2026 08:31 UTC
-; Version: 2026.1113.0831.18
+; Last modified: 13 Nov 2026 23:04 UTC
+; Version: 2026.1113.2304.53
 ; Syntax: RPZ
-; Number of entries: 179508
+; Number of entries: 179770
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1583,6 +1583,8 @@ webpartners.co CNAME .
 *.webpartners.co CNAME .
 wunderkind.co CNAME .
 *.wunderkind.co CNAME .
+fly.codes CNAME .
+*.fly.codes CNAME .
 ssm.codes CNAME .
 *.ssm.codes CNAME .
 000nethost.com CNAME .
@@ -2741,6 +2743,8 @@ ahnlabad.com CNAME .
 *.ahnlabad.com CNAME .
 aibsgc.com CNAME .
 *.aibsgc.com CNAME .
+aichouphaugn.com CNAME .
+*.aichouphaugn.com CNAME .
 aieov.com CNAME .
 *.aieov.com CNAME .
 aigeneratedhoes.com CNAME .
@@ -5249,6 +5253,8 @@ emoryday-analytics.com CNAME .
 *.emoryday-analytics.com CNAME .
 emperydefogs.com CNAME .
 *.emperydefogs.com CNAME .
+emskz.com CNAME .
+*.emskz.com CNAME .
 emxdgt.com CNAME .
 *.emxdgt.com CNAME .
 enaightdecipie.com CNAME .
@@ -5609,6 +5615,8 @@ fizzyacerbitymellow.com CNAME .
 *.fizzyacerbitymellow.com CNAME .
 flairadscpc.com CNAME .
 *.flairadscpc.com CNAME .
+flaminguins.com CNAME .
+*.flaminguins.com CNAME .
 flarby.com CNAME .
 *.flarby.com CNAME .
 flashnetic.com CNAME .
@@ -10137,6 +10145,8 @@ rtbsrv.com CNAME .
 *.rtbsrv.com CNAME .
 rtbsystem.com CNAME .
 *.rtbsystem.com CNAME .
+rtbtrackie.com CNAME .
+*.rtbtrackie.com CNAME .
 rtbuniverse.com CNAME .
 *.rtbuniverse.com CNAME .
 rtbwave.com CNAME .
@@ -12661,6 +12671,8 @@ x1abo.com CNAME .
 *.x1abo.com CNAME .
 x2tsa.com CNAME .
 *.x2tsa.com CNAME .
+x7u4.com CNAME .
+*.x7u4.com CNAME .
 x9fnzrtl4x8pynsf.com CNAME .
 *.x9fnzrtl4x8pynsf.com CNAME .
 xadsmart.com CNAME .
@@ -14373,6 +14385,8 @@ most-dnepr.info CNAME .
 *.most-dnepr.info CNAME .
 mstcs.info CNAME .
 *.mstcs.info CNAME .
+netyra.info CNAME .
+*.netyra.info CNAME .
 piccy.info CNAME .
 *.piccy.info CNAME .
 popland.info CNAME .
@@ -16921,6 +16935,8 @@ topicjournal.online CNAME .
 *.topicjournal.online CNAME .
 tpmedia.online CNAME .
 *.tpmedia.online CNAME .
+trustcnt.online CNAME .
+*.trustcnt.online CNAME .
 urkptdjgrquuw.online CNAME .
 *.urkptdjgrquuw.online CNAME .
 vbsrpojnzuktp.online CNAME .
@@ -17241,6 +17257,8 @@ velogonshik.org CNAME .
 *.velogonshik.org CNAME .
 vid4u.org CNAME .
 *.vid4u.org CNAME .
+viewanalitycs.org CNAME .
+*.viewanalitycs.org CNAME .
 vitting.org CNAME .
 *.vitting.org CNAME .
 webvisor.org CNAME .
@@ -18441,6 +18459,10 @@ liontx.stream CNAME .
 *.liontx.stream CNAME .
 ocelot.studio CNAME .
 *.ocelot.studio CNAME .
+jameltipoazul.study CNAME .
+*.jameltipoazul.study CNAME .
+ubelivablestrange.study CNAME .
+*.ubelivablestrange.study CNAME .
 ad.style CNAME .
 *.ad.style CNAME .
 cif.su CNAME .
