@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1794991020 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795016160 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 18 Nov 2026 08:37 UTC
-; Version: 2026.1118.0837.19
+; Last modified: 18 Nov 2026 15:36 UTC
+; Version: 2026.1118.1536.41
 ; Syntax: RPZ
-; Number of entries: 186578
+; Number of entries: 186690
 ;
 script.ac CNAME .
 *.script.ac CNAME .
