@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795164120 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795188900 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 08:42 UTC
-; Version: 2026.1120.0842.40
+; Last modified: 20 Nov 2026 15:35 UTC
+; Version: 2026.1120.1535.34
 ; Syntax: RPZ
-; Number of entries: 183730
+; Number of entries: 183468
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1359,8 +1359,6 @@ govps.cloud CNAME .
 *.govps.cloud CNAME .
 innocraft.cloud CNAME .
 *.innocraft.cloud CNAME .
-litellm.cloud CNAME .
-*.litellm.cloud CNAME .
 matomo.cloud CNAME .
 *.matomo.cloud CNAME .
 s24.cloud CNAME .
@@ -7655,6 +7653,8 @@ lovingflag.com CNAME .
 *.lovingflag.com CNAME .
 loxitdat.com CNAME .
 *.loxitdat.com CNAME .
+loyal-product.com CNAME .
+*.loyal-product.com CNAME .
 lpmediastorage.com CNAME .
 *.lpmediastorage.com CNAME .
 lporirxe.com CNAME .
@@ -9261,6 +9261,8 @@ pnperf.com CNAME .
 *.pnperf.com CNAME .
 pocketfaucet.com CNAME .
 *.pocketfaucet.com CNAME .
+pockett3.com CNAME .
+*.pockett3.com CNAME .
 pocustrack.com CNAME .
 *.pocustrack.com CNAME .
 podbex.com CNAME .
@@ -10259,6 +10261,8 @@ samsungads.com CNAME .
 *.samsungads.com CNAME .
 sancydubai.com CNAME .
 *.sancydubai.com CNAME .
+sandburceride.com CNAME .
+*.sandburceride.com CNAME .
 sandh-zvg.com CNAME .
 *.sandh-zvg.com CNAME .
 sandsprecision.com CNAME .
@@ -18919,6 +18923,8 @@ free-counters.co.uk CNAME .
 *.free-counters.co.uk CNAME .
 onefeed.co.uk CNAME .
 *.onefeed.co.uk CNAME .
+reachgeneric.co.uk CNAME .
+*.reachgeneric.co.uk CNAME .
 secretmassageclub.co.uk CNAME .
 *.secretmassageclub.co.uk CNAME .
 smartmetrics.co.uk CNAME .
