@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795102140 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795131180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 19 Nov 2026 15:29 UTC
-; Version: 2026.1119.1529.57
+; Last modified: 19 Nov 2026 23:33 UTC
+; Version: 2026.1119.2333.26
 ; Syntax: RPZ
-; Number of entries: 184352
+; Number of entries: 184638
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -15395,6 +15395,8 @@ geoflix.me CNAME .
 *.geoflix.me CNAME .
 gglx.me CNAME .
 *.gglx.me CNAME .
+glitch.me CNAME .
+*.glitch.me CNAME .
 greeter.me CNAME .
 *.greeter.me CNAME .
 hellohi.me CNAME .
@@ -16629,6 +16631,8 @@ united-infos.net CNAME .
 *.united-infos.net CNAME .
 upapi.net CNAME .
 *.upapi.net CNAME .
+uplooder.net CNAME .
+*.uplooder.net CNAME .
 uptodater.net CNAME .
 *.uptodater.net CNAME .
 urlcash.net CNAME .
