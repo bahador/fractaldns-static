@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795131180 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795164120 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 19 Nov 2026 23:33 UTC
-; Version: 2026.1119.2333.26
+; Last modified: 20 Nov 2026 08:42 UTC
+; Version: 2026.1120.0842.40
 ; Syntax: RPZ
-; Number of entries: 184638
+; Number of entries: 183730
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -227,8 +227,6 @@ interseq.at CNAME .
 *.interseq.at CNAME .
 mocafirst.at CNAME .
 *.mocafirst.at CNAME .
-multiplay.at CNAME .
-*.multiplay.at CNAME .
 robelshoes.at CNAME .
 *.robelshoes.at CNAME .
 waust.at CNAME .
@@ -1361,6 +1359,8 @@ govps.cloud CNAME .
 *.govps.cloud CNAME .
 innocraft.cloud CNAME .
 *.innocraft.cloud CNAME .
+litellm.cloud CNAME .
+*.litellm.cloud CNAME .
 matomo.cloud CNAME .
 *.matomo.cloud CNAME .
 s24.cloud CNAME .
@@ -1797,8 +1797,6 @@ ssm.codes CNAME .
 *.114la.com CNAME .
 12.com CNAME .
 *.12.com CNAME .
-123-free-download.com CNAME .
-*.123-free-download.com CNAME .
 123cartoon.com CNAME .
 *.123cartoon.com CNAME .
 123cha.com CNAME .
@@ -5569,8 +5567,6 @@ facil-iti.com CNAME .
 *.facil-iti.com CNAME .
 fadedsnow.com CNAME .
 *.fadedsnow.com CNAME .
-failstrike.com CNAME .
-*.failstrike.com CNAME .
 fairiesbranch.com CNAME .
 *.fairiesbranch.com CNAME .
 falcopartners.com CNAME .
@@ -9121,6 +9117,8 @@ pgpartner.com CNAME .
 *.pgpartner.com CNAME .
 pgssl.com CNAME .
 *.pgssl.com CNAME .
+phandorra.com CNAME .
+*.phandorra.com CNAME .
 pharmenia.com CNAME .
 *.pharmenia.com CNAME .
 phasdesign.com CNAME .
@@ -13495,6 +13493,8 @@ waffingmythism.cyou CNAME .
 *.waffingmythism.cyou CNAME .
 wamusesleapszarnich.cyou CNAME .
 *.wamusesleapszarnich.cyou CNAME .
+wharfsdicyan.cyou CNAME .
+*.wharfsdicyan.cyou CNAME .
 whatchyfares.cyou CNAME .
 *.whatchyfares.cyou CNAME .
 wistskhulaalea.cyou CNAME .
@@ -15219,6 +15219,8 @@ carambo.la CNAME .
 *.carambo.la CNAME .
 godsave.lgbt CNAME .
 *.godsave.lgbt CNAME .
+z-lib.li CNAME .
+*.z-lib.li CNAME .
 dewrain.life CNAME .
 *.dewrain.life CNAME .
 myangular.life CNAME .
@@ -15529,6 +15531,8 @@ adsdms.mk CNAME .
 *.adsdms.mk CNAME .
 adserver.mk CNAME .
 *.adserver.mk CNAME .
+luxlogics.ml CNAME .
+*.luxlogics.ml CNAME .
 tateornamental.ml CNAME .
 *.tateornamental.ml CNAME .
 wpfc.ml CNAME .
@@ -17177,6 +17181,8 @@ rtxt.org CNAME .
 *.rtxt.org CNAME .
 rutrk.org CNAME .
 *.rutrk.org CNAME .
+s3blog.org CNAME .
+*.s3blog.org CNAME .
 s99i.org CNAME .
 *.s99i.org CNAME .
 sanynouncem.org CNAME .
@@ -17721,8 +17727,6 @@ stats.rip CNAME .
 *.2parale.ro CNAME .
 7w.ro CNAME .
 *.7w.ro CNAME .
-comunicare-relatiipublice.ro CNAME .
-*.comunicare-relatiipublice.ro CNAME .
 etop.ro CNAME .
 *.etop.ro CNAME .
 icorp.ro CNAME .
