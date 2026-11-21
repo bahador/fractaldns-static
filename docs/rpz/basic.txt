@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795188900 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795216800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Nov 2026 15:35 UTC
-; Version: 2026.1120.1535.34
+; Last modified: 20 Nov 2026 23:20 UTC
+; Version: 2026.1120.2320.23
 ; Syntax: RPZ
-; Number of entries: 183468
+; Number of entries: 183412
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -11101,6 +11101,8 @@ surlyplants.com CNAME .
 *.surlyplants.com CNAME .
 survata.com CNAME .
 *.survata.com CNAME .
+survey-keys.com CNAME .
+*.survey-keys.com CNAME .
 survey-smiles.com CNAME .
 *.survey-smiles.com CNAME .
 surveymrs.com CNAME .
@@ -17185,8 +17187,6 @@ rtxt.org CNAME .
 *.rtxt.org CNAME .
 rutrk.org CNAME .
 *.rutrk.org CNAME .
-s3blog.org CNAME .
-*.s3blog.org CNAME .
 s99i.org CNAME .
 *.s99i.org CNAME .
 sanynouncem.org CNAME .
