@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795422240 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795476600 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 23 Nov 2026 08:24 UTC
-; Version: 2026.1123.0824.48
+; Last modified: 23 Nov 2026 23:30 UTC
+; Version: 2026.1123.2330.39
 ; Syntax: RPZ
-; Number of entries: 153416
+; Number of entries: 153330
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -2791,6 +2791,8 @@ alfasense.com CNAME .
 *.alfasense.com CNAME .
 alfasrv.com CNAME .
 *.alfasrv.com CNAME .
+algarotfixated.com CNAME .
+*.algarotfixated.com CNAME .
 algopine.com CNAME .
 *.algopine.com CNAME .
 alhapi.com CNAME .
@@ -3957,6 +3959,8 @@ cdnlibjs.com CNAME .
 *.cdnlibjs.com CNAME .
 cdnpf.com CNAME .
 *.cdnpf.com CNAME .
+cdns-deepseek.com CNAME .
+*.cdns-deepseek.com CNAME .
 cdnstoremedia.com CNAME .
 *.cdnstoremedia.com CNAME .
 cdnstr.com CNAME .
@@ -4735,8 +4739,6 @@ digitaldesire.com CNAME .
 *.digitaldesire.com CNAME .
 digitaldsp.com CNAME .
 *.digitaldsp.com CNAME .
-digitalthrottle.com CNAME .
-*.digitalthrottle.com CNAME .
 dinernicknamestopwatch.com CNAME .
 *.dinernicknamestopwatch.com CNAME .
 dingebeek.com CNAME .
@@ -6289,6 +6291,8 @@ hly.com CNAME .
 *.hly.com CNAME .
 hnotcyv.com CNAME .
 *.hnotcyv.com CNAME .
+hodlchip.com CNAME .
+*.hodlchip.com CNAME .
 hoidulich.com CNAME .
 *.hoidulich.com CNAME .
 holaraphraus.com CNAME .
@@ -10743,6 +10747,8 @@ tagivi.com CNAME .
 *.tagivi.com CNAME .
 tagsrvcs.com CNAME .
 *.tagsrvcs.com CNAME .
+taigasginep.com CNAME .
+*.taigasginep.com CNAME .
 tailsweep.com CNAME .
 *.tailsweep.com CNAME .
 taimpt.com CNAME .
@@ -12691,6 +12697,8 @@ hamiticquinspasms.cyou CNAME .
 *.hamiticquinspasms.cyou CNAME .
 hanoemimcoins.cyou CNAME .
 *.hanoemimcoins.cyou CNAME .
+harpistshivery.cyou CNAME .
+*.harpistshivery.cyou CNAME .
 hassletorbited.cyou CNAME .
 *.hassletorbited.cyou CNAME .
 heaversteelscarved.cyou CNAME .
@@ -14105,6 +14113,8 @@ screencore.io CNAME .
 *.screencore.io CNAME .
 seenthis.io CNAME .
 *.seenthis.io CNAME .
+segmetrics.io CNAME .
+*.segmetrics.io CNAME .
 seoab.io CNAME .
 *.seoab.io CNAME .
 setupad.io CNAME .
@@ -14961,6 +14971,8 @@ apicit.net CNAME .
 *.apicit.net CNAME .
 apiok.net CNAME .
 *.apiok.net CNAME .
+apitd.net CNAME .
+*.apitd.net CNAME .
 apitiny.net CNAME .
 *.apitiny.net CNAME .
 appcpi.net CNAME .
@@ -14999,6 +15011,8 @@ bd-devmetrics.net CNAME .
 *.bd-devmetrics.net CNAME .
 bdt9.net CNAME .
 *.bdt9.net CNAME .
+becdn.net CNAME .
+*.becdn.net CNAME .
 beusable.net CNAME .
 *.beusable.net CNAME .
 bf-ad.net CNAME .
@@ -16217,8 +16231,6 @@ gpcasla.org CNAME .
 *.gpcasla.org CNAME .
 gtcyjh.org CNAME .
 *.gtcyjh.org CNAME .
-hakai.org CNAME .
-*.hakai.org CNAME .
 hantana.org CNAME .
 *.hantana.org CNAME .
 hubhoisableto.org CNAME .
