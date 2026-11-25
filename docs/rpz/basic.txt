@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795527840 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795562400 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 24 Nov 2026 13:44 UTC
-; Version: 2026.1124.1344.33
+; Last modified: 24 Nov 2026 23:20 UTC
+; Version: 2026.1124.2320.06
 ; Syntax: RPZ
-; Number of entries: 170894
+; Number of entries: 170830
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1825,6 +1825,8 @@ ssm.codes CNAME .
 *.4tm4ezb2lqlx.com CNAME .
 4vbbb.com CNAME .
 *.4vbbb.com CNAME .
+4veee.com CNAME .
+*.4veee.com CNAME .
 4xfreedom.com CNAME .
 *.4xfreedom.com CNAME .
 51240.com CNAME .
@@ -3031,8 +3033,6 @@ aprtx.com CNAME .
 *.aprtx.com CNAME .
 apsalar.com CNAME .
 *.apsalar.com CNAME .
-apsmediaagency.com CNAME .
-*.apsmediaagency.com CNAME .
 aptabase.com CNAME .
 *.aptabase.com CNAME .
 aptina.com CNAME .
@@ -4069,6 +4069,8 @@ ciqtracking.com CNAME .
 *.ciqtracking.com CNAME .
 circlelevel.com CNAME .
 *.circlelevel.com CNAME .
+cissoiddownset.com CNAME .
+*.cissoiddownset.com CNAME .
 citadelpathstatue.com CNAME .
 *.citadelpathstatue.com CNAME .
 citrusad.com CNAME .
@@ -4777,6 +4779,8 @@ disnestazorian.com CNAME .
 *.disnestazorian.com CNAME .
 dispatchvirginityblueberry.com CNAME .
 *.dispatchvirginityblueberry.com CNAME .
+displayendpointstarring.com CNAME .
+*.displayendpointstarring.com CNAME .
 displayvertising.com CNAME .
 *.displayvertising.com CNAME .
 distinctrobin.com CNAME .
@@ -5441,8 +5445,6 @@ fh-wgt.com CNAME .
 *.fh-wgt.com CNAME .
 fhgte.com CNAME .
 *.fhgte.com CNAME .
-fidelity-media.com CNAME .
-*.fidelity-media.com CNAME .
 figbirddesign.com CNAME .
 *.figbirddesign.com CNAME .
 fileave.com CNAME .
@@ -5867,8 +5869,6 @@ getflits.com CNAME .
 *.getflits.com CNAME .
 getiton.com CNAME .
 *.getiton.com CNAME .
-getmari.com CNAME .
-*.getmari.com CNAME .
 getmetrical.com CNAME .
 *.getmetrical.com CNAME .
 getmoviehd.com CNAME .
@@ -6089,8 +6089,6 @@ gresrv.com CNAME .
 *.gresrv.com CNAME .
 greystripe.com CNAME .
 *.greystripe.com CNAME .
-gridaisefty.com CNAME .
-*.gridaisefty.com CNAME .
 gridsumdissector.com CNAME .
 *.gridsumdissector.com CNAME .
 grmtas.com CNAME .
@@ -6325,8 +6323,6 @@ hly.com CNAME .
 *.hly.com CNAME .
 hnotcyv.com CNAME .
 *.hnotcyv.com CNAME .
-hobowhema.com CNAME .
-*.hobowhema.com CNAME .
 hoidulich.com CNAME .
 *.hoidulich.com CNAME .
 holaraphraus.com CNAME .
@@ -6731,8 +6727,6 @@ interpolls.com CNAME .
 *.interpolls.com CNAME .
 intimcity.com CNAME .
 *.intimcity.com CNAME .
-intogeticor.com CNAME .
-*.intogeticor.com CNAME .
 introjava.com CNAME .
 *.introjava.com CNAME .
 intuitive365intelligence.com CNAME .
@@ -7917,6 +7911,8 @@ mostauthor.com CNAME .
 *.mostauthor.com CNAME .
 mosved.com CNAME .
 *.mosved.com CNAME .
+motionless-bus.com CNAME .
+*.motionless-bus.com CNAME .
 motionspots.com CNAME .
 *.motionspots.com CNAME .
 motorsnag.com CNAME .
@@ -9829,6 +9825,8 @@ saambaa.com CNAME .
 *.saambaa.com CNAME .
 saawsedge.com CNAME .
 *.saawsedge.com CNAME .
+sabagame.com CNAME .
+*.sabagame.com CNAME .
 sabakhalassoes.com CNAME .
 *.sabakhalassoes.com CNAME .
 sabavision.com CNAME .
@@ -10009,6 +10007,8 @@ sedoparking.com CNAME .
 *.sedoparking.com CNAME .
 seedtag.com CNAME .
 *.seedtag.com CNAME .
+seekurixtechs.com CNAME .
+*.seekurixtechs.com CNAME .
 seenitro.com CNAME .
 *.seenitro.com CNAME .
 segmentapis.com CNAME .
@@ -10195,8 +10195,6 @@ sibergy.com CNAME .
 *.sibergy.com CNAME .
 sibulla.com CNAME .
 *.sibulla.com CNAME .
-sidesteamroll.com CNAME .
-*.sidesteamroll.com CNAME .
 sidlesunfall.com CNAME .
 *.sidlesunfall.com CNAME .
 sigmob.com CNAME .
@@ -10291,6 +10289,8 @@ slideruleanalytics.com CNAME .
 *.slideruleanalytics.com CNAME .
 slimfitcaps.com CNAME .
 *.slimfitcaps.com CNAME .
+slimgather.com CNAME .
+*.slimgather.com CNAME .
 slsnlytcs.com CNAME .
 *.slsnlytcs.com CNAME .
 slsntllgnc.com CNAME .
@@ -10413,8 +10413,6 @@ spbgc.com CNAME .
 *.spbgc.com CNAME .
 speakol.com CNAME .
 *.speakol.com CNAME .
-specialcraftbox.com CNAME .
-*.specialcraftbox.com CNAME .
 specklejobber.com CNAME .
 *.specklejobber.com CNAME .
 spectacularstamp.com CNAME .
@@ -11617,6 +11615,8 @@ uyunad.com CNAME .
 *.uyunad.com CNAME .
 uzzf.com CNAME .
 *.uzzf.com CNAME .
+v88ag.com CNAME .
+*.v88ag.com CNAME .
 vafvafnotif.com CNAME .
 *.vafvafnotif.com CNAME .
 vaidiceffendi.com CNAME .
@@ -11763,8 +11763,6 @@ violent-kiss.com CNAME .
 *.violent-kiss.com CNAME .
 violentenclose.com CNAME .
 *.violentenclose.com CNAME .
-violetlovelines.com CNAME .
-*.violetlovelines.com CNAME .
 viowrel.com CNAME .
 *.viowrel.com CNAME .
 vip-jisldk-feo-dun.com CNAME .
@@ -13423,8 +13421,6 @@ eil786npto9u5bq.icu CNAME .
 *.eil786npto9u5bq.icu CNAME .
 ios-hack.icu CNAME .
 *.ios-hack.icu CNAME .
-liter1.icu CNAME .
-*.liter1.icu CNAME .
 prreqcroab.icu CNAME .
 *.prreqcroab.icu CNAME .
 q1ls1ho9x7wsxlu.icu CNAME .
@@ -13637,8 +13633,6 @@ artisticcoast.info CNAME .
 *.artisticcoast.info CNAME .
 awesomeoval.info CNAME .
 *.awesomeoval.info CNAME .
-bonertraffic13.info CNAME .
-*.bonertraffic13.info CNAME .
 burningpushing.info CNAME .
 *.burningpushing.info CNAME .
 camshq.info CNAME .
@@ -13669,8 +13663,6 @@ funzel.info CNAME .
 *.funzel.info CNAME .
 g--o.info CNAME .
 *.g--o.info CNAME .
-getrunkhomuto.info CNAME .
-*.getrunkhomuto.info CNAME .
 ghabovethec.info CNAME .
 *.ghabovethec.info CNAME .
 gloriousberry.info CNAME .
@@ -15671,8 +15663,6 @@ premiumads.net CNAME .
 *.premiumads.net CNAME .
 premiumtag.net CNAME .
 *.premiumtag.net CNAME .
-pretty-fly4.net CNAME .
-*.pretty-fly4.net CNAME .
 prnx.net CNAME .
 *.prnx.net CNAME .
 pro-market.net CNAME .
@@ -16719,6 +16709,8 @@ trailwind.pro CNAME .
 *.trailwind.pro CNAME .
 vertex8219.pro CNAME .
 *.vertex8219.pro CNAME .
+xworld.pro CNAME .
+*.xworld.pro CNAME .
 zendplace.pro CNAME .
 *.zendplace.pro CNAME .
 saturndynamic.pt CNAME .
@@ -17755,8 +17747,6 @@ zlibrary.to CNAME .
 *.zlibrary.to CNAME .
 girls-escort.tokyo CNAME .
 *.girls-escort.tokyo CNAME .
-trafficvalidation.tools CNAME .
-*.trafficvalidation.tools CNAME .
 1ts07.top CNAME .
 *.1ts07.top CNAME .
 1ts11.top CNAME .
