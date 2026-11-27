@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1795768320 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1795792980 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Multi LIGHT - basic protection
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 27 Nov 2026 08:32 UTC
-; Version: 2026.1127.0832.18
+; Last modified: 27 Nov 2026 15:23 UTC
+; Version: 2026.1127.1523.47
 ; Syntax: RPZ
-; Number of entries: 164212
+; Number of entries: 164304
 ;
 script.ac CNAME .
 *.script.ac CNAME .
@@ -1829,6 +1829,8 @@ ssm.codes CNAME .
 *.51degrees.com CNAME .
 52aoteman.com CNAME .
 *.52aoteman.com CNAME .
+52dfg.com CNAME .
+*.52dfg.com CNAME .
 52toolbox.com CNAME .
 *.52toolbox.com CNAME .
 53kf.com CNAME .
@@ -3271,6 +3273,8 @@ bbyypnqu.com CNAME .
 *.bbyypnqu.com CNAME .
 bcc-ads.com CNAME .
 *.bcc-ads.com CNAME .
+bcgqtky.com CNAME .
+*.bcgqtky.com CNAME .
 bcprm.com CNAME .
 *.bcprm.com CNAME .
 bd742.com CNAME .
@@ -4163,8 +4167,6 @@ cloudforestsystems.com CNAME .
 *.cloudforestsystems.com CNAME .
 cloudfronte.com CNAME .
 *.cloudfronte.com CNAME .
-cloudlogobox.com CNAME .
-*.cloudlogobox.com CNAME .
 cloudpiko.com CNAME .
 *.cloudpiko.com CNAME .
 cloudvideosa.com CNAME .
@@ -10795,6 +10797,8 @@ targetrtb.com CNAME .
 *.targetrtb.com CNAME .
 targetspot.com CNAME .
 *.targetspot.com CNAME .
+tarqivo.com CNAME .
+*.tarqivo.com CNAME .
 tataupavira.com CNAME .
 *.tataupavira.com CNAME .
 tatpek.com CNAME .
@@ -17399,6 +17403,8 @@ adkaora.space CNAME .
 *.adkaora.space CNAME .
 adspend.space CNAME .
 *.adspend.space CNAME .
+beta-into.space CNAME .
+*.beta-into.space CNAME .
 fickotstuk.space CNAME .
 *.fickotstuk.space CNAME .
 fubuki-umami.space CNAME .
